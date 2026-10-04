@@ -1328,3 +1328,1069 @@ body {
     font-size: 2.5rem;
   }
 }
+
+/* ==========================================================================
+   Brand Sub-Header & Dashboard Header Elements
+   ========================================================================== */
+.brand-text-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-sub {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* ==========================================================================
+   Section 3: Main Dashboard Cards Grid
+   ========================================================================== */
+.dashboard-section {
+  margin-bottom: 32px;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section-tag {
+  display: inline-block;
+  background: var(--color-primary-subtle);
+  color: var(--color-primary-light);
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  letter-spacing: -0.01em;
+  margin-bottom: 6px;
+}
+
+.section-desc {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.dashboard-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.dash-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.dash-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #cbd5e1;
+  transition: background 0.25s ease;
+}
+
+.dash-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: #cbd5e1;
+}
+
+.dash-card.active {
+  border-color: var(--color-primary-light);
+  box-shadow: 0 10px 25px -5px rgba(30, 58, 138, 0.12);
+}
+
+.dash-card#dash-card-price::before {
+  background: linear-gradient(90deg, #1e3a8a, #2563eb);
+}
+
+.dash-card#dash-card-delay::before {
+  background: linear-gradient(90deg, #f59e0b, #ef4444);
+}
+
+.dash-card#dash-card-seats::before {
+  background: linear-gradient(90deg, #0d9488, #10b981);
+}
+
+.dash-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.dash-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dash-icon.price-icon {
+  background: var(--color-primary-subtle);
+  color: var(--color-primary);
+}
+
+.dash-icon.delay-icon {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+.dash-icon.seats-icon {
+  background: var(--color-teal-subtle);
+  color: var(--color-teal);
+}
+
+.dash-model-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: var(--radius-pill);
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.dash-card-title {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: 8px;
+}
+
+.dash-card-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+  margin-bottom: 16px;
+  flex-grow: 1;
+}
+
+.dash-card-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.metric-pill {
+  font-size: 0.72rem;
+  font-weight: 500;
+  background: var(--bg-card-subtle);
+  border: 1px solid #e2e8f0;
+  color: #334155;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.dash-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 600;
+  border: 1px solid var(--border-subtle);
+  background: #ffffff;
+  color: var(--color-primary);
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.dash-card.active .dash-action-btn,
+.dash-card:hover .dash-action-btn {
+  background: var(--color-primary);
+  color: #ffffff;
+  border-color: var(--color-primary);
+}
+
+.dash-card#dash-card-delay.active .dash-action-btn,
+.dash-card#dash-card-delay:hover .dash-action-btn {
+  background: #d97706;
+  border-color: #d97706;
+}
+
+.dash-card#dash-card-seats.active .dash-action-btn,
+.dash-card#dash-card-seats:hover .dash-action-btn {
+  background: var(--color-teal);
+  border-color: var(--color-teal);
+}
+
+/* ==========================================================================
+   Module Navigation Tabs Bar
+   ========================================================================== */
+.module-tabs-nav {
+  margin-bottom: 28px;
+  position: sticky;
+  top: 72px;
+  z-index: 90;
+  background: rgba(244, 247, 246, 0.95);
+  backdrop-filter: blur(8px);
+  padding: 8px 0;
+}
+
+.tabs-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  padding: 6px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-sm);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tabs-container::-webkit-scrollbar {
+  display: none;
+}
+
+.module-tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: var(--transition-fast);
+}
+
+.module-tab-btn:hover {
+  color: var(--color-primary);
+  background: var(--bg-card-subtle);
+}
+
+.module-tab-btn.active {
+  color: var(--color-primary);
+  background: var(--color-primary-subtle);
+  font-weight: 700;
+}
+
+.tab-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  background: #e2e8f0;
+  color: #1e293b;
+  padding: 1px 6px;
+  border-radius: var(--radius-pill);
+}
+
+.module-tab-btn.active .tab-badge {
+  background: var(--color-primary);
+  color: #ffffff;
+}
+
+/* Module Panels Display Logic */
+.module-panel {
+  display: none;
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.module-panel.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ==========================================================================
+   Form Enhancements & Shared Component Styles
+   ========================================================================== */
+.module-indicator-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  background: var(--color-primary-subtle);
+  color: var(--color-primary);
+  margin-bottom: 4px;
+}
+
+.module-indicator-badge.delay-badge {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.module-indicator-badge.seats-badge {
+  background: var(--color-teal-subtle);
+  color: var(--color-teal);
+}
+
+.module-indicator-badge.history-badge {
+  background: #f3e8ff;
+  color: #7e22ce;
+}
+
+.module-indicator-badge.charts-badge {
+  background: #e0f2fe;
+  color: #0284c7;
+}
+
+.confidence-tag.delay-tag {
+  background: #fef3c7;
+  color: #b45309;
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.confidence-tag.seats-tag {
+  background: var(--color-teal-subtle);
+  color: var(--color-teal);
+  border-color: rgba(13, 148, 136, 0.3);
+}
+
+.form-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.readonly-input {
+  background: #f8fafc !important;
+  color: #475569 !important;
+  cursor: not-allowed;
+}
+
+.form-actions-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.reset-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 14px 22px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 1px solid var(--border-subtle);
+  background: #ffffff;
+  color: #475569;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  white-space: nowrap;
+}
+
+.reset-button:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+  border-color: #cbd5e1;
+}
+
+.reset-button.danger-btn {
+  color: #dc2626;
+  border-color: #fecaca;
+  background: #fff5f5;
+}
+
+.reset-button.danger-btn:hover {
+  background: #fee2e2;
+  border-color: #f87171;
+}
+
+.predict-button.delay-action-btn {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.3);
+}
+
+.predict-button.delay-action-btn:hover {
+  background: linear-gradient(135deg, #b45309 0%, #92400e 100%);
+  box-shadow: 0 6px 20px rgba(217, 119, 6, 0.4);
+}
+
+.predict-button.seats-action-btn {
+  background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%);
+  box-shadow: 0 4px 14px rgba(13, 148, 136, 0.3);
+}
+
+.predict-button.seats-action-btn:hover {
+  background: linear-gradient(135deg, #0f766e 0%, #115e59 100%);
+  box-shadow: 0 6px 20px rgba(13, 148, 136, 0.4);
+}
+
+/* ==========================================================================
+   Delay Prediction Result Card
+   ========================================================================== */
+.delay-result-section {
+  display: none;
+  margin-bottom: 40px;
+}
+
+.delay-result-section.revealed {
+  display: block;
+  animation: fadeIn 0.4s ease forwards;
+}
+
+.delay-result-card {
+  background: var(--bg-card);
+  border-radius: var(--radius-xl);
+  padding: 32px 36px;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(226, 232, 240, 0.85);
+  position: relative;
+  overflow: hidden;
+}
+
+.delay-result-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #f59e0b, #ef4444);
+}
+
+.delay-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-subtle);
+  margin-bottom: 24px;
+  gap: 16px;
+}
+
+.delay-tag-pill {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  background: #f1f5f9;
+  color: #475569;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.delay-train-heading {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.delay-route-text {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.delay-date-stamp {
+  text-align: right;
+  background: var(--bg-card-subtle);
+  padding: 10px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+}
+
+.delay-hero-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  background: var(--bg-card-subtle);
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  margin-bottom: 24px;
+}
+
+.hero-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.hero-status-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-indicator-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #10b981;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.4);
+}
+
+.status-indicator-dot.delayed {
+  background: #ef4444;
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.4);
+}
+
+.hero-status-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #10b981;
+}
+
+.hero-status-title.delayed {
+  color: #ef4444;
+}
+
+.hero-minutes-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.hero-minutes-value {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--color-primary-dark);
+  line-height: 1;
+}
+
+.hero-minutes-unit {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.confidence-percent {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.confidence-bar-bg {
+  width: 100%;
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: var(--radius-pill);
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.confidence-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981, #059669);
+  border-radius: var(--radius-pill);
+  transition: width 0.6s ease;
+}
+
+.delay-factors-box {
+  background: #ffffff;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+  margin-bottom: 20px;
+}
+
+.factors-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: 10px;
+}
+
+.factors-list {
+  padding-left: 20px;
+  font-size: 0.86rem;
+  color: #334155;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.viva-note-box {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  font-size: 0.84rem;
+  color: #1e3a8a;
+  line-height: 1.45;
+}
+
+.viva-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 6px;
+}
+
+/* ==========================================================================
+   Seat Availability Prediction Result Card
+   ========================================================================== */
+.seats-result-section {
+  display: none;
+  margin-bottom: 40px;
+}
+
+.seats-result-section.revealed {
+  display: block;
+  animation: fadeIn 0.4s ease forwards;
+}
+
+.seats-result-card {
+  background: var(--bg-card);
+  border-radius: var(--radius-xl);
+  padding: 32px 36px;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(226, 232, 240, 0.85);
+  position: relative;
+  overflow: hidden;
+}
+
+.seats-result-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #0d9488, #10b981);
+}
+
+.seats-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-subtle);
+  margin-bottom: 24px;
+  gap: 16px;
+}
+
+.seats-tag-pill {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  background: var(--color-teal-subtle);
+  color: var(--color-teal);
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.seats-train-heading {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.seats-route-text {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.seats-date-stamp {
+  text-align: right;
+  background: var(--bg-card-subtle);
+  padding: 10px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+}
+
+.seats-hero-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  background: var(--bg-card-subtle);
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  margin-bottom: 24px;
+}
+
+.hero-count-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.hero-count-value {
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--color-primary-dark);
+  line-height: 1;
+}
+
+.hero-count-total {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+/* Availability Status Badges (Green, Yellow, Red) */
+.availability-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.status-badge-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.availability-status-badge.status-green {
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+.availability-status-badge.status-green .status-badge-dot {
+  background: #16a34a;
+  box-shadow: 0 0 8px rgba(22, 163, 74, 0.4);
+}
+
+.availability-status-badge.status-yellow {
+  background: #fef9c3;
+  color: #a16207;
+  border: 1px solid #fef08a;
+}
+.availability-status-badge.status-yellow .status-badge-dot {
+  background: #ca8a04;
+  box-shadow: 0 0 8px rgba(202, 138, 4, 0.4);
+}
+
+.availability-status-badge.status-red {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+.availability-status-badge.status-red .status-badge-dot {
+  background: #dc2626;
+  box-shadow: 0 0 8px rgba(220, 38, 38, 0.4);
+}
+
+.status-category-hint {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  display: block;
+}
+
+.badge-green-text { color: #16a34a; }
+.badge-yellow-text { color: #ca8a04; }
+.badge-red-text { color: #dc2626; }
+
+/* Seats Occupancy Gauge */
+.seats-gauge-block {
+  background: #ffffff;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+  margin-bottom: 20px;
+}
+
+.gauge-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.88rem;
+  margin-bottom: 8px;
+}
+
+.gauge-label {
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.gauge-ratio {
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.gauge-bar-bg {
+  width: 100%;
+  height: 12px;
+  background: #e2e8f0;
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.gauge-bar-fill {
+  height: 100%;
+  border-radius: var(--radius-pill);
+  transition: width 0.6s ease;
+}
+
+.gauge-bar-fill.fill-green {
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+}
+
+.gauge-bar-fill.fill-yellow {
+  background: linear-gradient(90deg, #eab308, #ca8a04);
+}
+
+.gauge-bar-fill.fill-red {
+  background: linear-gradient(90deg, #f87171, #dc2626);
+}
+
+.gauge-scale {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+.scale-point.point-red { color: #ef4444; }
+.scale-point.point-yellow { color: #d97706; }
+.scale-point.point-green { color: #10b981; }
+
+/* ==========================================================================
+   Prediction History Section
+   ========================================================================== */
+.history-container {
+  margin-bottom: 40px;
+}
+
+.history-table-wrapper {
+  overflow-x: auto;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  text-align: left;
+}
+
+.history-table th {
+  background: var(--bg-card-subtle);
+  padding: 12px 16px;
+  font-weight: 600;
+  color: #475569;
+  border-bottom: 1px solid var(--border-subtle);
+  white-space: nowrap;
+}
+
+.history-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #1e293b;
+}
+
+.history-table tr:hover td {
+  background: #f8fafc;
+}
+
+.history-badge-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+}
+
+.history-badge-tag.price-tag {
+  background: var(--color-primary-subtle);
+  color: var(--color-primary);
+}
+
+.history-badge-tag.delay-tag {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.history-badge-tag.seats-tag {
+  background: var(--color-teal-subtle);
+  color: var(--color-teal);
+}
+
+.history-empty-state {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.empty-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  color: #94a3b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+}
+
+.empty-title {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: 6px;
+}
+
+.empty-desc {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  max-width: 480px;
+  margin: 0 auto 20px;
+}
+
+.empty-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* ==========================================================================
+   ML Trend Charts Section
+   ========================================================================== */
+.charts-container {
+  margin-bottom: 40px;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.chart-card {
+  background: #ffffff;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.chart-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.chart-title {
+  font-family: var(--font-heading);
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.chart-tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: #f1f5f9;
+  color: #475569;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+}
+
+.chart-caption {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+  min-height: 32px;
+}
+
+.canvas-wrapper {
+  background: #f8fafc;
+  border-radius: var(--radius-md);
+  border: 1px solid #e2e8f0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas-wrapper canvas {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 220px;
+}
+
+/* ==========================================================================
+   Mobile & Tablet Responsive Refinements
+   ========================================================================== */
+@media (max-width: 992px) {
+  .dashboard-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .delay-hero-display,
+  .seats-hero-display {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .form-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+

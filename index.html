@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RailPulse AI • Smart Train Ticket Price Predictor</title>
-  <meta name="description" content="Predict dynamic train ticket prices with Machine Learning. Advanced fare forecasting for smarter railway travel.">
+  <title>RailPulse AI • Train Ticket Price, Delay & Seat Availability Predictor</title>
+  <meta name="description" content="College Mini Project: ML-based Train Ticket Price Prediction, Train Delay Prediction, and Seat Availability Forecasting.">
   
   <!-- Google Fonts: Poppins & Montserrat -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +21,7 @@
   <!-- Top Navigation Bar -->
   <header class="navbar">
     <div class="nav-container">
-      <div class="brand-logo">
+      <div class="brand-logo" id="brand-logo-home">
         <div class="brand-icon">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
             <rect x="4" y="3" width="16" height="16" rx="2"></rect>
@@ -33,16 +33,19 @@
             <circle cx="16" cy="15" r="1"></circle>
           </svg>
         </div>
-        <span class="brand-title">Rail<span>Pulse</span> <span class="ai-badge">AI</span></span>
+        <div class="brand-text-block">
+          <span class="brand-title">Rail<span>Pulse</span> <span class="ai-badge">AI</span></span>
+          <span class="brand-sub">College Mini Project</span>
+        </div>
       </div>
 
-      <!-- Pill-shaped ML Model Status Badge -->
+      <!-- ML Models Status Pill -->
       <div class="model-status-pill" id="model-status-pill" title="Live Machine Learning Inference Engine">
         <span class="pulse-dot"></span>
-        <span class="model-label">🧠 Active Model:</span>
-        <span class="model-name">Random Forest</span>
+        <span class="model-label">🧠 ML Suite:</span>
+        <span class="model-name">Random Forest Models</span>
         <span class="divider">|</span>
-        <span class="model-accuracy">Accuracy: <strong>94.2%</strong></span>
+        <span class="model-accuracy">Accuracy: <strong>93.8%</strong></span>
       </div>
 
       <!-- Controls: Currency & Live Server Status -->
@@ -62,13 +65,133 @@
     <section class="hero-section">
       <div class="hero-tag">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-        Predictive Transit Intelligence
+        Predictive Transit Intelligence System
       </div>
-      <h1 class="hero-title">AI Train Fare Predictor</h1>
-      <p class="hero-subtitle">Forecast your journey costs with Machine Learning and secure the best ticket prices before dynamic surges hit.</p>
+      <h1 class="hero-title">Intelligent Train Transit Suite</h1>
+      <p class="hero-subtitle">Explainable Machine Learning models to forecast <strong>ticket prices</strong>, analyze <strong>train delays</strong>, and predict <strong>seat availability</strong> for smarter travel planning.</p>
+    </section>
+
+    <!-- =====================================================================
+         SECTION 3: MAIN DASHBOARD (3 MAIN CARDS)
+         ===================================================================== -->
+    <section class="dashboard-section" id="dashboard-section" aria-label="Main Navigation Dashboard">
+      <div class="dashboard-header">
+        <span class="section-tag">Transit Modules Dashboard</span>
+        <h2 class="section-title">Select ML Prediction Service</h2>
+        <p class="section-desc">Choose a service below to open the dedicated prediction tool. Each module is powered by lightweight, explainable Machine Learning algorithms.</p>
+      </div>
+
+      <div class="dashboard-cards-grid">
+        
+        <!-- Dashboard Card 1: Ticket Price Prediction -->
+        <article class="dash-card active" id="dash-card-price" tabindex="0">
+          <div class="dash-card-header">
+            <div class="dash-icon price-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M6 12h.01M18 12h.01"></path>
+              </svg>
+            </div>
+            <span class="dash-model-badge">Random Forest Regressor</span>
+          </div>
+          <h3 class="dash-card-title">1. Ticket Price Prediction</h3>
+          <p class="dash-card-desc">Forecast dynamic train ticket fares, class surcharges, dynamic demand surge & tatkal pricing with distance heuristics.</p>
+          <div class="dash-card-metrics">
+            <span class="metric-pill">Base Fare & Surge</span>
+            <span class="metric-pill">Class 1A/2A/3A/SL</span>
+            <span class="metric-pill">GST Breakdown</span>
+          </div>
+          <button type="button" class="dash-action-btn" id="btn-open-price" aria-label="Open Ticket Price Prediction">
+            <span>Predict Price</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </article>
+
+        <!-- Dashboard Card 2: Train Delay Prediction -->
+        <article class="dash-card" id="dash-card-delay" tabindex="0">
+          <div class="dash-card-header">
+            <div class="dash-icon delay-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <span class="dash-model-badge">Classifier + Regressor</span>
+          </div>
+          <h3 class="dash-card-title">2. Train Delay Prediction</h3>
+          <p class="dash-card-desc">Predict whether a train will run On Time or Delayed, plus estimated delay in minutes based on distance, rush hours, and route factors.</p>
+          <div class="dash-card-metrics">
+            <span class="metric-pill">On Time / Delayed</span>
+            <span class="metric-pill">Delay in Minutes</span>
+            <span class="metric-pill">Confidence %</span>
+          </div>
+          <button type="button" class="dash-action-btn" id="btn-open-delay" aria-label="Open Train Delay Prediction">
+            <span>Predict Delay</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </article>
+
+        <!-- Dashboard Card 3: Seat Availability Prediction -->
+        <article class="dash-card" id="dash-card-seats" tabindex="0">
+          <div class="dash-card-header">
+            <div class="dash-icon seats-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M19 9h-4V3H9v6H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2z"/>
+              </svg>
+            </div>
+            <span class="dash-model-badge">Capacity Regressor</span>
+          </div>
+          <h3 class="dash-card-title">3. Seat Availability Prediction</h3>
+          <p class="dash-card-desc">Estimate available seats and categorized status: Available (Green), Filling Fast (Yellow), or Almost Full (Red) based on booking horizon.</p>
+          <div class="dash-card-metrics">
+            <span class="metric-pill">Available Seats Count</span>
+            <span class="metric-pill">Color Status Indicator</span>
+            <span class="metric-pill">Occupancy Gauge</span>
+          </div>
+          <button type="button" class="dash-action-btn" id="btn-open-seats" aria-label="Open Seat Availability Prediction">
+            <span>Check Availability</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Module Selector Tabs Bar -->
+    <nav class="module-tabs-nav" aria-label="Prediction Modules Tabs">
+      <div class="tabs-container">
+        <button type="button" class="module-tab-btn active" data-module="module-price" id="tab-price">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="3"></circle></svg>
+          Ticket Price
+        </button>
+        <button type="button" class="module-tab-btn" data-module="module-delay" id="tab-delay">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          Train Delay
+        </button>
+        <button type="button" class="module-tab-btn" data-module="module-seats" id="tab-seats">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 9h-4V3H9v6H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2z"/></svg>
+          Seat Availability
+        </button>
+        <button type="button" class="module-tab-btn" data-module="module-history" id="tab-history">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          Recent Predictions <span class="tab-badge" id="history-tab-count">0</span>
+        </button>
+        <button type="button" class="module-tab-btn" data-module="module-charts" id="tab-charts">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+          ML Trend Charts
+        </button>
+      </div>
+    </nav>
+
+
+    <!-- =====================================================================
+         MODULE 1: TICKET PRICE PREDICTION (ORIGINAL PRESERVED & ENHANCED)
+         ===================================================================== -->
+    <div id="module-price" class="module-panel active">
       
       <!-- Popular Quick Route Chips -->
-      <div class="quick-routes" aria-label="Popular Routes">
+      <div class="quick-routes-panel" aria-label="Popular Routes">
         <span class="quick-routes-label">Popular Routes:</span>
         <div class="chips-list">
           <button type="button" class="route-chip" data-origin="NDLS" data-dest="MMCT" data-distance="1384">New Delhi ⇄ Mumbai</button>
@@ -77,380 +200,1052 @@
           <button type="button" class="route-chip" data-origin="CSMT" data-dest="MAO" data-distance="580">Mumbai ⇄ Goa</button>
         </div>
       </div>
-    </section>
 
-    <!-- Elevated Central Booking Form Card -->
-    <section class="form-container">
-      <div class="booking-card">
-        <div class="card-header">
-          <div class="card-header-info">
-            <h2 class="card-title">Configure Journey Parameters</h2>
-            <p class="card-desc">Enter travel details to generate dynamic fare estimation based on historical demand models.</p>
+      <!-- Elevated Central Booking Form Card -->
+      <section class="form-container">
+        <div class="booking-card">
+          <div class="card-header">
+            <div class="card-header-info">
+              <span class="module-indicator-badge">Module 1</span>
+              <h2 class="card-title">Train Ticket Price Prediction</h2>
+              <p class="card-desc">Enter journey parameters to estimate dynamic rail tariffs based on distance and booking curve models.</p>
+            </div>
+            <div class="confidence-tag">
+              <span>Dynamic Pricing Active</span>
+            </div>
           </div>
-          <div class="confidence-tag">
-            <span>Dynamic Pricing Active</span>
-          </div>
-        </div>
 
-        <form id="fare-prediction-form" class="prediction-form" novalidate>
-          
-          <!-- Station Selection Row with Swap Action -->
-          <div class="stations-group">
+          <form id="fare-prediction-form" class="prediction-form" novalidate>
             
-            <!-- Origin Station -->
-            <div class="form-field station-field">
-              <label for="origin-station" class="field-label">
-                <span class="label-icon origin-icon"></span>
-                Origin Station
-              </label>
-              <div class="input-wrapper">
-                <select id="origin-station" name="origin_station" required class="custom-select">
-                  <option value="" disabled>Select Departure Station</option>
-                  <option value="NDLS" selected>New Delhi (NDLS)</option>
-                  <option value="MMCT">Mumbai Central (MMCT)</option>
-                  <option value="CSMT">Mumbai CST (CSMT)</option>
-                  <option value="SBC">Bengaluru City (SBC)</option>
-                  <option value="MAS">Chennai Central (MAS)</option>
-                  <option value="HWH">Kolkata Howrah (HWH)</option>
-                  <option value="PNBE">Patna Junction (PNBE)</option>
-                  <option value="ADI">Ahmedabad (ADI)</option>
-                  <option value="HYB">Hyderabad Deccan (HYB)</option>
-                  <option value="MAO">Madgaon Goa (MAO)</option>
-                  <option value="JAT">Jammu Tawi (JAT)</option>
-                  <option value="CNB">Kanpur Central (CNB)</option>
-                </select>
-                <div class="select-indicator">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+            <!-- Station Selection Row with Swap Action -->
+            <div class="stations-group">
+              
+              <!-- Origin Station -->
+              <div class="form-field station-field">
+                <label for="origin-station" class="field-label">
+                  <span class="label-icon origin-icon"></span>
+                  Origin Station
+                </label>
+                <div class="input-wrapper">
+                  <select id="origin-station" name="origin_station" required class="custom-select">
+                    <option value="" disabled>Select Departure Station</option>
+                    <option value="NDLS" selected>New Delhi (NDLS)</option>
+                    <option value="MMCT">Mumbai Central (MMCT)</option>
+                    <option value="CSMT">Mumbai CST (CSMT)</option>
+                    <option value="SBC">Bengaluru City (SBC)</option>
+                    <option value="MAS">Chennai Central (MAS)</option>
+                    <option value="HWH">Kolkata Howrah (HWH)</option>
+                    <option value="PNBE">Patna Junction (PNBE)</option>
+                    <option value="ADI">Ahmedabad (ADI)</option>
+                    <option value="HYB">Hyderabad Deccan (HYB)</option>
+                    <option value="MAO">Madgaon Goa (MAO)</option>
+                    <option value="JAT">Jammu Tawi (JAT)</option>
+                    <option value="CNB">Kanpur Central (CNB)</option>
+                  </select>
+                  <div class="select-indicator">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                  </div>
                 </div>
+                <span class="field-hint" id="origin-hint">Departure hub</span>
               </div>
-              <span class="field-hint" id="origin-hint">Platform & Junction hub</span>
+
+              <!-- Swap Stations Button -->
+              <div class="swap-action">
+                <button type="button" id="swap-stations-btn" class="swap-button" title="Swap Origin and Destination" aria-label="Swap Stations">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M8 3 4 7l4 4"></path>
+                    <path d="M4 7h16"></path>
+                    <path d="m16 21 4-4-4-4"></path>
+                    <path d="M20 17H4"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <!-- Destination Station -->
+              <div class="form-field station-field">
+                <label for="destination-station" class="field-label">
+                  <span class="label-icon dest-icon"></span>
+                  Destination Station
+                </label>
+                <div class="input-wrapper">
+                  <select id="destination-station" name="destination_station" required class="custom-select">
+                    <option value="" disabled>Select Arrival Station</option>
+                    <option value="NDLS">New Delhi (NDLS)</option>
+                    <option value="MMCT" selected>Mumbai Central (MMCT)</option>
+                    <option value="CSMT">Mumbai CST (CSMT)</option>
+                    <option value="SBC">Bengaluru City (SBC)</option>
+                    <option value="MAS">Chennai Central (MAS)</option>
+                    <option value="HWH">Kolkata Howrah (HWH)</option>
+                    <option value="PNBE">Patna Junction (PNBE)</option>
+                    <option value="ADI">Ahmedabad (ADI)</option>
+                    <option value="HYB">Hyderabad Deccan (HYB)</option>
+                    <option value="MAO">Madgaon Goa (MAO)</option>
+                    <option value="JAT">Jammu Tawi (JAT)</option>
+                    <option value="CNB">Kanpur Central (CNB)</option>
+                  </select>
+                  <div class="select-indicator">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                  </div>
+                </div>
+                <span class="field-hint" id="dest-hint">Estimated distance: ~1,384 km</span>
+              </div>
+
             </div>
 
-            <!-- Swap Stations Button -->
-            <div class="swap-action">
-              <button type="button" id="swap-stations-btn" class="swap-button" title="Swap Origin and Destination" aria-label="Swap Stations">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M8 3 4 7l4 4"></path>
-                  <path d="M4 7h16"></path>
-                  <path d="m16 21 4-4-4-4"></path>
-                  <path d="M20 17H4"></path>
-                </svg>
+            <!-- Secondary Grid: Class, Days Ahead, Train Type, Quota -->
+            <div class="form-grid">
+              
+              <!-- Travel Class -->
+              <div class="form-field">
+                <label for="travel-class" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 9h-4V3H9v6H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2z"/></svg>
+                  Travel Class
+                </label>
+                <div class="input-wrapper">
+                  <select id="travel-class" name="travel_class" required class="custom-select">
+                    <option value="3A" selected>AC 3-Tier (3A) • Most Popular</option>
+                    <option value="2A">AC 2-Tier (2A) • Premium Comfort</option>
+                    <option value="1A">First Class AC (1A) • Luxury Coupe</option>
+                    <option value="SL">Sleeper Class (SL) • Budget Travel</option>
+                    <option value="EC">Executive Chair Car (EC)</option>
+                    <option value="CC">AC Chair Car (CC)</option>
+                    <option value="2S">Second Sitting (2S)</option>
+                  </select>
+                  <div class="select-indicator">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                  </div>
+                </div>
+                <span class="field-hint">Berth type & tier</span>
+              </div>
+
+              <!-- Train Type -->
+              <div class="form-field">
+                <label for="train-type" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  Train Type
+                </label>
+                <div class="input-wrapper">
+                  <select id="train-type" name="train_type" required class="custom-select">
+                    <option value="Superfast" selected>Superfast Express (SF)</option>
+                    <option value="Rajdhani">Vande Bharat / Rajdhani Express</option>
+                    <option value="Duronto">Duronto / Shatabdi Express</option>
+                    <option value="Express">Mail / Standard Express</option>
+                    <option value="Passenger">Passenger / Ordinary</option>
+                  </select>
+                  <div class="select-indicator">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                  </div>
+                </div>
+                <span class="field-hint">Speed rating & priority</span>
+              </div>
+
+              <!-- Departure Date -->
+              <div class="form-field">
+                <label for="departure-date" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                  Departure Date
+                </label>
+                <div class="input-wrapper">
+                  <input type="date" id="departure-date" name="departure_date" class="custom-input date-input" required>
+                </div>
+                <span class="field-hint" id="date-helper-text">Pick travel calendar date</span>
+              </div>
+
+              <!-- Days Until Departure -->
+              <div class="form-field">
+                <label for="days-until-departure" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  Days Until Departure
+                </label>
+                <div class="input-wrapper days-wrapper">
+                  <input type="number" id="days-until-departure" name="days_until_departure" class="custom-input number-input" min="0" max="120" value="14" required>
+                  <span class="input-suffix">days ahead</span>
+                </div>
+                <span class="field-hint">Dynamic surge factor</span>
+              </div>
+
+              <!-- Booking Quota -->
+              <div class="form-field full-width-sm">
+                <label for="booking-quota" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  Booking Quota
+                </label>
+                <div class="input-wrapper">
+                  <select id="booking-quota" name="booking_quota" class="custom-select">
+                    <option value="GN" selected>General Quota (GN)</option>
+                    <option value="TQ">Tatkal Quota (TQ) • Emergency Surcharge</option>
+                    <option value="PT">Premium Tatkal (PT) • Variable Surge</option>
+                    <option value="LD">Ladies Quota (LD)</option>
+                  </select>
+                  <div class="select-indicator">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                  </div>
+                </div>
+                <span class="field-hint">Reservation category</span>
+              </div>
+
+            </div>
+
+            <!-- Form Actions Row (Predict + Reset) -->
+            <div class="form-actions-row">
+              <button type="submit" id="predict-btn" class="predict-button">
+                <span class="btn-spinner" id="btn-spinner" aria-hidden="true"></span>
+                <span class="btn-icon" id="btn-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                  </svg>
+                </span>
+                <span class="btn-text" id="btn-text">Predict Fare With AI</span>
+              </button>
+
+              <button type="button" id="btn-reset-price" class="reset-button" title="Reset all fields to defaults">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+                Reset
+              </button>
+            </div>
+            
+            <p class="cta-disclaimer">⚡ Powered by Random Forest Regressor trained on historical rail tariffs and seasonal booking curves.</p>
+
+          </form>
+        </div>
+      </section>
+
+      <!-- Prediction Result Display (Digital Train Ticket Stub) -->
+      <section id="ticket-result" class="ticket-result-section" aria-live="polite">
+        <div class="result-container">
+          
+          <div class="result-badge-row">
+            <span class="status-chip success">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Fare Prediction Generated
+            </span>
+            <span class="surge-chip" id="dynamic-surge-indicator">⚡ Normal Booking Window</span>
+          </div>
+
+          <!-- Authentic Ticket Stub -->
+          <article class="ticket-stub" id="ticket-stub-card">
+            
+            <div class="ticket-main">
+              <div class="ticket-top-banner">
+                <div class="ticket-train-info">
+                  <span class="train-badge" id="ticket-train-category">SUPERFAST EXPRESS</span>
+                  <h3 class="train-number-name" id="ticket-train-title">12952 • New Delhi - Mumbai SF Exp</h3>
+                </div>
+                <div class="ticket-pnr-info">
+                  <span class="pnr-title">ESTIMATED PNR / REF</span>
+                  <span class="pnr-number" id="ticket-pnr">RAIL-8942-019</span>
+                </div>
+              </div>
+
+              <!-- Route Visualization -->
+              <div class="ticket-route-block">
+                <div class="route-station origin">
+                  <span class="station-code" id="ticket-origin-code">NDLS</span>
+                  <span class="station-name" id="ticket-origin-name">New Delhi</span>
+                  <span class="departure-time" id="ticket-departure-time">Dep: 16:55</span>
+                </div>
+
+                <div class="route-line-wrap">
+                  <span class="journey-duration" id="ticket-duration">~ 15 hrs 40 mins</span>
+                  <div class="route-line">
+                    <span class="dot origin-dot"></span>
+                    <div class="train-moving-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                        <rect x="4" y="3" width="16" height="16" rx="2"></rect>
+                        <path d="M4 11h16"></path>
+                      </svg>
+                    </div>
+                    <span class="dot dest-dot"></span>
+                  </div>
+                  <span class="route-distance" id="ticket-distance">Distance: 1,384 km</span>
+                </div>
+
+                <div class="route-station destination">
+                  <span class="station-code" id="ticket-dest-code">MMCT</span>
+                  <span class="station-name" id="ticket-dest-name">Mumbai Central</span>
+                  <span class="arrival-time" id="ticket-arrival-time">Arr: 08:35</span>
+                </div>
+              </div>
+
+              <!-- Passenger Meta Grid -->
+              <div class="ticket-meta-grid">
+                <div class="meta-item">
+                  <span class="meta-label">TRAVEL CLASS</span>
+                  <span class="meta-value" id="ticket-class-name">AC 3-Tier (3A)</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-label">TRAVEL DATE</span>
+                  <span class="meta-value" id="ticket-travel-date">12 Oct 2026</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-label">DAYS AHEAD</span>
+                  <span class="meta-value" id="ticket-days-ahead">14 Days</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-label">QUOTA</span>
+                  <span class="meta-value" id="ticket-quota-name">General (GN)</span>
+                </div>
+              </div>
+
+              <!-- Perforation Line -->
+              <div class="ticket-perforation" aria-hidden="true">
+                <div class="notch notch-left"></div>
+                <div class="perforation-line"></div>
+                <div class="notch notch-right"></div>
+              </div>
+
+              <!-- Price Breakdown -->
+              <div class="fare-breakdown-details">
+                <div class="breakdown-row">
+                  <span class="item-name">Base Railway Distance Fare</span>
+                  <span class="item-value" id="breakdown-base">₹ 1,120</span>
+                </div>
+                <div class="breakdown-row">
+                  <span class="item-name">Class & Train Surcharge</span>
+                  <span class="item-value" id="breakdown-class">₹ 350</span>
+                </div>
+                <div class="breakdown-row">
+                  <span class="item-name">Dynamic / Tatkal Surge Factor</span>
+                  <span class="item-value" id="breakdown-surge">₹ 0</span>
+                </div>
+                <div class="breakdown-row">
+                  <span class="item-name">GST & Safety Surcharge</span>
+                  <span class="item-value" id="breakdown-tax">₹ 73</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Stub Side -->
+            <div class="ticket-stub-side">
+              <div class="stub-badge">CONFIRMED FARE FORECAST</div>
+              
+              <div class="price-hero-box">
+                <span class="price-caption">Estimated Fare</span>
+                <div class="price-display-wrap">
+                  <span class="currency-symbol" id="ticket-currency-symbol">₹</span>
+                  <span class="price-value" id="ticket-price">1,543</span>
+                </div>
+                <span class="price-subtext" id="ticket-confidence-range">Confidence Range: ₹1,480 - ₹1,610</span>
+              </div>
+
+              <div class="advice-card" id="ticket-advice-box">
+                <div class="advice-header">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                  <span class="advice-title" id="advice-title">Booking Recommendation</span>
+                </div>
+                <p class="advice-message" id="advice-message">Fares are currently stable. Recommended to lock berths before the 7-day surge.</p>
+              </div>
+
+              <div class="ticket-security">
+                <div class="barcode-graphic" aria-hidden="true">
+                  <div class="bar-line b-1"></div>
+                  <div class="bar-line b-3"></div>
+                  <div class="bar-line b-1"></div>
+                  <div class="bar-line b-2"></div>
+                  <div class="bar-line b-4"></div>
+                  <div class="bar-line b-2"></div>
+                  <div class="bar-line b-1"></div>
+                  <div class="bar-line b-3"></div>
+                  <div class="bar-line b-2"></div>
+                </div>
+                <span class="security-code">IRCTC • ML-FORECAST • RF-094</span>
+              </div>
+
+              <button type="button" class="btn-recalculate" id="btn-recalculate">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+                Recalculate Parameters
               </button>
             </div>
 
-            <!-- Destination Station -->
-            <div class="form-field station-field">
-              <label for="destination-station" class="field-label">
-                <span class="label-icon dest-icon"></span>
-                Destination Station
-              </label>
-              <div class="input-wrapper">
-                <select id="destination-station" name="destination_station" required class="custom-select">
-                  <option value="" disabled>Select Arrival Station</option>
-                  <option value="NDLS">New Delhi (NDLS)</option>
-                  <option value="MMCT" selected>Mumbai Central (MMCT)</option>
-                  <option value="CSMT">Mumbai CST (CSMT)</option>
-                  <option value="SBC">Bengaluru City (SBC)</option>
-                  <option value="MAS">Chennai Central (MAS)</option>
-                  <option value="HWH">Kolkata Howrah (HWH)</option>
-                  <option value="PNBE">Patna Junction (PNBE)</option>
-                  <option value="ADI">Ahmedabad (ADI)</option>
-                  <option value="HYB">Hyderabad Deccan (HYB)</option>
-                  <option value="MAO">Madgaon Goa (MAO)</option>
-                  <option value="JAT">Jammu Tawi (JAT)</option>
-                  <option value="CNB">Kanpur Central (CNB)</option>
-                </select>
-                <div class="select-indicator">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
-                </div>
-              </div>
-              <span class="field-hint" id="dest-hint">Estimated distance: ~1,384 km</span>
-            </div>
-
-          </div>
-
-          <!-- Secondary Grid: Class, Days Ahead, Train Type, Quota -->
-          <div class="form-grid">
-            
-            <!-- Travel Class -->
-            <div class="form-field">
-              <label for="travel-class" class="field-label">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 9h-4V3H9v6H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2z"/></svg>
-                Travel Class
-              </label>
-              <div class="input-wrapper">
-                <select id="travel-class" name="travel_class" required class="custom-select">
-                  <option value="3A" selected>AC 3-Tier (3A) • Most Popular</option>
-                  <option value="2A">AC 2-Tier (2A) • Premium Comfort</option>
-                  <option value="1A">First Class AC (1A) • Luxury Coupe</option>
-                  <option value="SL">Sleeper Class (SL) • Budget Travel</option>
-                  <option value="EC">Executive Chair Car (EC)</option>
-                  <option value="CC">AC Chair Car (CC)</option>
-                  <option value="2S">Second Sitting (2S)</option>
-                </select>
-                <div class="select-indicator">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
-                </div>
-              </div>
-              <span class="field-hint">Berth type & air-conditioning tier</span>
-            </div>
-
-            <!-- Train Type -->
-            <div class="form-field">
-              <label for="train-type" class="field-label">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                Train Type
-              </label>
-              <div class="input-wrapper">
-                <select id="train-type" name="train_type" required class="custom-select">
-                  <option value="Superfast" selected>Superfast Express (SF)</option>
-                  <option value="Rajdhani">Vande Bharat / Rajdhani Express</option>
-                  <option value="Duronto">Duronto / Shatabdi Express</option>
-                  <option value="Express">Mail / Standard Express</option>
-                  <option value="Passenger">Passenger / Ordinary</option>
-                </select>
-                <div class="select-indicator">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
-                </div>
-              </div>
-              <span class="field-hint">Speed rating & priority routing</span>
-            </div>
-
-            <!-- Departure Date & Days Until Departure Synced Row -->
-            <div class="form-field">
-              <label for="departure-date" class="field-label">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                Departure Date
-              </label>
-              <div class="input-wrapper">
-                <input type="date" id="departure-date" name="departure_date" class="custom-input date-input" required>
-              </div>
-              <span class="field-hint" id="date-helper-text">Pick your calendar travel date</span>
-            </div>
-
-            <!-- Days Until Departure -->
-            <div class="form-field">
-              <label for="days-until-departure" class="field-label">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                Days Until Departure
-              </label>
-              <div class="input-wrapper days-wrapper">
-                <input type="number" id="days-until-departure" name="days_until_departure" class="custom-input number-input" min="0" max="120" value="14" required>
-                <span class="input-suffix">days ahead</span>
-              </div>
-              <span class="field-hint">Key factor in dynamic fare surge</span>
-            </div>
-
-            <!-- Booking Quota (Additional High-Value ML Feature) -->
-            <div class="form-field full-width-sm">
-              <label for="booking-quota" class="field-label">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                Booking Quota
-              </label>
-              <div class="input-wrapper">
-                <select id="booking-quota" name="booking_quota" class="custom-select">
-                  <option value="GN" selected>General Quota (GN)</option>
-                  <option value="TQ">Tatkal Quota (TQ) • Emergency Surcharge</option>
-                  <option value="PT">Premium Tatkal (PT) • Variable Surge</option>
-                  <option value="LD">Ladies Quota (LD)</option>
-                </select>
-                <div class="select-indicator">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
-                </div>
-              </div>
-              <span class="field-hint">Seat reservation category</span>
-            </div>
-
-          </div>
-
-          <!-- Call to Action Button -->
-          <div class="cta-wrapper">
-            <button type="submit" id="predict-btn" class="predict-button">
-              <span class="btn-spinner" id="btn-spinner" aria-hidden="true"></span>
-              <span class="btn-icon" id="btn-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
-                </svg>
-              </span>
-              <span class="btn-text" id="btn-text">Predict Fare With AI</span>
-            </button>
-            <p class="cta-disclaimer">⚡ Powered by Random Forest Regressor trained on historical rail tariffs and seasonal booking curves.</p>
-          </div>
-
-        </form>
-      </div>
-    </section>
-
-    <!-- Prediction Result Display (Digital Train Ticket Stub) -->
-    <section id="ticket-result" class="ticket-result-section" aria-live="polite">
-      <div class="result-container">
-        
-        <div class="result-badge-row">
-          <span class="status-chip success">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            Model Prediction Generated
-          </span>
-          <span class="surge-chip" id="dynamic-surge-indicator">⚡ Normal Booking Window</span>
+          </article>
         </div>
+      </section>
 
-        <!-- Authentic Ticket Stub -->
-        <article class="ticket-stub" id="ticket-stub-card">
-          
-          <!-- Ticket Left / Top Header (Journey Info) -->
-          <div class="ticket-main">
-            <div class="ticket-top-banner">
-              <div class="ticket-train-info">
-                <span class="train-badge" id="ticket-train-category">SUPERFAST EXPRESS</span>
-                <h3 class="train-number-name" id="ticket-train-title">12952 • New Delhi - Mumbai SF Exp</h3>
-              </div>
-              <div class="ticket-pnr-info">
-                <span class="pnr-title">ESTIMATED PNR / REF</span>
-                <span class="pnr-number" id="ticket-pnr">RAIL-8942-019</span>
-              </div>
+    </div>
+
+
+    <!-- =====================================================================
+         MODULE 2: TRAIN DELAY PREDICTION
+         ===================================================================== -->
+    <div id="module-delay" class="module-panel">
+      
+      <section class="form-container">
+        <div class="booking-card">
+          <div class="card-header">
+            <div class="card-header-info">
+              <span class="module-indicator-badge delay-badge">Module 2</span>
+              <h2 class="card-title">Train Delay Prediction Studio</h2>
+              <p class="card-desc">Predict whether a train will be <strong>On Time</strong> or <strong>Delayed</strong> and estimate total delay minutes using route distance, departure time, and track density algorithms.</p>
             </div>
-
-            <!-- Route Visualization (Origin -> Path -> Destination) -->
-            <div class="ticket-route-block">
-              <div class="route-station origin">
-                <span class="station-code" id="ticket-origin-code">NDLS</span>
-                <span class="station-name" id="ticket-origin-name">New Delhi</span>
-                <span class="departure-time" id="ticket-departure-time">Dep: 16:55</span>
-              </div>
-
-              <div class="route-line-wrap">
-                <span class="journey-duration" id="ticket-duration">~ 15 hrs 40 mins</span>
-                <div class="route-line">
-                  <span class="dot origin-dot"></span>
-                  <div class="train-moving-icon">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-                      <rect x="4" y="3" width="16" height="16" rx="2"></rect>
-                      <path d="M4 11h16"></path>
-                    </svg>
-                  </div>
-                  <span class="dot dest-dot"></span>
-                </div>
-                <span class="route-distance" id="ticket-distance">Distance: 1,384 km</span>
-              </div>
-
-              <div class="route-station destination">
-                <span class="station-code" id="ticket-dest-code">MMCT</span>
-                <span class="station-name" id="ticket-dest-name">Mumbai Central</span>
-                <span class="arrival-time" id="ticket-arrival-time">Arr: 08:35</span>
-              </div>
-            </div>
-
-            <!-- Passenger / Fare Parameters Meta Grid -->
-            <div class="ticket-meta-grid">
-              <div class="meta-item">
-                <span class="meta-label">TRAVEL CLASS</span>
-                <span class="meta-value" id="ticket-class-name">AC 3-Tier (3A)</span>
-              </div>
-              <div class="meta-item">
-                <span class="meta-label">TRAVEL DATE</span>
-                <span class="meta-value" id="ticket-travel-date">12 Oct 2026</span>
-              </div>
-              <div class="meta-item">
-                <span class="meta-label">DAYS AHEAD</span>
-                <span class="meta-value" id="ticket-days-ahead">14 Days</span>
-              </div>
-              <div class="meta-item">
-                <span class="meta-label">QUOTA</span>
-                <span class="meta-value" id="ticket-quota-name">General (GN)</span>
-              </div>
-            </div>
-
-            <!-- Perforation Tear Line with Side Notches -->
-            <div class="ticket-perforation" aria-hidden="true">
-              <div class="notch notch-left"></div>
-              <div class="perforation-line"></div>
-              <div class="notch notch-right"></div>
-            </div>
-
-            <!-- Price Breakdown Accordion / Section -->
-            <div class="fare-breakdown-details">
-              <div class="breakdown-row">
-                <span class="item-name">Base Railway Distance Fare</span>
-                <span class="item-value" id="breakdown-base">₹ 1,120</span>
-              </div>
-              <div class="breakdown-row">
-                <span class="item-name">Class & Train Surcharge</span>
-                <span class="item-value" id="breakdown-class">₹ 350</span>
-              </div>
-              <div class="breakdown-row">
-                <span class="item-name">Dynamic / Tatkal Surge Factor</span>
-                <span class="item-value" id="breakdown-surge">₹ 0</span>
-              </div>
-              <div class="breakdown-row">
-                <span class="item-name">GST & Passenger Safety Cess</span>
-                <span class="item-value" id="breakdown-tax">₹ 73</span>
-              </div>
+            <div class="confidence-tag delay-tag">
+              <span>Classifier + Regressor Active</span>
             </div>
           </div>
 
-          <!-- Ticket Right / Bottom Stub (The Financial Hero Section) -->
-          <div class="ticket-stub-side">
-            <div class="stub-badge">CONFIRMED FARE FORECAST</div>
+          <form id="delay-prediction-form" class="prediction-form" novalidate>
             
-            <div class="price-hero-box">
-              <span class="price-caption">Estimated Fare</span>
-              <div class="price-display-wrap">
-                <span class="currency-symbol" id="ticket-currency-symbol">₹</span>
-                <span class="price-value" id="ticket-price">1,543</span>
+            <!-- Quick Preset Train Selector -->
+            <div class="form-field full-width">
+              <label for="delay-train-preset" class="field-label">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+                Select Popular Train Preset (or customize below)
+              </label>
+              <div class="input-wrapper">
+                <select id="delay-train-preset" class="custom-select">
+                  <option value="12952" selected>12952 • Mumbai Rajdhani Express (NDLS → MMCT | 16:55)</option>
+                  <option value="12951">12951 • New Delhi Rajdhani Express (MMCT → NDLS | 17:00)</option>
+                  <option value="12002">12002 • Bhopal Shatabdi Express (NDLS → CNB | 06:00)</option>
+                  <option value="12626">12626 • Kerala Superfast Express (NDLS → SBC | 20:10)</option>
+                  <option value="12302">12302 • Howrah Rajdhani Express (NDLS → HWH | 16:50)</option>
+                  <option value="12658">12658 • Chennai Mail Express (MAS → SBC | 23:15)</option>
+                  <option value="12051">12051 • Jan Shatabdi Express (CSMT → MAO | 05:10)</option>
+                  <option value="custom">✏️ Enter Custom Train Number & Name</option>
+                </select>
+                <div class="select-indicator">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                </div>
               </div>
-              <span class="price-subtext" id="ticket-confidence-range">Confidence Range: ₹1,480 - ₹1,610</span>
             </div>
 
-            <!-- Booking Advice Insight Box -->
-            <div class="advice-card" id="ticket-advice-box">
+            <!-- Custom Train Number / Name Row -->
+            <div class="form-grid-2">
+              <div class="form-field">
+                <label for="delay-train-number" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/></svg>
+                  Train Number / Code
+                </label>
+                <div class="input-wrapper">
+                  <input type="text" id="delay-train-number" name="train_number" class="custom-input" value="12952" required placeholder="e.g. 12952">
+                </div>
+                <span class="field-hint">Official 5-digit IRCTC number</span>
+              </div>
+
+              <div class="form-field">
+                <label for="delay-train-name" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                  Train Name
+                </label>
+                <div class="input-wrapper">
+                  <input type="text" id="delay-train-name" name="train_name" class="custom-input" value="Mumbai Rajdhani Express" required placeholder="e.g. Mumbai Rajdhani">
+                </div>
+                <span class="field-hint">Train classification descriptor</span>
+              </div>
+            </div>
+
+            <!-- Stations Row with Swap -->
+            <div class="stations-group">
+              <div class="form-field station-field">
+                <label for="delay-source-station" class="field-label">
+                  <span class="label-icon origin-icon"></span>
+                  Source Station
+                </label>
+                <div class="input-wrapper">
+                  <select id="delay-source-station" name="source_station" required class="custom-select">
+                    <option value="NDLS" selected>New Delhi (NDLS)</option>
+                    <option value="MMCT">Mumbai Central (MMCT)</option>
+                    <option value="CSMT">Mumbai CST (CSMT)</option>
+                    <option value="SBC">Bengaluru City (SBC)</option>
+                    <option value="MAS">Chennai Central (MAS)</option>
+                    <option value="HWH">Kolkata Howrah (HWH)</option>
+                    <option value="PNBE">Patna Junction (PNBE)</option>
+                    <option value="ADI">Ahmedabad (ADI)</option>
+                    <option value="HYB">Hyderabad Deccan (HYB)</option>
+                    <option value="MAO">Madgaon Goa (MAO)</option>
+                    <option value="JAT">Jammu Tawi (JAT)</option>
+                    <option value="CNB">Kanpur Central (CNB)</option>
+                  </select>
+                  <div class="select-indicator">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swap-action">
+                <button type="button" id="delay-swap-btn" class="swap-button" title="Swap Source and Destination">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M8 3 4 7l4 4"></path><path d="M4 7h16"></path><path d="m16 21 4-4-4-4"></path><path d="M20 17H4"></path></svg>
+                </button>
+              </div>
+
+              <div class="form-field station-field">
+                <label for="delay-dest-station" class="field-label">
+                  <span class="label-icon dest-icon"></span>
+                  Destination Station
+                </label>
+                <div class="input-wrapper">
+                  <select id="delay-dest-station" name="destination_station" required class="custom-select">
+                    <option value="NDLS">New Delhi (NDLS)</option>
+                    <option value="MMCT" selected>Mumbai Central (MMCT)</option>
+                    <option value="CSMT">Mumbai CST (CSMT)</option>
+                    <option value="SBC">Bengaluru City (SBC)</option>
+                    <option value="MAS">Chennai Central (MAS)</option>
+                    <option value="HWH">Kolkata Howrah (HWH)</option>
+                    <option value="PNBE">Patna Junction (PNBE)</option>
+                    <option value="ADI">Ahmedabad (ADI)</option>
+                    <option value="HYB">Hyderabad Deccan (HYB)</option>
+                    <option value="MAO">Madgaon Goa (MAO)</option>
+                    <option value="JAT">Jammu Tawi (JAT)</option>
+                    <option value="CNB">Kanpur Central (CNB)</option>
+                  </select>
+                  <div class="select-indicator">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Journey Details: Date, Time, Distance, Day of Week -->
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="delay-journey-date" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                  Journey Date
+                </label>
+                <div class="input-wrapper">
+                  <input type="date" id="delay-journey-date" name="journey_date" class="custom-input date-input" required>
+                </div>
+                <span class="field-hint">Travel date</span>
+              </div>
+
+              <div class="form-field">
+                <label for="delay-departure-time" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  Scheduled Departure Time
+                </label>
+                <div class="input-wrapper">
+                  <input type="time" id="delay-departure-time" name="departure_time" class="custom-input" value="16:55" required>
+                </div>
+                <span class="field-hint" id="delay-time-hint">Evening departure (16:55)</span>
+              </div>
+
+              <div class="form-field">
+                <label for="delay-distance" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon></svg>
+                  Distance (km)
+                </label>
+                <div class="input-wrapper">
+                  <input type="number" id="delay-distance" name="distance" class="custom-input" value="1384" min="50" max="4000" required>
+                </div>
+                <span class="field-hint" id="delay-distance-hint">Auto-calculated from route</span>
+              </div>
+
+              <div class="form-field">
+                <label for="delay-day-of-week" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  Day of Week
+                </label>
+                <div class="input-wrapper">
+                  <input type="text" id="delay-day-of-week" name="day_of_week" class="custom-input readonly-input" readonly value="Wednesday">
+                </div>
+                <span class="field-hint">Auto-synced with journey date</span>
+              </div>
+            </div>
+
+            <!-- Form Actions Row -->
+            <div class="form-actions-row">
+              <button type="submit" id="delay-predict-btn" class="predict-button delay-action-btn">
+                <span class="btn-spinner" id="delay-spinner" aria-hidden="true"></span>
+                <span class="btn-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </span>
+                <span class="btn-text" id="delay-btn-text">Predict Delay With AI</span>
+              </button>
+
+              <button type="button" id="btn-reset-delay" class="reset-button" title="Reset delay parameters">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+                Reset
+              </button>
+            </div>
+
+            <p class="cta-disclaimer">⚡ Random Forest Classifier evaluates delay likelihood; Regressor estimates delay duration.</p>
+
+          </form>
+        </div>
+      </section>
+
+      <!-- Delay Result Display Card -->
+      <section id="delay-result-section" class="delay-result-section" aria-live="polite">
+        <div class="result-container">
+          
+          <div class="delay-result-card" id="delay-result-card">
+            
+            <div class="delay-card-header">
+              <div class="delay-train-meta">
+                <span class="delay-tag-pill" id="delay-train-badge">SUPERFAST EXPRESS</span>
+                <h3 class="delay-train-heading" id="delay-result-train-title">12952 • Mumbai Rajdhani Express</h3>
+                <p class="delay-route-text" id="delay-result-route">New Delhi (NDLS) → Mumbai Central (MMCT) • 1,384 km</p>
+              </div>
+              <div class="delay-date-stamp">
+                <span class="date-label">JOURNEY DATE</span>
+                <span class="date-val" id="delay-result-date">15 Oct 2026 (Wednesday)</span>
+              </div>
+            </div>
+
+            <!-- Big Prediction Hero Display -->
+            <div class="delay-hero-display" id="delay-hero-display">
+              <div class="delay-status-block">
+                <span class="hero-label">Delay Prediction</span>
+                <div class="hero-status-wrap">
+                  <span class="status-indicator-dot" id="delay-status-dot"></span>
+                  <span class="hero-status-title" id="delay-status-title">Delayed</span>
+                </div>
+              </div>
+
+              <div class="delay-minutes-block">
+                <span class="hero-label">Estimated Delay</span>
+                <div class="hero-minutes-wrap">
+                  <span class="hero-minutes-value" id="delay-minutes-val">25</span>
+                  <span class="hero-minutes-unit" id="delay-minutes-unit">minutes</span>
+                </div>
+              </div>
+
+              <div class="delay-confidence-block">
+                <span class="hero-label">Prediction Confidence</span>
+                <div class="confidence-circle-wrap">
+                  <span class="confidence-percent" id="delay-confidence-percent">82%</span>
+                </div>
+                <div class="confidence-bar-bg">
+                  <div class="confidence-bar-fill" id="delay-confidence-bar" style="width: 82%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Transit Factors Breakdown -->
+            <div class="delay-factors-box">
+              <h4 class="factors-title">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                Key Model Contributing Factors
+              </h4>
+              <ul class="factors-list" id="delay-factors-list">
+                <li>Peak departure hour (16:55) with high junction congestion</li>
+                <li>Long-haul route (1,384 km) across Northern and Western Railway divisions</li>
+                <li>High priority green-corridor clearance active for Rajdhani services</li>
+              </ul>
+            </div>
+
+            <!-- College Viva Explanation Note -->
+            <div class="viva-note-box">
+              <span class="viva-tag">🎓 Viva Concept</span>
+              <p><strong>Explainable 2-Stage Architecture:</strong> Stage 1 uses a <code>RandomForestClassifier</code> to determine if delay probability exceeds the 50% threshold. If delayed, Stage 2 activates a <code>RandomForestRegressor</code> to predict exact delay minutes based on track distance and departure time.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+
+    <!-- =====================================================================
+         MODULE 3: TRAIN SEAT AVAILABILITY PREDICTION
+         ===================================================================== -->
+    <div id="module-seats" class="module-panel">
+      
+      <section class="form-container">
+        <div class="booking-card">
+          <div class="card-header">
+            <div class="card-header-info">
+              <span class="module-indicator-badge seats-badge">Module 3</span>
+              <h2 class="card-title">Train Seat Availability Prediction Studio</h2>
+              <p class="card-desc">Estimate available seats and categorized status: <strong class="badge-green-text">Available (Green)</strong>, <strong class="badge-yellow-text">Filling Fast (Yellow)</strong>, or <strong class="badge-red-text">Almost Full (Red)</strong>.</p>
+            </div>
+            <div class="confidence-tag seats-tag">
+              <span>Occupancy Regressor Active</span>
+            </div>
+          </div>
+
+          <form id="seats-prediction-form" class="prediction-form" novalidate>
+            
+            <!-- Quick Preset Train Selector -->
+            <div class="form-field full-width">
+              <label for="seats-train-preset" class="field-label">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+                Select Popular Train Preset
+              </label>
+              <div class="input-wrapper">
+                <select id="seats-train-preset" class="custom-select">
+                  <option value="12952" selected>12952 • Mumbai Rajdhani Express (NDLS → MMCT)</option>
+                  <option value="12951">12951 • New Delhi Rajdhani Express (MMCT → NDLS)</option>
+                  <option value="12002">12002 • Bhopal Shatabdi Express (NDLS → CNB)</option>
+                  <option value="12626">12626 • Kerala Superfast Express (NDLS → SBC)</option>
+                  <option value="12302">12302 • Howrah Rajdhani Express (NDLS → HWH)</option>
+                  <option value="12658">12658 • Chennai Mail Express (MAS → SBC)</option>
+                  <option value="custom">✏️ Enter Custom Train</option>
+                </select>
+                <div class="select-indicator">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Custom Train Number / Name -->
+            <div class="form-grid-2">
+              <div class="form-field">
+                <label for="seats-train-number" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/></svg>
+                  Train Number / Code
+                </label>
+                <div class="input-wrapper">
+                  <input type="text" id="seats-train-number" name="train_number" class="custom-input" value="12952" required placeholder="e.g. 12952">
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="seats-train-name" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                  Train Name
+                </label>
+                <div class="input-wrapper">
+                  <input type="text" id="seats-train-name" name="train_name" class="custom-input" value="Mumbai Rajdhani Express" required placeholder="e.g. Mumbai Rajdhani">
+                </div>
+              </div>
+            </div>
+
+            <!-- Stations Row with Swap -->
+            <div class="stations-group">
+              <div class="form-field station-field">
+                <label for="seats-source-station" class="field-label">
+                  <span class="label-icon origin-icon"></span>
+                  Source Station
+                </label>
+                <div class="input-wrapper">
+                  <select id="seats-source-station" name="source_station" required class="custom-select">
+                    <option value="NDLS" selected>New Delhi (NDLS)</option>
+                    <option value="MMCT">Mumbai Central (MMCT)</option>
+                    <option value="CSMT">Mumbai CST (CSMT)</option>
+                    <option value="SBC">Bengaluru City (SBC)</option>
+                    <option value="MAS">Chennai Central (MAS)</option>
+                    <option value="HWH">Kolkata Howrah (HWH)</option>
+                    <option value="PNBE">Patna Junction (PNBE)</option>
+                    <option value="ADI">Ahmedabad (ADI)</option>
+                    <option value="HYB">Hyderabad Deccan (HYB)</option>
+                    <option value="MAO">Madgaon Goa (MAO)</option>
+                    <option value="JAT">Jammu Tawi (JAT)</option>
+                    <option value="CNB">Kanpur Central (CNB)</option>
+                  </select>
+                  <div class="select-indicator">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swap-action">
+                <button type="button" id="seats-swap-btn" class="swap-button" title="Swap Source and Destination">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M8 3 4 7l4 4"></path><path d="M4 7h16"></path><path d="m16 21 4-4-4-4"></path><path d="M20 17H4"></path></svg>
+                </button>
+              </div>
+
+              <div class="form-field station-field">
+                <label for="seats-dest-station" class="field-label">
+                  <span class="label-icon dest-icon"></span>
+                  Destination Station
+                </label>
+                <div class="input-wrapper">
+                  <select id="seats-dest-station" name="destination_station" required class="custom-select">
+                    <option value="NDLS">New Delhi (NDLS)</option>
+                    <option value="MMCT" selected>Mumbai Central (MMCT)</option>
+                    <option value="CSMT">Mumbai CST (CSMT)</option>
+                    <option value="SBC">Bengaluru City (SBC)</option>
+                    <option value="MAS">Chennai Central (MAS)</option>
+                    <option value="HWH">Kolkata Howrah (HWH)</option>
+                    <option value="PNBE">Patna Junction (PNBE)</option>
+                    <option value="ADI">Ahmedabad (ADI)</option>
+                    <option value="HYB">Hyderabad Deccan (HYB)</option>
+                    <option value="MAO">Madgaon Goa (MAO)</option>
+                    <option value="JAT">Jammu Tawi (JAT)</option>
+                    <option value="CNB">Kanpur Central (CNB)</option>
+                  </select>
+                  <div class="select-indicator">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Secondary Grid: Journey Date, Travel Class, Day of Week -->
+            <div class="form-grid">
+              
+              <div class="form-field">
+                <label for="seats-journey-date" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                  Journey Date
+                </label>
+                <div class="input-wrapper">
+                  <input type="date" id="seats-journey-date" name="journey_date" class="custom-input date-input" required>
+                </div>
+                <span class="field-hint" id="seats-date-hint">14 days ahead</span>
+              </div>
+
+              <!-- Travel Class -->
+              <div class="form-field">
+                <label for="seats-travel-class" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 9h-4V3H9v6H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2z"/></svg>
+                  Travel Class
+                </label>
+                <div class="input-wrapper">
+                  <select id="seats-travel-class" name="travel_class" required class="custom-select">
+                    <option value="SL">Sleeper Class (SL) • Capacity ~72</option>
+                    <option value="3A" selected>AC 3-Tier (3A) • Capacity ~64</option>
+                    <option value="2A">AC 2-Tier (2A) • Capacity ~48</option>
+                    <option value="1A">First Class AC (1A) • Capacity ~22</option>
+                  </select>
+                  <div class="select-indicator">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                  </div>
+                </div>
+                <span class="field-hint">Coach layout tier</span>
+              </div>
+
+              <!-- Day of Week -->
+              <div class="form-field full-width-sm">
+                <label for="seats-day-of-week" class="field-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  Day of Week
+                </label>
+                <div class="input-wrapper">
+                  <input type="text" id="seats-day-of-week" name="day_of_week" class="custom-input readonly-input" readonly value="Wednesday">
+                </div>
+                <span class="field-hint">Auto-synced with journey date</span>
+              </div>
+
+            </div>
+
+            <!-- Form Actions Row -->
+            <div class="form-actions-row">
+              <button type="submit" id="seats-predict-btn" class="predict-button seats-action-btn">
+                <span class="btn-spinner" id="seats-spinner" aria-hidden="true"></span>
+                <span class="btn-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 9h-4V3H9v6H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2z"/></svg>
+                </span>
+                <span class="btn-text" id="seats-btn-text">Check Seat Availability</span>
+              </button>
+
+              <button type="button" id="btn-reset-seats" class="reset-button" title="Reset seat parameters">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+                Reset
+              </button>
+            </div>
+
+            <p class="cta-disclaimer">⚡ Random Forest Regressor predicts remaining berth counts across travel classes based on booking curves.</p>
+
+          </form>
+        </div>
+      </section>
+
+      <!-- Seat Availability Result Display Card -->
+      <section id="seats-result-section" class="seats-result-section" aria-live="polite">
+        <div class="result-container">
+          
+          <div class="seats-result-card" id="seats-result-card">
+            
+            <div class="seats-card-header">
+              <div class="seats-train-meta">
+                <span class="seats-tag-pill" id="seats-result-class-badge">AC 3-TIER (3A)</span>
+                <h3 class="seats-train-heading" id="seats-result-train-title">12952 • Mumbai Rajdhani Express</h3>
+                <p class="seats-route-text" id="seats-result-route">New Delhi (NDLS) → Mumbai Central (MMCT)</p>
+              </div>
+              <div class="seats-date-stamp">
+                <span class="date-label">BOOKING HORIZON</span>
+                <span class="date-val" id="seats-result-horizon">14 Days Ahead • Wednesday</span>
+              </div>
+            </div>
+
+            <!-- Big Prediction Hero Display -->
+            <div class="seats-hero-display" id="seats-hero-display">
+              
+              <!-- Available Seats -->
+              <div class="seats-count-block">
+                <span class="hero-label">Available Seats</span>
+                <div class="hero-count-wrap">
+                  <span class="hero-count-value" id="seats-count-val">42</span>
+                  <span class="hero-count-total" id="seats-total-cap">/ 64 seats</span>
+                </div>
+              </div>
+
+              <!-- Status Badge (Green / Yellow / Red) -->
+              <div class="seats-status-block">
+                <span class="hero-label">Availability Status</span>
+                <div class="availability-status-badge status-green" id="seats-status-badge">
+                  <span class="status-badge-dot"></span>
+                  <span class="status-badge-text" id="seats-status-text">Available</span>
+                </div>
+                <span class="status-category-hint" id="seats-category-hint">🟢 GREEN = Available (> 30 seats)</span>
+              </div>
+
+              <!-- Model Confidence -->
+              <div class="seats-confidence-block">
+                <span class="hero-label">Prediction Confidence</span>
+                <div class="confidence-circle-wrap">
+                  <span class="confidence-percent" id="seats-confidence-percent">88%</span>
+                </div>
+                <span class="confidence-subtext">Random Forest Regressor</span>
+              </div>
+
+            </div>
+
+            <!-- Coach Capacity Visual Progress Bar -->
+            <div class="seats-gauge-block">
+              <div class="gauge-header">
+                <span class="gauge-label">Coach Berth Occupancy Gauge</span>
+                <span class="gauge-ratio" id="seats-gauge-text">42 of 64 Berths Free (65% Available)</span>
+              </div>
+              <div class="gauge-bar-bg">
+                <div class="gauge-bar-fill fill-green" id="seats-gauge-fill" style="width: 65%;"></div>
+              </div>
+              <div class="gauge-scale">
+                <span class="scale-point point-red">0 (Full)</span>
+                <span class="scale-point point-yellow">10 (Filling Fast)</span>
+                <span class="scale-point point-green">30+ (Available)</span>
+              </div>
+            </div>
+
+            <!-- Booking Recommendation Advice Card -->
+            <div class="advice-card" id="seats-advice-card">
               <div class="advice-header">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
-                <span class="advice-title" id="advice-title">Booking Recommendation</span>
+                <span class="advice-title" id="seats-advice-title">Booking Confirmation Advice</span>
               </div>
-              <p class="advice-message" id="advice-message">High probability of fare hike within 7 days. Booking today saves an estimated 18%.</p>
+              <p class="advice-message" id="seats-advice-message">High probability of confirmation. Berths are readily available in this coach category.</p>
             </div>
 
-            <!-- High-tech Barcode and QR code simulation -->
-            <div class="ticket-security">
-              <div class="barcode-graphic" aria-hidden="true">
-                <div class="bar-line b-1"></div>
-                <div class="bar-line b-3"></div>
-                <div class="bar-line b-1"></div>
-                <div class="bar-line b-2"></div>
-                <div class="bar-line b-4"></div>
-                <div class="bar-line b-2"></div>
-                <div class="bar-line b-1"></div>
-                <div class="bar-line b-3"></div>
-                <div class="bar-line b-2"></div>
-                <div class="bar-line b-4"></div>
-                <div class="bar-line b-1"></div>
-                <div class="bar-line b-2"></div>
-                <div class="bar-line b-3"></div>
-                <div class="bar-line b-1"></div>
-                <div class="bar-line b-4"></div>
-                <div class="bar-line b-2"></div>
-              </div>
-              <span class="security-code">IRCTC • SECURE-VALIDATED • ML-094</span>
+            <!-- College Viva Explanation Note -->
+            <div class="viva-note-box">
+              <span class="viva-tag">🎓 Viva Concept</span>
+              <p><strong>Explainable Seat Depletion Curve:</strong> Trains exhibit non-linear passenger booking velocity. The <code>RandomForestRegressor</code> models remaining seats by mapping days-until-departure, class capacity, route length, and weekend surges into calibrated availability brackets: <strong>Available (&gt;30)</strong>, <strong>Filling Fast (10-30)</strong>, and <strong>Almost Full (&lt;10)</strong>.</p>
             </div>
 
-            <button type="button" class="btn-recalculate" id="btn-recalculate">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
-              Recalculate or Modify
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+
+    <!-- =====================================================================
+         MODULE 4: PREDICTION HISTORY (CURRENT SESSION)
+         ===================================================================== -->
+    <div id="module-history" class="module-panel">
+      <section class="history-container">
+        <div class="booking-card">
+          <div class="card-header">
+            <div class="card-header-info">
+              <span class="module-indicator-badge history-badge">Session Storage</span>
+              <h2 class="card-title">Recent Predictions History</h2>
+              <p class="card-desc">Review your latest fare forecasts, delay analyses, and seat availability predictions for this active browser session.</p>
+            </div>
+            <button type="button" id="btn-clear-history" class="reset-button danger-btn" title="Clear all stored session predictions">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+              Clear History
             </button>
           </div>
 
-        </article>
-      </div>
-    </section>
+          <!-- History Feed Table / Cards -->
+          <div id="history-content-area">
+            <div class="history-table-wrapper">
+              <table class="history-table" id="history-table">
+                <thead>
+                  <tr>
+                    <th>Time</th>
+                    <th>Module</th>
+                    <th>Train & Route</th>
+                    <th>Parameters</th>
+                    <th>Prediction Result</th>
+                    <th>Confidence</th>
+                  </tr>
+                </thead>
+                <tbody id="history-table-body">
+                  <!-- Populated dynamically by app.js -->
+                </tbody>
+              </table>
+            </div>
 
-    <!-- Developer Backend Integration Note -->
+            <div class="history-empty-state" id="history-empty-state">
+              <div class="empty-icon">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+              </div>
+              <h3 class="empty-title">No Predictions Recorded Yet</h3>
+              <p class="empty-desc">Your session predictions for fares, delays, and seat availability will automatically appear here as you run predictions.</p>
+              <div class="empty-actions">
+                <button type="button" class="route-chip" onclick="document.getElementById('tab-price').click();">Try Fare Prediction</button>
+                <button type="button" class="route-chip" onclick="document.getElementById('tab-delay').click();">Try Delay Prediction</button>
+                <button type="button" class="route-chip" onclick="document.getElementById('tab-seats').click();">Try Seat Availability</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+
+    <!-- =====================================================================
+         MODULE 5: ML TREND CHARTS & EXPLANATIONS
+         ===================================================================== -->
+    <div id="module-charts" class="module-panel">
+      <section class="charts-container">
+        <div class="booking-card">
+          <div class="card-header">
+            <div class="card-header-info">
+              <span class="module-indicator-badge charts-badge">ML Insights</span>
+              <h2 class="card-title">Interactive Transit Curves & Trend Analysis</h2>
+              <p class="card-desc">Visual representations of the machine learning patterns learned by our Random Forest models.</p>
+            </div>
+          </div>
+
+          <div class="charts-grid">
+            
+            <!-- Chart 1: Dynamic Fare Surge vs Days Ahead -->
+            <div class="chart-card">
+              <div class="chart-card-header">
+                <h3 class="chart-title">Dynamic Fare Surge vs Days Ahead</h3>
+                <span class="chart-tag">Pricing Curve</span>
+              </div>
+              <p class="chart-caption">Shows how ticket prices escalate steeply within the final 6 days of departure.</p>
+              <div class="canvas-wrapper">
+                <canvas id="chart-fare-surge" width="500" height="240"></canvas>
+              </div>
+            </div>
+
+            <!-- Chart 2: Train Delay Probability by Hour -->
+            <div class="chart-card">
+              <div class="chart-card-header">
+                <h3 class="chart-title">Delay Probability by Departure Hour</h3>
+                <span class="chart-tag">Traffic Density</span>
+              </div>
+              <p class="chart-caption">Highlights morning (8-11 AM) and evening (5-9 PM) peak bottleneck congestion.</p>
+              <div class="canvas-wrapper">
+                <canvas id="chart-delay-hours" width="500" height="240"></canvas>
+              </div>
+            </div>
+
+            <!-- Chart 3: Seat Availability Depletion Curve -->
+            <div class="chart-card">
+              <div class="chart-card-header">
+                <h3 class="chart-title">Seat Inventory Depletion Horizon</h3>
+                <span class="chart-tag">Inventory Velocity</span>
+              </div>
+              <p class="chart-caption">Progression from Available (&gt;30) to Filling Fast (10-30) and Almost Full (&lt;10).</p>
+              <div class="canvas-wrapper">
+                <canvas id="chart-seats-decay" width="500" height="240"></canvas>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <!-- Developer & Viva Architecture Bridge Note -->
     <aside class="dev-bridge-note">
       <div class="dev-note-content">
         <div class="dev-note-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
         </div>
         <div class="dev-note-text">
-          <strong>Ready for Python Backend Integration:</strong>
-          <span>All input IDs (<code>#origin-station</code>, <code>#destination-station</code>, <code>#travel-class</code>, <code>#days-until-departure</code>, <code>#train-type</code>, <code>#booking-quota</code>) dispatch seamlessly to a <code>/predict</code> API endpoint. Full Flask integration guide is in <a href="#api-specs" id="view-api-docs">README.md</a>.</span>
+          <strong>College Mini Project Architecture:</strong>
+          <span>Unified backend API active on <code>/predict</code> (Price), <code>/predict/delay</code> (Delay Classifier/Regressor), and <code>/predict/seats</code> (Availability Regressor). All models trained using scikit-learn Random Forests with explainable heuristics.</span>
         </div>
       </div>
     </aside>
@@ -460,13 +1255,15 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-container">
-      <p>© 2026 RailPulse AI. Built with Machine Learning for high-speed travel intelligence.</p>
+      <p>© 2026 RailPulse AI • Train Ticket Price, Delay & Seat Availability Prediction System</p>
       <div class="footer-links">
-        <span>Random Forest Model v2.4</span>
+        <span>College Mini Project</span>
         <span>•</span>
-        <span>MAE: ± ₹42.80</span>
+        <span>Scikit-Learn ML Suite</span>
         <span>•</span>
-        <span>99.4% Uptime</span>
+        <span>Random Forest Algorithms</span>
+        <span>•</span>
+        <span>Interactive UI</span>
       </div>
     </div>
   </footer>

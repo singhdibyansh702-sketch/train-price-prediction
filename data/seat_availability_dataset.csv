@@ -1,0 +1,2501 @@
+source,destination,distance,travel_class,class_code,train_type,train_type_code,days_ahead,day_of_week,total_capacity,available_seats,status,status_code
+JAT,MMCT,401,3A,3,Duronto,3,28,1,64,33,Available,2
+CNB,MMCT,1466,1A,6,Express,1,4,0,22,4,Almost Full,0
+MMCT,SBC,826,1A,6,Duronto,3,83,5,22,19,Filling Fast,1
+HYB,PNBE,801,SL,1,Superfast,2,0,6,72,0,Almost Full,0
+CSMT,PNBE,1046,3A,3,Duronto,3,27,6,64,19,Filling Fast,1
+HWH,MMCT,539,SL,1,Rajdhani,4,45,6,72,42,Available,2
+HWH,MAO,891,1A,6,Express,1,68,0,22,22,Filling Fast,1
+PNBE,MMCT,1480,3A,3,Superfast,2,73,1,64,55,Available,2
+CNB,MMCT,443,2A,4,Superfast,2,10,6,48,2,Almost Full,0
+SBC,MMCT,1128,3A,3,Express,1,81,6,64,44,Available,2
+HWH,CSMT,1108,3A,3,Duronto,3,85,2,64,49,Available,2
+CNB,JAT,496,2A,4,Duronto,3,20,3,48,19,Filling Fast,1
+PNBE,MAS,1490,2A,4,Superfast,2,7,1,48,10,Filling Fast,1
+NDLS,HWH,1447,3A,3,Rajdhani,4,27,4,64,10,Filling Fast,1
+CNB,HWH,1007,SL,1,Express,1,82,3,72,44,Available,2
+CSMT,MAS,635,2A,4,Superfast,2,74,3,48,41,Available,2
+MAO,PNBE,1091,2A,4,Duronto,3,65,3,48,39,Available,2
+MMCT,NDLS,1384,2A,4,Duronto,3,87,3,48,44,Available,2
+MAO,MMCT,580,SL,1,Express,1,67,2,72,49,Available,2
+HYB,NDLS,584,3A,3,Superfast,2,14,2,64,6,Almost Full,0
+PNBE,CSMT,1279,1A,6,Superfast,2,64,6,22,20,Filling Fast,1
+CSMT,HYB,567,3A,3,Duronto,3,19,2,64,19,Filling Fast,1
+CSMT,HYB,1436,1A,6,Superfast,2,62,0,22,21,Filling Fast,1
+MMCT,HWH,979,2A,4,Rajdhani,4,30,4,48,17,Filling Fast,1
+MMCT,CNB,1345,1A,6,Duronto,3,16,5,22,5,Almost Full,0
+ADI,HYB,688,3A,3,Express,1,27,4,64,20,Filling Fast,1
+CNB,SBC,988,SL,1,Superfast,2,56,4,72,37,Available,2
+ADI,MMCT,857,2A,4,Rajdhani,4,43,0,48,43,Available,2
+MAO,HYB,821,2A,4,Rajdhani,4,9,5,48,1,Almost Full,0
+JAT,NDLS,580,1A,6,Rajdhani,4,42,0,22,19,Filling Fast,1
+HYB,SBC,625,SL,1,Duronto,3,69,1,72,51,Available,2
+CNB,MAO,1530,SL,1,Duronto,3,60,6,72,54,Available,2
+PNBE,SBC,543,1A,6,Express,1,45,3,22,21,Filling Fast,1
+PNBE,ADI,460,1A,6,Rajdhani,4,51,5,22,16,Filling Fast,1
+HWH,MMCT,859,2A,4,Duronto,3,68,3,48,46,Available,2
+CSMT,PNBE,725,3A,3,Express,1,31,6,64,18,Filling Fast,1
+MMCT,ADI,1477,1A,6,Rajdhani,4,83,4,22,18,Filling Fast,1
+NDLS,MMCT,1384,2A,4,Express,1,62,3,48,36,Available,2
+SBC,PNBE,470,2A,4,Express,1,0,3,48,0,Almost Full,0
+MAS,ADI,934,SL,1,Express,1,19,1,72,20,Filling Fast,1
+MAS,SBC,362,1A,6,Superfast,2,7,0,22,6,Almost Full,0
+MAO,ADI,1379,2A,4,Rajdhani,4,65,0,48,44,Available,2
+CSMT,MMCT,1568,1A,6,Duronto,3,51,0,22,21,Filling Fast,1
+MAO,SBC,1535,1A,6,Rajdhani,4,53,5,22,17,Filling Fast,1
+MAO,CNB,1420,3A,3,Superfast,2,26,5,64,11,Filling Fast,1
+CNB,HWH,1007,3A,3,Express,1,16,5,64,3,Almost Full,0
+JAT,MAS,1286,3A,3,Rajdhani,4,1,3,64,0,Almost Full,0
+MAO,CNB,554,1A,6,Duronto,3,64,2,22,22,Filling Fast,1
+CSMT,HWH,490,2A,4,Superfast,2,36,1,48,36,Available,2
+ADI,HYB,969,1A,6,Superfast,2,84,0,22,18,Filling Fast,1
+CSMT,MAS,586,1A,6,Duronto,3,34,2,22,17,Filling Fast,1
+MAO,SBC,1052,2A,4,Superfast,2,64,3,48,42,Available,2
+MAS,NDLS,539,SL,1,Superfast,2,5,0,72,0,Almost Full,0
+HWH,CSMT,886,2A,4,Express,1,70,5,48,38,Available,2
+PNBE,HYB,369,1A,6,Rajdhani,4,88,1,22,22,Filling Fast,1
+HYB,NDLS,1106,2A,4,Express,1,16,0,48,20,Filling Fast,1
+MAS,HWH,1660,3A,3,Duronto,3,87,1,64,47,Available,2
+JAT,MMCT,1074,SL,1,Duronto,3,30,6,72,21,Filling Fast,1
+CSMT,CNB,1194,1A,6,Duronto,3,42,6,22,17,Filling Fast,1
+PNBE,JAT,858,3A,3,Duronto,3,89,0,64,56,Available,2
+PNBE,NDLS,998,2A,4,Duronto,3,58,2,48,41,Available,2
+MAS,SBC,362,1A,6,Duronto,3,51,2,22,21,Filling Fast,1
+MAS,MMCT,921,3A,3,Express,1,86,6,64,36,Available,2
+HYB,HWH,406,1A,6,Superfast,2,22,4,22,6,Almost Full,0
+MAS,NDLS,572,SL,1,Superfast,2,40,3,72,52,Available,2
+MAO,HYB,586,SL,1,Duronto,3,32,0,72,44,Available,2
+CNB,PNBE,353,2A,4,Superfast,2,55,0,48,43,Available,2
+JAT,HWH,992,1A,6,Superfast,2,64,2,22,22,Filling Fast,1
+JAT,PNBE,1018,SL,1,Superfast,2,70,1,72,56,Available,2
+SBC,PNBE,1126,2A,4,Superfast,2,51,4,48,34,Available,2
+NDLS,MAS,937,2A,4,Express,1,74,4,48,37,Available,2
+JAT,HWH,1302,SL,1,Express,1,86,1,72,63,Available,2
+HYB,ADI,697,1A,6,Superfast,2,65,5,22,18,Filling Fast,1
+JAT,MAO,1036,1A,6,Duronto,3,86,2,22,22,Filling Fast,1
+SBC,CNB,651,1A,6,Rajdhani,4,31,3,22,10,Filling Fast,1
+MAO,MMCT,580,SL,1,Duronto,3,89,3,72,59,Available,2
+ADI,PNBE,849,2A,4,Rajdhani,4,13,6,48,7,Almost Full,0
+PNBE,SBC,710,SL,1,Rajdhani,4,71,1,72,52,Available,2
+MMCT,ADI,623,SL,1,Superfast,2,56,4,72,44,Available,2
+CNB,HYB,1223,SL,1,Duronto,3,60,3,72,43,Available,2
+MAS,SBC,362,SL,1,Duronto,3,35,3,72,39,Available,2
+MMCT,MAS,830,3A,3,Superfast,2,40,4,64,37,Available,2
+MMCT,CSMT,658,2A,4,Express,1,88,1,48,48,Available,2
+CNB,SBC,481,SL,1,Express,1,42,4,72,36,Available,2
+ADI,PNBE,477,2A,4,Express,1,49,6,48,33,Available,2
+MAO,NDLS,1529,SL,1,Express,1,0,2,72,0,Almost Full,0
+MAS,PNBE,1208,2A,4,Express,1,28,2,48,31,Available,2
+PNBE,ADI,409,SL,1,Superfast,2,85,5,72,45,Available,2
+PNBE,CSMT,1307,2A,4,Rajdhani,4,50,4,48,34,Available,2
+MAO,JAT,405,1A,6,Express,1,17,6,22,7,Almost Full,0
+ADI,CSMT,452,3A,3,Express,1,41,1,64,47,Available,2
+ADI,HWH,1041,SL,1,Superfast,2,53,2,72,60,Available,2
+MMCT,ADI,389,1A,6,Superfast,2,28,5,22,9,Almost Full,0
+MMCT,JAT,432,1A,6,Duronto,3,25,6,22,9,Almost Full,0
+NDLS,MAO,662,2A,4,Duronto,3,60,5,48,34,Available,2
+MMCT,MAO,580,SL,1,Superfast,2,47,1,72,46,Available,2
+MAO,CNB,584,2A,4,Superfast,2,13,4,48,8,Almost Full,0
+NDLS,MAS,1529,SL,1,Express,1,25,0,72,28,Filling Fast,1
+MAO,JAT,847,1A,6,Superfast,2,87,4,22,18,Filling Fast,1
+MMCT,MAO,580,3A,3,Express,1,84,2,64,50,Available,2
+MMCT,HYB,1048,1A,6,Express,1,62,0,22,18,Filling Fast,1
+PNBE,HWH,532,2A,4,Express,1,22,5,48,14,Filling Fast,1
+HYB,JAT,903,SL,1,Express,1,55,6,72,41,Available,2
+CNB,MAO,899,3A,3,Duronto,3,11,2,64,6,Almost Full,0
+ADI,SBC,1301,SL,1,Superfast,2,3,3,72,0,Almost Full,0
+HWH,CSMT,1348,2A,4,Superfast,2,33,2,48,34,Available,2
+MAS,MAO,915,1A,6,Duronto,3,10,1,22,10,Filling Fast,1
+CNB,PNBE,1350,2A,4,Express,1,82,5,48,37,Available,2
+ADI,CNB,385,1A,6,Superfast,2,28,3,22,14,Filling Fast,1
+CNB,SBC,977,3A,3,Express,1,70,4,64,41,Available,2
+HWH,PNBE,532,3A,3,Superfast,2,89,3,64,41,Available,2
+MAS,CNB,864,2A,4,Rajdhani,4,24,2,48,24,Filling Fast,1
+MMCT,HYB,729,2A,4,Duronto,3,61,2,48,43,Available,2
+CNB,MAO,1424,3A,3,Rajdhani,4,24,2,64,38,Available,2
+SBC,HWH,717,3A,3,Rajdhani,4,90,4,64,41,Available,2
+CSMT,MAS,443,1A,6,Superfast,2,89,1,22,21,Filling Fast,1
+JAT,ADI,560,1A,6,Superfast,2,60,3,22,21,Filling Fast,1
+ADI,HWH,727,1A,6,Superfast,2,61,0,22,19,Filling Fast,1
+MMCT,PNBE,1357,1A,6,Rajdhani,4,19,1,22,12,Filling Fast,1
+MAO,MAS,524,2A,4,Rajdhani,4,71,6,48,39,Available,2
+PNBE,MAO,1570,2A,4,Express,1,57,3,48,46,Available,2
+MAS,MAO,1228,3A,3,Rajdhani,4,78,5,64,37,Available,2
+MMCT,SBC,782,3A,3,Rajdhani,4,20,1,64,28,Filling Fast,1
+CSMT,HYB,503,2A,4,Rajdhani,4,52,3,48,38,Available,2
+CNB,MAO,1312,3A,3,Rajdhani,4,29,2,64,35,Available,2
+CNB,MAS,1279,1A,6,Duronto,3,33,6,22,16,Filling Fast,1
+JAT,MAO,755,SL,1,Rajdhani,4,69,1,72,48,Available,2
+JAT,CSMT,894,2A,4,Rajdhani,4,7,1,48,7,Almost Full,0
+MAS,MAO,1515,3A,3,Express,1,15,3,64,15,Filling Fast,1
+CNB,MAS,1174,3A,3,Express,1,56,0,64,49,Available,2
+MAO,NDLS,1234,3A,3,Superfast,2,3,0,64,0,Almost Full,0
+SBC,JAT,1528,1A,6,Superfast,2,73,0,22,21,Filling Fast,1
+CSMT,ADI,1412,SL,1,Superfast,2,23,4,72,7,Almost Full,0
+PNBE,JAT,1357,1A,6,Express,1,44,3,22,21,Filling Fast,1
+HWH,CNB,1007,2A,4,Superfast,2,52,5,48,32,Available,2
+ADI,MAS,1170,1A,6,Express,1,11,2,22,9,Almost Full,0
+MAS,HWH,1660,SL,1,Rajdhani,4,84,6,72,39,Available,2
+HYB,ADI,1196,1A,6,Duronto,3,66,2,22,20,Filling Fast,1
+MAO,ADI,1255,1A,6,Duronto,3,34,4,22,14,Filling Fast,1
+CSMT,MAS,1247,SL,1,Rajdhani,4,3,5,72,0,Almost Full,0
+MAO,SBC,674,3A,3,Rajdhani,4,70,3,64,52,Available,2
+MMCT,SBC,582,SL,1,Rajdhani,4,82,6,72,51,Available,2
+CSMT,ADI,947,3A,3,Express,1,61,3,64,43,Available,2
+SBC,ADI,1478,2A,4,Express,1,24,4,48,18,Filling Fast,1
+HYB,CSMT,492,3A,3,Express,1,43,6,64,41,Available,2
+HYB,MAS,355,3A,3,Superfast,2,75,4,64,46,Available,2
+JAT,ADI,654,SL,1,Express,1,44,2,72,46,Available,2
+HYB,CNB,1122,SL,1,Superfast,2,24,5,72,7,Almost Full,0
+SBC,MAO,1134,2A,4,Express,1,5,2,48,9,Almost Full,0
+CNB,ADI,1130,SL,1,Duronto,3,63,0,72,56,Available,2
+CSMT,HYB,1558,3A,3,Rajdhani,4,56,0,64,52,Available,2
+HYB,ADI,381,2A,4,Express,1,83,1,48,45,Available,2
+MMCT,ADI,892,3A,3,Express,1,83,0,64,48,Available,2
+HWH,JAT,1442,SL,1,Superfast,2,80,5,72,45,Available,2
+ADI,HYB,423,1A,6,Duronto,3,80,5,22,18,Filling Fast,1
+MAS,SBC,362,SL,1,Rajdhani,4,81,5,72,39,Available,2
+MMCT,ADI,690,3A,3,Rajdhani,4,5,2,64,12,Filling Fast,1
+NDLS,MAS,1084,3A,3,Express,1,18,1,64,21,Filling Fast,1
+HYB,PNBE,1509,2A,4,Duronto,3,22,0,48,18,Filling Fast,1
+MAO,PNBE,843,SL,1,Duronto,3,29,3,72,36,Available,2
+JAT,MAS,1291,3A,3,Rajdhani,4,59,2,64,46,Available,2
+JAT,HYB,673,1A,6,Express,1,44,4,22,19,Filling Fast,1
+MAS,JAT,1218,3A,3,Express,1,38,1,64,49,Available,2
+PNBE,ADI,568,2A,4,Express,1,73,2,48,40,Available,2
+MAO,MAS,954,1A,6,Express,1,35,0,22,18,Filling Fast,1
+MAO,JAT,450,SL,1,Superfast,2,29,4,72,24,Filling Fast,1
+HWH,SBC,739,3A,3,Duronto,3,80,0,64,55,Available,2
+JAT,CNB,430,3A,3,Express,1,4,4,64,2,Almost Full,0
+HWH,CSMT,534,3A,3,Superfast,2,53,1,64,50,Available,2
+SBC,CSMT,1454,3A,3,Superfast,2,21,2,64,18,Filling Fast,1
+ADI,MAS,1043,1A,6,Express,1,9,1,22,4,Almost Full,0
+SBC,JAT,1163,3A,3,Rajdhani,4,50,0,64,47,Available,2
+MAS,HYB,603,SL,1,Superfast,2,86,5,72,43,Available,2
+JAT,MAS,1547,SL,1,Superfast,2,13,5,72,2,Almost Full,0
+SBC,ADI,401,3A,3,Duronto,3,82,0,64,53,Available,2
+JAT,ADI,968,SL,1,Rajdhani,4,17,0,72,21,Filling Fast,1
+NDLS,MAS,1358,1A,6,Rajdhani,4,30,4,22,11,Filling Fast,1
+CSMT,PNBE,1279,3A,3,Express,1,75,5,64,49,Available,2
+CNB,CSMT,1199,1A,6,Express,1,78,3,22,20,Filling Fast,1
+MAS,NDLS,1108,2A,4,Express,1,56,1,48,48,Available,2
+HWH,MMCT,1102,3A,3,Rajdhani,4,50,2,64,54,Available,2
+SBC,MMCT,1281,1A,6,Duronto,3,82,5,22,16,Filling Fast,1
+MAO,NDLS,453,3A,3,Duronto,3,16,6,64,1,Almost Full,0
+MAO,SBC,490,2A,4,Duronto,3,29,2,48,31,Available,2
+CSMT,MAO,580,3A,3,Duronto,3,16,4,64,5,Almost Full,0
+MAS,CSMT,575,1A,6,Duronto,3,1,2,22,4,Almost Full,0
+SBC,MAO,1013,1A,6,Duronto,3,33,0,22,17,Filling Fast,1
+CSMT,PNBE,1427,1A,6,Rajdhani,4,60,3,22,21,Filling Fast,1
+HWH,HYB,1565,1A,6,Express,1,64,1,22,19,Filling Fast,1
+MAO,NDLS,1417,3A,3,Express,1,82,0,64,43,Available,2
+NDLS,ADI,934,SL,1,Rajdhani,4,62,5,72,41,Available,2
+ADI,MMCT,515,3A,3,Duronto,3,8,1,64,11,Filling Fast,1
+MAS,MAO,1548,3A,3,Express,1,76,4,64,43,Available,2
+MAS,ADI,1385,SL,1,Rajdhani,4,89,0,72,47,Available,2
+JAT,CNB,1479,2A,4,Express,1,57,1,48,44,Available,2
+PNBE,HWH,532,SL,1,Express,1,12,2,72,11,Filling Fast,1
+PNBE,HWH,532,3A,3,Duronto,3,87,3,64,47,Available,2
+MMCT,CNB,524,1A,6,Express,1,12,5,22,4,Almost Full,0
+CNB,HWH,1007,1A,6,Superfast,2,85,0,22,21,Filling Fast,1
+PNBE,HWH,532,1A,6,Superfast,2,76,2,22,19,Filling Fast,1
+HWH,MMCT,1533,2A,4,Duronto,3,84,3,48,45,Available,2
+SBC,MMCT,1067,3A,3,Rajdhani,4,35,4,64,32,Available,2
+SBC,PNBE,1498,1A,6,Superfast,2,3,1,22,5,Almost Full,0
+MAS,CNB,1045,3A,3,Rajdhani,4,23,6,64,20,Filling Fast,1
+CSMT,MAO,580,1A,6,Duronto,3,81,0,22,18,Filling Fast,1
+MMCT,HYB,790,SL,1,Express,1,58,2,72,49,Available,2
+CSMT,HWH,988,3A,3,Rajdhani,4,6,1,64,7,Almost Full,0
+CSMT,MAO,580,1A,6,Superfast,2,56,5,22,19,Filling Fast,1
+PNBE,ADI,1593,SL,1,Express,1,34,1,72,42,Available,2
+HYB,MMCT,1056,SL,1,Rajdhani,4,36,5,72,53,Available,2
+JAT,MAO,1346,3A,3,Rajdhani,4,28,3,64,34,Available,2
+MAO,NDLS,365,2A,4,Superfast,2,27,6,48,24,Filling Fast,1
+CSMT,MAS,942,3A,3,Rajdhani,4,0,3,64,2,Almost Full,0
+CNB,PNBE,709,2A,4,Express,1,68,5,48,39,Available,2
+SBC,HYB,625,3A,3,Rajdhani,4,50,6,64,40,Available,2
+CNB,NDLS,440,1A,6,Express,1,9,6,22,4,Almost Full,0
+HWH,MAO,1229,SL,1,Express,1,37,0,72,39,Available,2
+PNBE,NDLS,998,2A,4,Express,1,88,2,48,42,Available,2
+MMCT,PNBE,566,2A,4,Express,1,75,3,48,41,Available,2
+HYB,MMCT,1160,3A,3,Superfast,2,28,2,64,31,Available,2
+CSMT,MMCT,1395,1A,6,Duronto,3,44,2,22,22,Filling Fast,1
+CNB,JAT,652,2A,4,Rajdhani,4,18,2,48,12,Filling Fast,1
+SBC,CSMT,1583,2A,4,Rajdhani,4,22,6,48,18,Filling Fast,1
+JAT,ADI,1300,SL,1,Superfast,2,80,2,72,45,Available,2
+CSMT,ADI,489,SL,1,Express,1,80,2,72,51,Available,2
+MAS,MAO,465,3A,3,Rajdhani,4,39,3,64,50,Available,2
+ADI,NDLS,934,3A,3,Superfast,2,9,5,64,0,Almost Full,0
+MMCT,MAO,580,SL,1,Express,1,74,4,72,37,Available,2
+CNB,NDLS,440,2A,4,Superfast,2,77,3,48,40,Available,2
+HYB,CSMT,476,SL,1,Rajdhani,4,43,5,72,44,Available,2
+MMCT,HYB,703,1A,6,Duronto,3,90,3,22,20,Filling Fast,1
+ADI,HYB,1420,2A,4,Superfast,2,47,2,48,44,Available,2
+PNBE,CNB,1042,1A,6,Superfast,2,8,2,22,6,Almost Full,0
+MMCT,HYB,1141,3A,3,Superfast,2,84,4,64,38,Available,2
+CSMT,HWH,516,2A,4,Superfast,2,39,5,48,39,Available,2
+CNB,JAT,1152,2A,4,Rajdhani,4,39,4,48,33,Available,2
+PNBE,JAT,1022,2A,4,Rajdhani,4,82,5,48,28,Filling Fast,1
+PNBE,HYB,1091,1A,6,Superfast,2,39,1,22,19,Filling Fast,1
+SBC,HWH,1345,2A,4,Duronto,3,17,1,48,15,Filling Fast,1
+MMCT,MAS,557,1A,6,Superfast,2,79,1,22,22,Filling Fast,1
+MAO,PNBE,665,2A,4,Duronto,3,88,6,48,33,Available,2
+MAO,CSMT,580,1A,6,Express,1,46,5,22,17,Filling Fast,1
+CNB,SBC,1259,3A,3,Express,1,29,4,64,25,Filling Fast,1
+SBC,MAS,362,2A,4,Superfast,2,86,4,48,39,Available,2
+ADI,CNB,927,SL,1,Express,1,20,6,72,2,Almost Full,0
+SBC,MAO,633,3A,3,Rajdhani,4,82,3,64,49,Available,2
+HWH,HYB,560,1A,6,Superfast,2,10,6,22,2,Almost Full,0
+CSMT,MAS,1270,2A,4,Express,1,11,1,48,10,Filling Fast,1
+ADI,HWH,404,SL,1,Rajdhani,4,50,4,72,53,Available,2
+HWH,SBC,1140,1A,6,Superfast,2,28,0,22,15,Filling Fast,1
+HWH,MMCT,1036,2A,4,Duronto,3,4,2,48,1,Almost Full,0
+ADI,CSMT,1310,SL,1,Rajdhani,4,10,0,72,12,Filling Fast,1
+MAS,SBC,362,SL,1,Rajdhani,4,36,1,72,54,Available,2
+MAS,MMCT,447,2A,4,Express,1,81,6,48,40,Available,2
+MAO,ADI,478,1A,6,Express,1,76,4,22,15,Filling Fast,1
+NDLS,JAT,580,2A,4,Duronto,3,37,3,48,34,Available,2
+NDLS,MAO,1072,2A,4,Express,1,23,5,48,21,Filling Fast,1
+JAT,MMCT,1422,3A,3,Rajdhani,4,67,4,64,38,Available,2
+HYB,CNB,1484,1A,6,Express,1,60,0,22,22,Filling Fast,1
+JAT,PNBE,1114,3A,3,Rajdhani,4,45,6,64,46,Available,2
+MMCT,HWH,843,1A,6,Superfast,2,17,0,22,8,Almost Full,0
+HWH,HYB,1043,2A,4,Express,1,89,3,48,43,Available,2
+JAT,CSMT,626,1A,6,Express,1,4,2,22,0,Almost Full,0
+SBC,NDLS,758,1A,6,Superfast,2,39,4,22,13,Filling Fast,1
+PNBE,HYB,1319,3A,3,Rajdhani,4,82,1,64,50,Available,2
+MAS,HWH,1660,3A,3,Superfast,2,15,6,64,0,Almost Full,0
+HWH,PNBE,532,SL,1,Express,1,43,1,72,61,Available,2
+ADI,CNB,1102,3A,3,Rajdhani,4,54,0,64,44,Available,2
+PNBE,MAO,719,3A,3,Superfast,2,13,0,64,10,Filling Fast,1
+HWH,JAT,955,3A,3,Express,1,77,5,64,42,Available,2
+PNBE,CSMT,1259,3A,3,Express,1,5,5,64,1,Almost Full,0
+HWH,MAO,1240,3A,3,Rajdhani,4,9,5,64,0,Almost Full,0
+JAT,PNBE,1094,2A,4,Rajdhani,4,18,6,48,16,Filling Fast,1
+MAO,JAT,1247,1A,6,Duronto,3,8,1,22,6,Almost Full,0
+JAT,HWH,1091,SL,1,Rajdhani,4,77,1,72,48,Available,2
+JAT,ADI,1109,3A,3,Express,1,9,4,64,0,Almost Full,0
+CSMT,HYB,1101,SL,1,Superfast,2,83,2,72,55,Available,2
+SBC,MMCT,403,2A,4,Express,1,66,3,48,41,Available,2
+HYB,MMCT,886,3A,3,Express,1,27,4,64,20,Filling Fast,1
+MAS,ADI,759,1A,6,Duronto,3,9,3,22,5,Almost Full,0
+CSMT,ADI,529,3A,3,Superfast,2,90,0,64,52,Available,2
+HYB,CNB,944,3A,3,Duronto,3,90,5,64,45,Available,2
+JAT,CSMT,1090,2A,4,Rajdhani,4,25,6,48,24,Filling Fast,1
+CSMT,SBC,1361,1A,6,Superfast,2,70,4,22,15,Filling Fast,1
+HWH,ADI,1479,2A,4,Rajdhani,4,8,2,48,18,Filling Fast,1
+PNBE,ADI,1426,SL,1,Express,1,73,0,72,43,Available,2
+CSMT,HWH,501,SL,1,Express,1,87,4,72,42,Available,2
+HWH,CSMT,1479,2A,4,Duronto,3,55,4,48,38,Available,2
+NDLS,MMCT,1384,2A,4,Superfast,2,21,1,48,23,Filling Fast,1
+HWH,SBC,1058,3A,3,Rajdhani,4,32,1,64,32,Available,2
+JAT,HYB,912,2A,4,Superfast,2,78,4,48,35,Available,2
+MMCT,HYB,695,2A,4,Duronto,3,84,4,48,34,Available,2
+CNB,MAO,1041,1A,6,Rajdhani,4,10,0,22,5,Almost Full,0
+JAT,MAO,892,2A,4,Express,1,79,5,48,39,Available,2
+NDLS,ADI,934,3A,3,Superfast,2,61,1,64,53,Available,2
+JAT,PNBE,959,SL,1,Rajdhani,4,88,0,72,50,Available,2
+CSMT,ADI,1201,SL,1,Express,1,26,2,72,33,Available,2
+MAO,CSMT,580,3A,3,Superfast,2,51,1,64,53,Available,2
+HWH,HYB,1500,1A,6,Superfast,2,30,3,22,16,Filling Fast,1
+MMCT,MAS,1270,2A,4,Duronto,3,12,0,48,16,Filling Fast,1
+MAS,PNBE,1206,2A,4,Duronto,3,41,4,48,29,Filling Fast,1
+CNB,HWH,1007,2A,4,Express,1,65,3,48,41,Available,2
+ADI,MAS,1368,1A,6,Rajdhani,4,50,4,22,19,Filling Fast,1
+ADI,SBC,790,3A,3,Rajdhani,4,6,2,64,7,Almost Full,0
+ADI,MAO,1313,3A,3,Rajdhani,4,13,3,64,12,Filling Fast,1
+CSMT,MAS,1099,SL,1,Superfast,2,5,3,72,0,Almost Full,0
+NDLS,MAO,1500,2A,4,Superfast,2,70,2,48,48,Available,2
+MMCT,PNBE,1382,SL,1,Superfast,2,79,5,72,40,Available,2
+MAO,MMCT,580,1A,6,Express,1,47,6,22,19,Filling Fast,1
+HWH,HYB,1098,2A,4,Duronto,3,77,4,48,35,Available,2
+PNBE,HYB,432,1A,6,Rajdhani,4,17,5,22,6,Almost Full,0
+HWH,ADI,1413,SL,1,Duronto,3,77,4,72,50,Available,2
+CSMT,HWH,1002,2A,4,Express,1,78,5,48,39,Available,2
+MAS,MAO,1038,SL,1,Superfast,2,60,6,72,48,Available,2
+NDLS,HWH,1447,1A,6,Express,1,74,2,22,22,Filling Fast,1
+CNB,JAT,404,SL,1,Superfast,2,83,6,72,43,Available,2
+MAO,CNB,816,1A,6,Express,1,21,4,22,9,Almost Full,0
+JAT,MAO,1128,2A,4,Duronto,3,4,4,48,0,Almost Full,0
+CNB,MMCT,740,1A,6,Express,1,40,3,22,19,Filling Fast,1
+CSMT,PNBE,767,SL,1,Express,1,7,5,72,0,Almost Full,0
+CSMT,HYB,774,3A,3,Express,1,67,3,64,52,Available,2
+HWH,CSMT,1291,3A,3,Superfast,2,86,6,64,45,Available,2
+CNB,JAT,891,SL,1,Duronto,3,31,2,72,30,Filling Fast,1
+HYB,MAS,810,3A,3,Superfast,2,90,1,64,62,Available,2
+CNB,ADI,999,SL,1,Superfast,2,71,6,72,37,Available,2
+CNB,MAS,939,1A,6,Express,1,50,6,22,15,Filling Fast,1
+HWH,CSMT,944,1A,6,Superfast,2,10,2,22,8,Almost Full,0
+ADI,JAT,875,SL,1,Duronto,3,25,6,72,21,Filling Fast,1
+HYB,MAS,1501,3A,3,Duronto,3,13,4,64,6,Almost Full,0
+CNB,MAO,840,2A,4,Rajdhani,4,85,4,48,38,Available,2
+SBC,JAT,826,1A,6,Rajdhani,4,52,2,22,21,Filling Fast,1
+CNB,ADI,555,2A,4,Rajdhani,4,70,1,48,40,Available,2
+PNBE,JAT,1324,SL,1,Duronto,3,36,2,72,42,Available,2
+MAS,JAT,471,1A,6,Duronto,3,68,5,22,16,Filling Fast,1
+CNB,NDLS,440,SL,1,Duronto,3,4,6,72,0,Almost Full,0
+PNBE,ADI,731,3A,3,Rajdhani,4,1,2,64,0,Almost Full,0
+MAO,CNB,569,3A,3,Superfast,2,58,5,64,37,Available,2
+HYB,CNB,1361,2A,4,Express,1,34,1,48,32,Available,2
+MMCT,HWH,682,SL,1,Superfast,2,23,0,72,26,Filling Fast,1
+CNB,HWH,1007,2A,4,Duronto,3,78,6,48,34,Available,2
+JAT,PNBE,1225,3A,3,Rajdhani,4,51,5,64,37,Available,2
+MMCT,CSMT,637,SL,1,Superfast,2,31,0,72,36,Available,2
+MAS,PNBE,832,SL,1,Superfast,2,42,2,72,51,Available,2
+MAO,CNB,373,3A,3,Superfast,2,88,1,64,49,Available,2
+NDLS,JAT,580,SL,1,Superfast,2,20,3,72,17,Filling Fast,1
+JAT,HYB,986,1A,6,Superfast,2,47,4,22,18,Filling Fast,1
+SBC,CNB,623,SL,1,Duronto,3,58,5,72,35,Available,2
+MAO,HWH,1201,SL,1,Duronto,3,31,5,72,16,Filling Fast,1
+MAO,MMCT,580,SL,1,Superfast,2,9,4,72,0,Almost Full,0
+MMCT,NDLS,1384,2A,4,Duronto,3,21,2,48,21,Filling Fast,1
+HYB,ADI,588,2A,4,Express,1,11,4,48,6,Almost Full,0
+ADI,NDLS,934,2A,4,Express,1,58,4,48,42,Available,2
+NDLS,HYB,1296,3A,3,Rajdhani,4,50,2,64,56,Available,2
+NDLS,SBC,1534,1A,6,Rajdhani,4,54,2,22,21,Filling Fast,1
+CNB,MMCT,1458,1A,6,Rajdhani,4,60,0,22,21,Filling Fast,1
+MAS,PNBE,718,2A,4,Express,1,47,3,48,39,Available,2
+ADI,PNBE,1119,1A,6,Duronto,3,83,6,22,18,Filling Fast,1
+HWH,MMCT,715,SL,1,Duronto,3,28,6,72,18,Filling Fast,1
+NDLS,CNB,440,SL,1,Express,1,68,3,72,56,Available,2
+SBC,CNB,1293,3A,3,Duronto,3,35,1,64,35,Available,2
+CNB,MMCT,415,SL,1,Rajdhani,4,30,1,72,37,Available,2
+MMCT,CNB,1566,1A,6,Express,1,76,5,22,20,Filling Fast,1
+CNB,NDLS,440,1A,6,Express,1,56,1,22,21,Filling Fast,1
+HYB,SBC,625,2A,4,Superfast,2,29,6,48,23,Filling Fast,1
+CNB,MAO,1003,3A,3,Duronto,3,38,1,64,46,Available,2
+JAT,HYB,802,SL,1,Superfast,2,35,0,72,38,Available,2
+HYB,MAO,708,SL,1,Express,1,6,2,72,2,Almost Full,0
+JAT,CNB,1130,3A,3,Express,1,52,1,64,51,Available,2
+MAS,PNBE,726,SL,1,Duronto,3,28,2,72,31,Available,2
+CNB,CSMT,1298,1A,6,Express,1,53,4,22,16,Filling Fast,1
+HYB,CSMT,1145,2A,4,Superfast,2,26,2,48,26,Filling Fast,1
+JAT,MMCT,1271,3A,3,Rajdhani,4,68,5,64,44,Available,2
+SBC,NDLS,899,SL,1,Rajdhani,4,9,1,72,13,Filling Fast,1
+MAO,JAT,1494,2A,4,Express,1,26,6,48,22,Filling Fast,1
+HWH,MAS,1660,2A,4,Duronto,3,15,5,48,17,Filling Fast,1
+ADI,SBC,1587,2A,4,Express,1,30,4,48,19,Filling Fast,1
+HWH,MAS,1660,SL,1,Superfast,2,39,2,72,51,Available,2
+HWH,HYB,1368,SL,1,Rajdhani,4,60,6,72,44,Available,2
+HWH,SBC,1109,3A,3,Express,1,5,4,64,4,Almost Full,0
+SBC,CSMT,383,3A,3,Express,1,37,1,64,37,Available,2
+SBC,HWH,821,SL,1,Duronto,3,63,4,72,38,Available,2
+JAT,CNB,1041,3A,3,Express,1,82,5,64,39,Available,2
+ADI,CNB,694,3A,3,Duronto,3,17,5,64,0,Almost Full,0
+HYB,ADI,726,1A,6,Rajdhani,4,9,6,22,2,Almost Full,0
+JAT,NDLS,580,SL,1,Duronto,3,80,1,72,50,Available,2
+MMCT,CSMT,368,2A,4,Express,1,47,0,48,44,Available,2
+MAO,JAT,1339,SL,1,Rajdhani,4,0,4,72,0,Almost Full,0
+HYB,PNBE,374,1A,6,Superfast,2,68,2,22,22,Filling Fast,1
+NDLS,HYB,1231,2A,4,Rajdhani,4,12,4,48,10,Filling Fast,1
+CSMT,SBC,743,3A,3,Superfast,2,34,6,64,25,Filling Fast,1
+PNBE,MMCT,1114,SL,1,Express,1,72,1,72,49,Available,2
+CNB,SBC,964,1A,6,Rajdhani,4,11,3,22,8,Almost Full,0
+PNBE,CNB,1481,SL,1,Rajdhani,4,81,0,72,46,Available,2
+CNB,CSMT,519,SL,1,Express,1,82,6,72,54,Available,2
+HWH,MAO,545,1A,6,Duronto,3,27,6,22,12,Filling Fast,1
+CNB,MAO,1323,3A,3,Rajdhani,4,9,5,64,0,Almost Full,0
+MAS,HYB,1504,1A,6,Duronto,3,40,0,22,16,Filling Fast,1
+SBC,MAO,645,SL,1,Rajdhani,4,38,1,72,52,Available,2
+MAO,SBC,1510,SL,1,Superfast,2,49,6,72,43,Available,2
+CNB,CSMT,510,3A,3,Rajdhani,4,12,3,64,18,Filling Fast,1
+SBC,MMCT,1047,SL,1,Superfast,2,3,5,72,0,Almost Full,0
+MAS,ADI,1354,2A,4,Superfast,2,70,3,48,41,Available,2
+PNBE,CSMT,1549,SL,1,Rajdhani,4,79,2,72,54,Available,2
+SBC,MMCT,518,3A,3,Duronto,3,48,5,64,42,Available,2
+JAT,CSMT,1147,3A,3,Superfast,2,13,0,64,10,Filling Fast,1
+NDLS,MAS,1260,3A,3,Superfast,2,13,1,64,16,Filling Fast,1
+MMCT,CSMT,1232,SL,1,Express,1,13,0,72,4,Almost Full,0
+MMCT,HWH,1485,1A,6,Superfast,2,49,0,22,21,Filling Fast,1
+MAS,PNBE,1144,1A,6,Duronto,3,73,4,22,18,Filling Fast,1
+CSMT,JAT,1129,2A,4,Duronto,3,34,2,48,35,Available,2
+MAS,ADI,648,1A,6,Duronto,3,55,2,22,22,Filling Fast,1
+PNBE,MAS,1341,1A,6,Superfast,2,32,1,22,14,Filling Fast,1
+CNB,JAT,1365,2A,4,Express,1,13,1,48,8,Almost Full,0
+MAS,NDLS,1160,3A,3,Express,1,42,3,64,54,Available,2
+HWH,PNBE,532,2A,4,Superfast,2,41,4,48,34,Available,2
+CNB,SBC,1331,3A,3,Duronto,3,50,2,64,47,Available,2
+MAS,JAT,1355,2A,4,Superfast,2,48,2,48,48,Available,2
+PNBE,HWH,532,2A,4,Duronto,3,87,6,48,36,Available,2
+HYB,NDLS,1295,2A,4,Express,1,37,6,48,33,Available,2
+CNB,MMCT,1187,SL,1,Duronto,3,81,2,72,54,Available,2
+SBC,MAS,362,SL,1,Express,1,9,3,72,17,Filling Fast,1
+MAO,ADI,1542,SL,1,Express,1,69,0,72,64,Available,2
+HWH,HYB,1566,1A,6,Rajdhani,4,31,5,22,11,Filling Fast,1
+JAT,HWH,690,1A,6,Express,1,42,6,22,18,Filling Fast,1
+PNBE,MMCT,371,1A,6,Superfast,2,28,4,22,12,Filling Fast,1
+CNB,HYB,1492,2A,4,Express,1,47,3,48,48,Available,2
+ADI,JAT,1555,2A,4,Superfast,2,3,3,48,1,Almost Full,0
+MMCT,MAS,1201,1A,6,Rajdhani,4,18,2,22,11,Filling Fast,1
+MAS,HWH,1660,2A,4,Express,1,44,3,48,46,Available,2
+MMCT,ADI,1276,3A,3,Rajdhani,4,38,0,64,34,Available,2
+CNB,MMCT,396,3A,3,Rajdhani,4,86,6,64,36,Available,2
+CSMT,SBC,1406,2A,4,Duronto,3,42,4,48,25,Filling Fast,1
+PNBE,ADI,824,SL,1,Duronto,3,23,5,72,12,Filling Fast,1
+JAT,PNBE,1160,1A,6,Duronto,3,57,4,22,19,Filling Fast,1
+PNBE,CNB,359,2A,4,Duronto,3,35,6,48,33,Available,2
+CNB,MMCT,1532,1A,6,Duronto,3,46,2,22,21,Filling Fast,1
+SBC,ADI,583,3A,3,Express,1,67,5,64,50,Available,2
+HWH,MAO,1145,SL,1,Rajdhani,4,44,2,72,45,Available,2
+ADI,MAO,703,3A,3,Rajdhani,4,86,1,64,42,Available,2
+HWH,MMCT,838,3A,3,Rajdhani,4,23,2,64,24,Filling Fast,1
+CNB,CSMT,1396,SL,1,Express,1,76,1,72,56,Available,2
+MAO,PNBE,1216,2A,4,Express,1,81,4,48,36,Available,2
+CNB,JAT,704,2A,4,Express,1,36,1,48,27,Filling Fast,1
+CSMT,HWH,1273,1A,6,Superfast,2,1,3,22,2,Almost Full,0
+CSMT,SBC,1136,SL,1,Express,1,87,3,72,46,Available,2
+PNBE,ADI,1350,2A,4,Rajdhani,4,72,0,48,46,Available,2
+SBC,MAS,362,3A,3,Duronto,3,68,2,64,53,Available,2
+CSMT,ADI,1508,SL,1,Rajdhani,4,73,0,72,49,Available,2
+MAS,HYB,1101,1A,6,Express,1,69,1,22,20,Filling Fast,1
+PNBE,MMCT,856,3A,3,Rajdhani,4,57,2,64,46,Available,2
+HWH,MMCT,1249,1A,6,Duronto,3,26,6,22,10,Filling Fast,1
+CNB,MAO,1068,SL,1,Duronto,3,78,1,72,60,Available,2
+SBC,CNB,471,3A,3,Superfast,2,76,4,64,37,Available,2
+CSMT,HWH,949,3A,3,Superfast,2,65,5,64,44,Available,2
+MMCT,CSMT,1192,1A,6,Superfast,2,83,1,22,20,Filling Fast,1
+CNB,CSMT,861,2A,4,Superfast,2,31,6,48,20,Filling Fast,1
+JAT,PNBE,1352,2A,4,Superfast,2,80,3,48,43,Available,2
+PNBE,ADI,504,1A,6,Express,1,65,5,22,16,Filling Fast,1
+MAS,HWH,1660,SL,1,Superfast,2,74,0,72,51,Available,2
+CNB,MMCT,1288,3A,3,Rajdhani,4,68,3,64,45,Available,2
+SBC,PNBE,783,SL,1,Superfast,2,41,6,72,49,Available,2
+MAS,HWH,1660,2A,4,Express,1,43,5,48,34,Available,2
+NDLS,CNB,440,SL,1,Rajdhani,4,15,6,72,0,Almost Full,0
+CSMT,ADI,1284,1A,6,Express,1,25,5,22,10,Filling Fast,1
+CSMT,JAT,968,2A,4,Superfast,2,11,5,48,5,Almost Full,0
+HWH,MAS,1660,3A,3,Duronto,3,6,3,64,3,Almost Full,0
+JAT,MAS,829,SL,1,Rajdhani,4,90,0,72,58,Available,2
+NDLS,SBC,1326,1A,6,Duronto,3,75,1,22,22,Filling Fast,1
+HYB,JAT,1261,1A,6,Rajdhani,4,89,2,22,20,Filling Fast,1
+MMCT,PNBE,620,SL,1,Rajdhani,4,29,3,72,29,Filling Fast,1
+MMCT,CNB,561,3A,3,Superfast,2,38,1,64,41,Available,2
+PNBE,CSMT,642,1A,6,Rajdhani,4,78,5,22,14,Filling Fast,1
+CSMT,ADI,1069,2A,4,Duronto,3,52,4,48,30,Filling Fast,1
+JAT,ADI,794,1A,6,Rajdhani,4,17,6,22,8,Almost Full,0
+MMCT,MAO,580,3A,3,Express,1,40,6,64,44,Available,2
+CSMT,SBC,917,1A,6,Duronto,3,70,4,22,17,Filling Fast,1
+MAO,CNB,933,1A,6,Superfast,2,26,4,22,11,Filling Fast,1
+MAO,HYB,736,SL,1,Superfast,2,82,0,72,56,Available,2
+SBC,ADI,1140,1A,6,Duronto,3,63,5,22,22,Filling Fast,1
+MAO,MMCT,580,1A,6,Superfast,2,40,1,22,21,Filling Fast,1
+PNBE,MAO,1211,3A,3,Duronto,3,60,6,64,41,Available,2
+MMCT,NDLS,1384,1A,6,Rajdhani,4,33,1,22,14,Filling Fast,1
+NDLS,CNB,440,3A,3,Express,1,54,5,64,33,Available,2
+PNBE,MMCT,1448,2A,4,Superfast,2,10,2,48,12,Filling Fast,1
+MMCT,HYB,766,2A,4,Superfast,2,50,4,48,33,Available,2
+JAT,CNB,485,3A,3,Express,1,30,0,64,26,Filling Fast,1
+SBC,MMCT,1239,1A,6,Express,1,78,4,22,16,Filling Fast,1
+NDLS,MAS,709,1A,6,Rajdhani,4,90,1,22,19,Filling Fast,1
+CNB,NDLS,440,SL,1,Superfast,2,66,4,72,53,Available,2
+CNB,MAS,691,3A,3,Duronto,3,34,5,64,33,Available,2
+MMCT,NDLS,1384,SL,1,Superfast,2,67,0,72,54,Available,2
+MAS,MAO,507,SL,1,Express,1,65,2,72,63,Available,2
+NDLS,ADI,934,2A,4,Superfast,2,20,2,48,21,Filling Fast,1
+MMCT,MAO,580,2A,4,Rajdhani,4,5,6,48,0,Almost Full,0
+NDLS,SBC,444,SL,1,Superfast,2,49,1,72,63,Available,2
+CSMT,NDLS,1384,SL,1,Duronto,3,41,1,72,52,Available,2
+PNBE,HWH,532,1A,6,Superfast,2,15,4,22,3,Almost Full,0
+JAT,NDLS,580,2A,4,Rajdhani,4,51,0,48,42,Available,2
+ADI,MAS,986,3A,3,Rajdhani,4,70,3,64,47,Available,2
+NDLS,HWH,1447,3A,3,Superfast,2,79,1,64,44,Available,2
+ADI,HWH,1561,SL,1,Duronto,3,69,6,72,49,Available,2
+SBC,CSMT,363,SL,1,Rajdhani,4,29,4,72,32,Available,2
+HWH,JAT,369,3A,3,Rajdhani,4,84,3,64,44,Available,2
+CNB,MAS,562,2A,4,Duronto,3,53,3,48,45,Available,2
+NDLS,CSMT,1384,1A,6,Rajdhani,4,29,6,22,10,Filling Fast,1
+HYB,PNBE,1112,SL,1,Rajdhani,4,74,0,72,51,Available,2
+HYB,CSMT,1157,1A,6,Rajdhani,4,55,5,22,17,Filling Fast,1
+CSMT,SBC,947,3A,3,Superfast,2,50,5,64,37,Available,2
+CNB,HWH,1007,SL,1,Superfast,2,29,0,72,33,Available,2
+SBC,CSMT,1547,1A,6,Duronto,3,13,1,22,6,Almost Full,0
+ADI,CNB,993,SL,1,Rajdhani,4,68,2,72,56,Available,2
+SBC,ADI,981,SL,1,Superfast,2,15,0,72,13,Filling Fast,1
+CSMT,JAT,973,1A,6,Duronto,3,41,1,22,19,Filling Fast,1
+MMCT,SBC,1078,SL,1,Rajdhani,4,86,2,72,49,Available,2
+MAS,CSMT,413,SL,1,Express,1,71,5,72,40,Available,2
+HYB,SBC,625,SL,1,Rajdhani,4,17,0,72,20,Filling Fast,1
+NDLS,CNB,440,2A,4,Duronto,3,51,2,48,45,Available,2
+JAT,CNB,522,3A,3,Rajdhani,4,2,0,64,0,Almost Full,0
+SBC,JAT,1258,2A,4,Rajdhani,4,42,0,48,41,Available,2
+NDLS,ADI,934,2A,4,Express,1,50,3,48,46,Available,2
+NDLS,PNBE,998,2A,4,Superfast,2,27,1,48,20,Filling Fast,1
+MAS,CNB,1263,2A,4,Rajdhani,4,78,4,48,38,Available,2
+MAO,SBC,954,SL,1,Express,1,70,3,72,50,Available,2
+NDLS,MMCT,1384,SL,1,Duronto,3,53,1,72,57,Available,2
+JAT,HYB,860,1A,6,Express,1,45,3,22,20,Filling Fast,1
+HYB,ADI,1054,3A,3,Express,1,34,1,64,29,Filling Fast,1
+NDLS,HWH,1447,2A,4,Rajdhani,4,35,0,48,28,Filling Fast,1
+ADI,HYB,1082,2A,4,Duronto,3,12,1,48,13,Filling Fast,1
+JAT,SBC,895,1A,6,Duronto,3,73,6,22,18,Filling Fast,1
+PNBE,HWH,532,2A,4,Duronto,3,75,2,48,40,Available,2
+CNB,HWH,1007,1A,6,Superfast,2,72,4,22,19,Filling Fast,1
+CSMT,MAO,580,SL,1,Superfast,2,22,3,72,13,Filling Fast,1
+NDLS,MMCT,1384,2A,4,Duronto,3,2,4,48,0,Almost Full,0
+ADI,NDLS,934,2A,4,Duronto,3,43,5,48,30,Filling Fast,1
+CSMT,HWH,471,1A,6,Duronto,3,75,5,22,16,Filling Fast,1
+CSMT,MMCT,1427,3A,3,Rajdhani,4,47,5,64,42,Available,2
+JAT,PNBE,1550,1A,6,Superfast,2,38,2,22,16,Filling Fast,1
+CSMT,CNB,1244,SL,1,Superfast,2,22,5,72,10,Filling Fast,1
+HYB,MAO,1080,2A,4,Duronto,3,48,2,48,47,Available,2
+CNB,MAS,610,2A,4,Rajdhani,4,89,4,48,34,Available,2
+PNBE,MAO,416,2A,4,Superfast,2,78,1,48,46,Available,2
+JAT,MAO,563,SL,1,Duronto,3,42,5,72,33,Available,2
+MMCT,SBC,1060,3A,3,Duronto,3,81,0,64,54,Available,2
+CNB,JAT,1037,SL,1,Rajdhani,4,33,1,72,46,Available,2
+SBC,MMCT,1067,3A,3,Rajdhani,4,0,0,64,0,Almost Full,0
+PNBE,ADI,1209,2A,4,Express,1,63,3,48,40,Available,2
+HWH,HYB,1118,1A,6,Express,1,73,5,22,19,Filling Fast,1
+JAT,SBC,683,SL,1,Rajdhani,4,4,2,72,0,Almost Full,0
+NDLS,HWH,1447,1A,6,Rajdhani,4,43,1,22,21,Filling Fast,1
+PNBE,CSMT,503,1A,6,Superfast,2,76,4,22,17,Filling Fast,1
+ADI,NDLS,934,2A,4,Express,1,20,0,48,21,Filling Fast,1
+MMCT,HWH,770,2A,4,Express,1,89,4,48,35,Available,2
+CNB,HYB,893,3A,3,Superfast,2,30,0,64,39,Available,2
+NDLS,PNBE,998,SL,1,Duronto,3,6,2,72,2,Almost Full,0
+NDLS,PNBE,998,3A,3,Express,1,25,0,64,29,Filling Fast,1
+NDLS,SBC,699,3A,3,Rajdhani,4,60,6,64,39,Available,2
+MMCT,MAS,1164,SL,1,Express,1,84,2,72,51,Available,2
+MMCT,JAT,1464,SL,1,Duronto,3,47,3,72,52,Available,2
+HWH,CSMT,1262,1A,6,Superfast,2,56,3,22,22,Filling Fast,1
+MAS,SBC,362,1A,6,Duronto,3,89,5,22,17,Filling Fast,1
+MMCT,CNB,1054,SL,1,Duronto,3,70,0,72,56,Available,2
+PNBE,HYB,1207,SL,1,Duronto,3,60,2,72,66,Available,2
+MMCT,PNBE,421,2A,4,Rajdhani,4,57,1,48,47,Available,2
+CSMT,SBC,744,2A,4,Rajdhani,4,54,0,48,42,Available,2
+JAT,PNBE,763,2A,4,Superfast,2,40,5,48,36,Available,2
+MMCT,CNB,1144,SL,1,Superfast,2,35,4,72,27,Filling Fast,1
+ADI,NDLS,934,SL,1,Rajdhani,4,53,1,72,42,Available,2
+CSMT,MAO,580,1A,6,Rajdhani,4,72,6,22,16,Filling Fast,1
+MMCT,MAS,1446,3A,3,Express,1,33,3,64,27,Filling Fast,1
+JAT,ADI,1521,SL,1,Rajdhani,4,22,2,72,21,Filling Fast,1
+PNBE,CSMT,1596,SL,1,Rajdhani,4,50,2,72,54,Available,2
+CNB,SBC,450,SL,1,Superfast,2,47,0,72,64,Available,2
+HWH,MAS,1660,3A,3,Express,1,89,5,64,43,Available,2
+MMCT,SBC,625,3A,3,Express,1,41,2,64,45,Available,2
+CNB,PNBE,1588,1A,6,Duronto,3,56,1,22,22,Filling Fast,1
+PNBE,ADI,1407,3A,3,Rajdhani,4,65,6,64,30,Filling Fast,1
+CSMT,MMCT,987,SL,1,Duronto,3,67,4,72,45,Available,2
+NDLS,CSMT,1384,2A,4,Rajdhani,4,31,0,48,33,Available,2
+ADI,NDLS,934,2A,4,Superfast,2,47,6,48,30,Filling Fast,1
+ADI,HYB,1162,1A,6,Rajdhani,4,30,2,22,17,Filling Fast,1
+ADI,MAO,1263,2A,4,Express,1,75,4,48,37,Available,2
+HWH,CNB,1007,3A,3,Rajdhani,4,36,0,64,38,Available,2
+PNBE,NDLS,998,2A,4,Duronto,3,82,1,48,46,Available,2
+JAT,SBC,901,SL,1,Rajdhani,4,87,0,72,67,Available,2
+ADI,CSMT,704,1A,6,Duronto,3,32,4,22,13,Filling Fast,1
+MAS,JAT,913,SL,1,Express,1,44,3,72,54,Available,2
+MAS,SBC,362,3A,3,Express,1,74,0,64,49,Available,2
+NDLS,HYB,1116,3A,3,Superfast,2,87,0,64,47,Available,2
+ADI,MMCT,1038,3A,3,Superfast,2,35,2,64,43,Available,2
+JAT,CNB,961,2A,4,Duronto,3,66,6,48,33,Available,2
+SBC,NDLS,1578,SL,1,Superfast,2,87,1,72,54,Available,2
+CNB,NDLS,440,3A,3,Superfast,2,53,3,64,49,Available,2
+PNBE,NDLS,998,2A,4,Superfast,2,28,5,48,22,Filling Fast,1
+HYB,JAT,1324,3A,3,Superfast,2,21,6,64,14,Filling Fast,1
+JAT,HYB,720,3A,3,Rajdhani,4,60,1,64,57,Available,2
+CNB,MAS,1494,2A,4,Superfast,2,83,0,48,41,Available,2
+SBC,HWH,807,3A,3,Express,1,42,2,64,46,Available,2
+MAS,MAO,952,SL,1,Rajdhani,4,60,0,72,48,Available,2
+JAT,MAO,1538,1A,6,Express,1,24,4,22,8,Almost Full,0
+MMCT,JAT,1131,3A,3,Express,1,6,6,64,0,Almost Full,0
+CSMT,CNB,760,3A,3,Express,1,72,3,64,55,Available,2
+CSMT,HWH,719,1A,6,Express,1,42,5,22,15,Filling Fast,1
+CSMT,HWH,468,1A,6,Express,1,35,1,22,18,Filling Fast,1
+CSMT,MAO,580,SL,1,Rajdhani,4,16,4,72,12,Filling Fast,1
+PNBE,JAT,1229,SL,1,Express,1,61,3,72,56,Available,2
+NDLS,CNB,440,2A,4,Superfast,2,1,2,48,11,Filling Fast,1
+HYB,SBC,625,1A,6,Duronto,3,28,5,22,9,Almost Full,0
+HWH,MAS,1660,1A,6,Express,1,64,4,22,15,Filling Fast,1
+MAS,CSMT,483,1A,6,Superfast,2,37,3,22,14,Filling Fast,1
+CNB,HYB,1571,3A,3,Express,1,87,1,64,59,Available,2
+HWH,ADI,1085,2A,4,Duronto,3,51,0,48,46,Available,2
+SBC,CNB,618,2A,4,Rajdhani,4,75,4,48,36,Available,2
+CSMT,MMCT,1100,1A,6,Express,1,81,2,22,21,Filling Fast,1
+HYB,MAO,449,1A,6,Rajdhani,4,83,6,22,16,Filling Fast,1
+NDLS,CNB,440,SL,1,Express,1,48,0,72,68,Available,2
+HYB,MAS,1321,2A,4,Duronto,3,88,5,48,36,Available,2
+JAT,NDLS,580,SL,1,Rajdhani,4,84,4,72,44,Available,2
+MAS,MAO,1590,2A,4,Express,1,13,4,48,10,Filling Fast,1
+CNB,MAO,591,3A,3,Rajdhani,4,13,3,64,15,Filling Fast,1
+SBC,MAO,759,3A,3,Duronto,3,45,5,64,43,Available,2
+PNBE,MAS,678,1A,6,Express,1,26,5,22,8,Almost Full,0
+ADI,HWH,830,1A,6,Rajdhani,4,85,0,22,22,Filling Fast,1
+MMCT,MAO,580,2A,4,Rajdhani,4,65,0,48,48,Available,2
+CNB,MMCT,874,2A,4,Express,1,37,2,48,41,Available,2
+ADI,NDLS,934,2A,4,Rajdhani,4,37,2,48,42,Available,2
+JAT,HWH,1222,1A,6,Rajdhani,4,5,0,22,3,Almost Full,0
+CSMT,JAT,699,3A,3,Superfast,2,56,4,64,37,Available,2
+MAS,MMCT,1113,3A,3,Duronto,3,14,3,64,13,Filling Fast,1
+PNBE,ADI,906,SL,1,Express,1,53,5,72,44,Available,2
+CSMT,MMCT,621,1A,6,Duronto,3,13,3,22,10,Filling Fast,1
+MAO,ADI,1515,SL,1,Duronto,3,78,3,72,44,Available,2
+HWH,MAO,409,2A,4,Express,1,62,0,48,48,Available,2
+PNBE,ADI,444,1A,6,Superfast,2,83,2,22,21,Filling Fast,1
+NDLS,JAT,580,2A,4,Superfast,2,66,4,48,34,Available,2
+CNB,MAO,545,SL,1,Duronto,3,61,2,72,48,Available,2
+JAT,CNB,1138,2A,4,Rajdhani,4,1,5,48,0,Almost Full,0
+CSMT,HYB,1311,SL,1,Duronto,3,9,6,72,0,Almost Full,0
+ADI,HWH,843,3A,3,Superfast,2,6,4,64,0,Almost Full,0
+SBC,HYB,625,SL,1,Duronto,3,10,3,72,0,Almost Full,0
+ADI,MAO,1267,1A,6,Express,1,57,2,22,19,Filling Fast,1
+MMCT,ADI,386,1A,6,Express,1,52,0,22,20,Filling Fast,1
+HYB,CNB,350,1A,6,Superfast,2,65,4,22,21,Filling Fast,1
+SBC,JAT,1284,3A,3,Superfast,2,6,6,64,0,Almost Full,0
+SBC,ADI,1029,SL,1,Superfast,2,57,0,72,45,Available,2
+MMCT,JAT,804,1A,6,Superfast,2,45,6,22,17,Filling Fast,1
+JAT,MAS,1471,3A,3,Rajdhani,4,5,1,64,1,Almost Full,0
+ADI,CSMT,1188,1A,6,Superfast,2,78,1,22,16,Filling Fast,1
+SBC,MMCT,1154,2A,4,Express,1,24,5,48,17,Filling Fast,1
+HWH,MMCT,1198,1A,6,Rajdhani,4,57,3,22,20,Filling Fast,1
+JAT,MAO,1382,2A,4,Express,1,0,4,48,0,Almost Full,0
+CNB,NDLS,440,SL,1,Express,1,65,6,72,54,Available,2
+CSMT,MAO,580,2A,4,Rajdhani,4,49,5,48,40,Available,2
+MAO,CNB,1009,SL,1,Express,1,77,5,72,42,Available,2
+SBC,MAS,362,3A,3,Superfast,2,57,6,64,36,Available,2
+CSMT,CNB,1195,3A,3,Superfast,2,70,5,64,55,Available,2
+SBC,CNB,779,3A,3,Superfast,2,86,1,64,52,Available,2
+CNB,JAT,714,3A,3,Rajdhani,4,45,4,64,42,Available,2
+ADI,MAO,1518,SL,1,Superfast,2,54,6,72,43,Available,2
+NDLS,HYB,568,1A,6,Express,1,18,0,22,10,Filling Fast,1
+JAT,NDLS,580,3A,3,Duronto,3,36,5,64,30,Filling Fast,1
+MAS,CSMT,477,3A,3,Duronto,3,69,0,64,48,Available,2
+HWH,ADI,559,2A,4,Express,1,30,4,48,20,Filling Fast,1
+CNB,MAS,446,SL,1,Express,1,53,6,72,43,Available,2
+JAT,HWH,1480,1A,6,Rajdhani,4,32,1,22,15,Filling Fast,1
+MAO,ADI,811,3A,3,Duronto,3,24,2,64,22,Filling Fast,1
+ADI,CSMT,502,2A,4,Duronto,3,65,0,48,44,Available,2
+PNBE,NDLS,998,3A,3,Superfast,2,16,1,64,15,Filling Fast,1
+MAO,MAS,361,3A,3,Express,1,90,1,64,59,Available,2
+NDLS,CSMT,1384,1A,6,Superfast,2,62,6,22,13,Filling Fast,1
+MAO,HYB,1083,1A,6,Superfast,2,67,1,22,22,Filling Fast,1
+CSMT,HYB,489,2A,4,Express,1,69,4,48,41,Available,2
+PNBE,MMCT,1065,2A,4,Duronto,3,84,2,48,35,Available,2
+HWH,CNB,1007,2A,4,Express,1,71,6,48,35,Available,2
+JAT,NDLS,580,3A,3,Express,1,30,5,64,22,Filling Fast,1
+MAO,CNB,849,1A,6,Superfast,2,48,6,22,15,Filling Fast,1
+MMCT,PNBE,875,3A,3,Rajdhani,4,66,6,64,38,Available,2
+HWH,HYB,1391,SL,1,Express,1,5,2,72,0,Almost Full,0
+JAT,SBC,1006,1A,6,Rajdhani,4,21,6,22,11,Filling Fast,1
+HYB,CNB,365,1A,6,Duronto,3,85,5,22,19,Filling Fast,1
+SBC,JAT,1218,1A,6,Duronto,3,68,6,22,20,Filling Fast,1
+CNB,PNBE,497,2A,4,Rajdhani,4,58,5,48,39,Available,2
+HWH,NDLS,1447,1A,6,Rajdhani,4,22,6,22,6,Almost Full,0
+MAS,HYB,494,2A,4,Superfast,2,52,3,48,41,Available,2
+ADI,JAT,1178,SL,1,Superfast,2,2,3,72,0,Almost Full,0
+JAT,MMCT,1445,1A,6,Rajdhani,4,74,0,22,19,Filling Fast,1
+CNB,MMCT,1082,1A,6,Superfast,2,87,2,22,22,Filling Fast,1
+MAO,MMCT,580,SL,1,Express,1,50,6,72,42,Available,2
+JAT,NDLS,580,2A,4,Duronto,3,17,5,48,9,Almost Full,0
+PNBE,HYB,954,2A,4,Superfast,2,86,6,48,39,Available,2
+CNB,JAT,1114,1A,6,Duronto,3,15,0,22,9,Almost Full,0
+NDLS,MAO,1571,SL,1,Rajdhani,4,39,1,72,44,Available,2
+CNB,HWH,1007,SL,1,Duronto,3,20,1,72,27,Filling Fast,1
+SBC,MAO,867,2A,4,Rajdhani,4,23,5,48,12,Filling Fast,1
+MAO,NDLS,1474,SL,1,Rajdhani,4,37,5,72,36,Available,2
+MMCT,MAS,551,2A,4,Express,1,42,2,48,43,Available,2
+CSMT,JAT,830,1A,6,Superfast,2,79,0,22,20,Filling Fast,1
+SBC,HWH,1345,SL,1,Superfast,2,78,5,72,45,Available,2
+MAS,MAO,662,3A,3,Superfast,2,54,1,64,45,Available,2
+NDLS,HWH,1447,2A,4,Express,1,35,6,48,30,Filling Fast,1
+HWH,CSMT,1029,SL,1,Express,1,57,2,72,53,Available,2
+MAS,ADI,1479,1A,6,Duronto,3,82,4,22,17,Filling Fast,1
+MMCT,MAS,636,2A,4,Superfast,2,80,0,48,47,Available,2
+CNB,MMCT,388,1A,6,Express,1,75,1,22,20,Filling Fast,1
+NDLS,HYB,883,SL,1,Duronto,3,46,3,72,46,Available,2
+SBC,MAO,945,2A,4,Express,1,64,4,48,30,Filling Fast,1
+MMCT,PNBE,1095,1A,6,Duronto,3,78,5,22,19,Filling Fast,1
+CSMT,HYB,637,SL,1,Duronto,3,22,4,72,5,Almost Full,0
+MAO,JAT,649,SL,1,Superfast,2,5,1,72,10,Filling Fast,1
+ADI,SBC,478,3A,3,Superfast,2,29,0,64,21,Filling Fast,1
+JAT,SBC,1410,3A,3,Express,1,60,3,64,60,Available,2
+NDLS,CNB,440,1A,6,Superfast,2,33,4,22,13,Filling Fast,1
+HYB,MAO,706,SL,1,Express,1,46,4,72,43,Available,2
+JAT,MMCT,1408,3A,3,Express,1,28,4,64,18,Filling Fast,1
+PNBE,HWH,532,SL,1,Express,1,77,0,72,56,Available,2
+HYB,CSMT,1250,2A,4,Duronto,3,9,4,48,3,Almost Full,0
+JAT,MAS,783,2A,4,Duronto,3,20,2,48,25,Filling Fast,1
+MAO,MMCT,580,SL,1,Superfast,2,14,3,72,12,Filling Fast,1
+JAT,ADI,1331,2A,4,Duronto,3,82,6,48,37,Available,2
+PNBE,NDLS,998,1A,6,Duronto,3,73,4,22,17,Filling Fast,1
+CSMT,CNB,1399,1A,6,Duronto,3,7,1,22,5,Almost Full,0
+MAS,CSMT,1408,SL,1,Rajdhani,4,84,6,72,45,Available,2
+MAS,MMCT,793,SL,1,Express,1,61,1,72,44,Available,2
+SBC,PNBE,1580,2A,4,Duronto,3,79,5,48,31,Available,2
+HYB,MAS,693,3A,3,Express,1,76,4,64,45,Available,2
+MMCT,SBC,1124,SL,1,Duronto,3,13,0,72,11,Filling Fast,1
+SBC,HYB,625,SL,1,Duronto,3,77,0,72,53,Available,2
+CSMT,ADI,1578,1A,6,Rajdhani,4,11,3,22,7,Almost Full,0
+JAT,CSMT,1585,1A,6,Express,1,66,3,22,22,Filling Fast,1
+HWH,NDLS,1447,SL,1,Duronto,3,61,6,72,40,Available,2
+PNBE,HWH,532,1A,6,Express,1,17,2,22,8,Almost Full,0
+ADI,SBC,521,3A,3,Express,1,32,1,64,36,Available,2
+NDLS,CNB,440,1A,6,Rajdhani,4,48,5,22,16,Filling Fast,1
+SBC,HWH,1187,3A,3,Rajdhani,4,19,3,64,22,Filling Fast,1
+JAT,MAO,869,3A,3,Express,1,72,2,64,42,Available,2
+MAO,MAS,1163,2A,4,Express,1,70,6,48,40,Available,2
+HYB,ADI,716,3A,3,Express,1,32,2,64,38,Available,2
+MAO,HWH,1165,2A,4,Rajdhani,4,29,3,48,30,Filling Fast,1
+CNB,CSMT,555,2A,4,Express,1,43,6,48,38,Available,2
+HYB,MAO,456,2A,4,Express,1,81,0,48,48,Available,2
+MMCT,CSMT,1315,SL,1,Rajdhani,4,8,2,72,10,Filling Fast,1
+SBC,HWH,513,1A,6,Express,1,51,4,22,14,Filling Fast,1
+JAT,HYB,936,1A,6,Duronto,3,81,3,22,19,Filling Fast,1
+ADI,NDLS,934,3A,3,Duronto,3,4,6,64,0,Almost Full,0
+MAO,HYB,1406,2A,4,Duronto,3,86,0,48,43,Available,2
+HWH,SBC,350,2A,4,Rajdhani,4,35,6,48,29,Filling Fast,1
+PNBE,HWH,532,SL,1,Duronto,3,66,0,72,50,Available,2
+CNB,MMCT,534,3A,3,Superfast,2,44,6,64,41,Available,2
+MAS,SBC,362,2A,4,Express,1,51,4,48,33,Available,2
+NDLS,MAS,708,SL,1,Rajdhani,4,71,0,72,50,Available,2
+HYB,MAS,1046,1A,6,Superfast,2,68,6,22,15,Filling Fast,1
+MAO,MAS,1256,SL,1,Express,1,31,6,72,19,Filling Fast,1
+HWH,ADI,1293,1A,6,Express,1,14,2,22,6,Almost Full,0
+MMCT,PNBE,801,2A,4,Superfast,2,52,2,48,39,Available,2
+HYB,CNB,369,3A,3,Duronto,3,36,0,64,46,Available,2
+PNBE,JAT,1050,1A,6,Duronto,3,60,2,22,19,Filling Fast,1
+HWH,SBC,1524,3A,3,Duronto,3,87,1,64,64,Available,2
+ADI,SBC,830,2A,4,Superfast,2,26,1,48,28,Filling Fast,1
+SBC,CNB,1079,2A,4,Rajdhani,4,15,0,48,17,Filling Fast,1
+JAT,CNB,1358,1A,6,Rajdhani,4,61,2,22,19,Filling Fast,1
+MAO,HWH,1358,3A,3,Express,1,23,6,64,19,Filling Fast,1
+HYB,MAS,1164,2A,4,Duronto,3,6,4,48,0,Almost Full,0
+PNBE,ADI,1457,1A,6,Superfast,2,50,6,22,18,Filling Fast,1
+JAT,CSMT,1286,1A,6,Express,1,40,5,22,20,Filling Fast,1
+NDLS,CNB,440,SL,1,Rajdhani,4,41,2,72,48,Available,2
+MAO,MAS,733,3A,3,Duronto,3,34,3,64,44,Available,2
+MAO,HWH,1099,2A,4,Express,1,54,1,48,40,Available,2
+PNBE,HWH,532,SL,1,Superfast,2,57,1,72,54,Available,2
+MAO,CSMT,580,2A,4,Rajdhani,4,34,6,48,33,Available,2
+SBC,HYB,625,SL,1,Duronto,3,18,6,72,3,Almost Full,0
+CNB,CSMT,1318,1A,6,Duronto,3,53,3,22,22,Filling Fast,1
+CSMT,JAT,1408,3A,3,Express,1,38,2,64,46,Available,2
+HYB,MAO,447,SL,1,Rajdhani,4,88,1,72,51,Available,2
+NDLS,SBC,870,SL,1,Rajdhani,4,57,5,72,47,Available,2
+HWH,MAS,1660,3A,3,Superfast,2,44,0,64,55,Available,2
+PNBE,MMCT,1069,2A,4,Duronto,3,36,2,48,37,Available,2
+HWH,JAT,1395,SL,1,Express,1,10,3,72,0,Almost Full,0
+MAO,MAS,1299,2A,4,Duronto,3,81,6,48,33,Available,2
+HWH,PNBE,532,SL,1,Rajdhani,4,10,1,72,5,Almost Full,0
+HWH,SBC,992,3A,3,Superfast,2,90,2,64,51,Available,2
+MAO,JAT,1159,3A,3,Express,1,46,5,64,45,Available,2
+MAO,HYB,1272,SL,1,Duronto,3,23,6,72,14,Filling Fast,1
+NDLS,CSMT,1384,3A,3,Rajdhani,4,26,1,64,21,Filling Fast,1
+PNBE,MMCT,545,1A,6,Express,1,70,0,22,22,Filling Fast,1
+NDLS,PNBE,998,1A,6,Rajdhani,4,33,4,22,14,Filling Fast,1
+CSMT,MMCT,1148,3A,3,Duronto,3,31,5,64,28,Filling Fast,1
+MAS,ADI,608,2A,4,Duronto,3,3,0,48,9,Almost Full,0
+JAT,HWH,1016,SL,1,Express,1,69,2,72,59,Available,2
+HYB,ADI,626,2A,4,Express,1,80,5,48,38,Available,2
+JAT,MAO,1240,3A,3,Superfast,2,61,4,64,41,Available,2
+SBC,MMCT,1254,3A,3,Superfast,2,52,2,64,43,Available,2
+CSMT,MAS,371,1A,6,Duronto,3,44,2,22,21,Filling Fast,1
+ADI,HYB,367,SL,1,Express,1,38,0,72,46,Available,2
+PNBE,MAS,1572,2A,4,Rajdhani,4,70,2,48,44,Available,2
+SBC,PNBE,1498,SL,1,Express,1,31,1,72,28,Filling Fast,1
+CNB,JAT,1148,SL,1,Duronto,3,33,0,72,31,Available,2
+PNBE,JAT,840,3A,3,Superfast,2,83,5,64,47,Available,2
+HYB,MAS,1195,2A,4,Rajdhani,4,23,1,48,23,Filling Fast,1
+MAS,MMCT,1282,SL,1,Superfast,2,89,4,72,47,Available,2
+ADI,SBC,1006,1A,6,Duronto,3,6,4,22,1,Almost Full,0
+NDLS,CSMT,1384,3A,3,Superfast,2,16,5,64,7,Almost Full,0
+ADI,NDLS,934,1A,6,Duronto,3,1,3,22,4,Almost Full,0
+SBC,HWH,1210,3A,3,Express,1,47,3,64,49,Available,2
+CNB,NDLS,440,1A,6,Duronto,3,7,2,22,5,Almost Full,0
+PNBE,MMCT,1462,SL,1,Duronto,3,24,6,72,12,Filling Fast,1
+MAS,PNBE,375,1A,6,Duronto,3,49,6,22,17,Filling Fast,1
+ADI,SBC,418,2A,4,Express,1,12,4,48,5,Almost Full,0
+JAT,SBC,1318,SL,1,Superfast,2,41,1,72,50,Available,2
+JAT,NDLS,580,1A,6,Superfast,2,61,5,22,17,Filling Fast,1
+MAS,SBC,362,1A,6,Duronto,3,14,1,22,10,Filling Fast,1
+JAT,PNBE,1014,1A,6,Duronto,3,35,4,22,12,Filling Fast,1
+MMCT,PNBE,847,1A,6,Rajdhani,4,74,6,22,17,Filling Fast,1
+CNB,ADI,1571,2A,4,Superfast,2,11,1,48,11,Filling Fast,1
+CSMT,ADI,537,3A,3,Rajdhani,4,7,2,64,13,Filling Fast,1
+JAT,CSMT,1448,1A,6,Duronto,3,62,1,22,21,Filling Fast,1
+HWH,HYB,1061,SL,1,Duronto,3,2,5,72,0,Almost Full,0
+PNBE,HWH,532,3A,3,Rajdhani,4,62,5,64,34,Available,2
+ADI,HYB,953,SL,1,Duronto,3,72,1,72,56,Available,2
+HYB,HWH,1012,SL,1,Superfast,2,76,6,72,48,Available,2
+HYB,CSMT,491,2A,4,Express,1,37,6,48,29,Filling Fast,1
+MAS,HYB,1101,SL,1,Rajdhani,4,81,4,72,49,Available,2
+PNBE,CSMT,388,3A,3,Duronto,3,41,5,64,34,Available,2
+MMCT,JAT,1453,SL,1,Duronto,3,67,5,72,51,Available,2
+ADI,HYB,665,3A,3,Superfast,2,52,5,64,53,Available,2
+HWH,MMCT,547,1A,6,Rajdhani,4,16,1,22,8,Almost Full,0
+NDLS,SBC,569,SL,1,Duronto,3,12,0,72,7,Almost Full,0
+MAO,JAT,1145,SL,1,Superfast,2,6,2,72,9,Almost Full,0
+SBC,MAO,495,1A,6,Duronto,3,83,3,22,22,Filling Fast,1
+MMCT,ADI,474,3A,3,Express,1,47,6,64,39,Available,2
+CNB,NDLS,440,1A,6,Rajdhani,4,38,0,22,17,Filling Fast,1
+SBC,HYB,625,1A,6,Duronto,3,68,3,22,20,Filling Fast,1
+SBC,CNB,1427,2A,4,Duronto,3,71,5,48,31,Available,2
+HYB,PNBE,566,3A,3,Express,1,89,5,64,37,Available,2
+PNBE,MMCT,691,2A,4,Express,1,64,2,48,39,Available,2
+JAT,CSMT,1443,SL,1,Superfast,2,40,4,72,32,Available,2
+HWH,CNB,1007,SL,1,Superfast,2,77,1,72,54,Available,2
+MAO,HYB,788,SL,1,Superfast,2,46,3,72,55,Available,2
+ADI,PNBE,350,1A,6,Superfast,2,76,0,22,22,Filling Fast,1
+HYB,CSMT,968,1A,6,Superfast,2,28,1,22,12,Filling Fast,1
+HWH,NDLS,1447,2A,4,Rajdhani,4,4,3,48,10,Filling Fast,1
+HWH,CSMT,633,3A,3,Superfast,2,74,1,64,50,Available,2
+SBC,MAS,362,1A,6,Express,1,72,1,22,21,Filling Fast,1
+CNB,MMCT,1014,SL,1,Duronto,3,62,6,72,47,Available,2
+CNB,MAO,545,3A,3,Rajdhani,4,73,3,64,45,Available,2
+MMCT,NDLS,1384,3A,3,Express,1,53,6,64,44,Available,2
+MMCT,SBC,1583,1A,6,Express,1,6,2,22,5,Almost Full,0
+HYB,NDLS,1003,2A,4,Superfast,2,64,5,48,38,Available,2
+SBC,CSMT,453,SL,1,Express,1,76,4,72,45,Available,2
+HYB,MMCT,804,SL,1,Superfast,2,50,1,72,68,Available,2
+CSMT,HWH,519,SL,1,Rajdhani,4,70,3,72,50,Available,2
+MAS,MMCT,1166,SL,1,Duronto,3,17,3,72,13,Filling Fast,1
+HYB,SBC,625,SL,1,Duronto,3,71,4,72,40,Available,2
+CNB,HYB,854,2A,4,Rajdhani,4,34,6,48,24,Filling Fast,1
+PNBE,HWH,532,1A,6,Rajdhani,4,85,3,22,20,Filling Fast,1
+PNBE,HWH,532,2A,4,Superfast,2,44,4,48,40,Available,2
+JAT,NDLS,580,2A,4,Superfast,2,78,6,48,41,Available,2
+ADI,MAO,648,SL,1,Rajdhani,4,29,1,72,29,Filling Fast,1
+JAT,HWH,669,1A,6,Rajdhani,4,6,1,22,3,Almost Full,0
+MAO,CSMT,580,1A,6,Superfast,2,88,6,22,18,Filling Fast,1
+MMCT,MAS,1271,SL,1,Rajdhani,4,42,1,72,47,Available,2
+CNB,HYB,783,2A,4,Superfast,2,70,3,48,46,Available,2
+MAO,CSMT,580,SL,1,Rajdhani,4,32,1,72,37,Available,2
+NDLS,MAS,761,3A,3,Rajdhani,4,59,5,64,34,Available,2
+NDLS,MMCT,1384,3A,3,Superfast,2,13,0,64,20,Filling Fast,1
+MAS,JAT,1141,2A,4,Express,1,65,5,48,43,Available,2
+MMCT,HWH,1342,1A,6,Duronto,3,25,4,22,8,Almost Full,0
+ADI,HYB,394,1A,6,Duronto,3,67,2,22,20,Filling Fast,1
+HWH,ADI,1155,2A,4,Rajdhani,4,44,5,48,36,Available,2
+HWH,CNB,1007,2A,4,Superfast,2,7,5,48,3,Almost Full,0
+MAS,PNBE,410,3A,3,Duronto,3,19,2,64,23,Filling Fast,1
+PNBE,JAT,631,1A,6,Express,1,66,5,22,21,Filling Fast,1
+MAO,JAT,815,SL,1,Duronto,3,73,1,72,53,Available,2
+PNBE,MAS,1589,3A,3,Express,1,69,1,64,47,Available,2
+SBC,JAT,633,2A,4,Duronto,3,39,5,48,25,Filling Fast,1
+CNB,HYB,626,SL,1,Duronto,3,83,4,72,39,Available,2
+CSMT,HWH,488,1A,6,Duronto,3,40,6,22,15,Filling Fast,1
+CSMT,NDLS,1384,SL,1,Express,1,38,3,72,55,Available,2
+CNB,JAT,910,2A,4,Duronto,3,13,1,48,12,Filling Fast,1
+CSMT,NDLS,1384,2A,4,Duronto,3,29,5,48,22,Filling Fast,1
+NDLS,HWH,1447,SL,1,Duronto,3,64,6,72,43,Available,2
+MAO,ADI,1115,2A,4,Express,1,62,3,48,48,Available,2
+CSMT,CNB,745,2A,4,Rajdhani,4,52,6,48,46,Available,2
+NDLS,MAS,1195,2A,4,Duronto,3,26,0,48,24,Filling Fast,1
+CSMT,ADI,1353,3A,3,Express,1,31,3,64,32,Available,2
+PNBE,NDLS,998,SL,1,Superfast,2,50,4,72,49,Available,2
+CNB,MAO,1566,1A,6,Rajdhani,4,57,3,22,22,Filling Fast,1
+NDLS,SBC,1412,SL,1,Rajdhani,4,71,3,72,65,Available,2
+HYB,JAT,450,2A,4,Superfast,2,56,3,48,45,Available,2
+MAS,CNB,1294,2A,4,Express,1,37,4,48,27,Filling Fast,1
+NDLS,HYB,641,SL,1,Express,1,11,5,72,0,Almost Full,0
+HYB,MMCT,718,2A,4,Express,1,52,2,48,47,Available,2
+ADI,NDLS,934,SL,1,Duronto,3,58,0,72,59,Available,2
+MAS,HWH,1660,1A,6,Rajdhani,4,14,5,22,6,Almost Full,0
+ADI,JAT,1093,1A,6,Express,1,65,4,22,19,Filling Fast,1
+CSMT,PNBE,1477,SL,1,Rajdhani,4,21,2,72,28,Filling Fast,1
+MAO,JAT,657,2A,4,Duronto,3,22,6,48,20,Filling Fast,1
+CNB,NDLS,440,3A,3,Superfast,2,57,2,64,55,Available,2
+JAT,CSMT,590,2A,4,Duronto,3,0,4,48,0,Almost Full,0
+MAS,NDLS,1289,SL,1,Express,1,69,6,72,44,Available,2
+NDLS,MAO,1360,2A,4,Duronto,3,75,5,48,41,Available,2
+ADI,CNB,1189,SL,1,Rajdhani,4,76,4,72,38,Available,2
+NDLS,SBC,1470,3A,3,Duronto,3,6,1,64,6,Almost Full,0
+CSMT,NDLS,1384,1A,6,Duronto,3,4,5,22,0,Almost Full,0
+MAO,CNB,961,3A,3,Rajdhani,4,6,0,64,4,Almost Full,0
+PNBE,CSMT,680,3A,3,Duronto,3,58,5,64,48,Available,2
+MAO,HWH,423,1A,6,Superfast,2,41,2,22,20,Filling Fast,1
+PNBE,MMCT,1225,1A,6,Superfast,2,60,1,22,21,Filling Fast,1
+MMCT,MAS,1024,SL,1,Duronto,3,89,1,72,46,Available,2
+MAO,NDLS,573,1A,6,Express,1,88,4,22,19,Filling Fast,1
+CNB,MAS,1224,3A,3,Superfast,2,67,4,64,45,Available,2
+MAO,HWH,615,SL,1,Express,1,63,6,72,56,Available,2
+CSMT,MAO,580,3A,3,Duronto,3,0,0,64,0,Almost Full,0
+NDLS,ADI,934,2A,4,Express,1,52,0,48,44,Available,2
+HWH,CNB,1007,2A,4,Rajdhani,4,81,1,48,44,Available,2
+CNB,MAS,871,1A,6,Superfast,2,38,4,22,17,Filling Fast,1
+HYB,HWH,362,1A,6,Superfast,2,43,3,22,20,Filling Fast,1
+CNB,MAO,409,2A,4,Duronto,3,42,6,48,34,Available,2
+HWH,JAT,1331,SL,1,Rajdhani,4,82,1,72,58,Available,2
+ADI,CSMT,1293,3A,3,Express,1,52,5,64,43,Available,2
+NDLS,HYB,963,3A,3,Rajdhani,4,26,4,64,16,Filling Fast,1
+JAT,HWH,1074,1A,6,Duronto,3,35,6,22,14,Filling Fast,1
+NDLS,HWH,1447,2A,4,Express,1,23,4,48,20,Filling Fast,1
+MMCT,MAS,994,1A,6,Superfast,2,52,0,22,19,Filling Fast,1
+ADI,SBC,1111,SL,1,Superfast,2,27,4,72,19,Filling Fast,1
+MAS,CSMT,579,3A,3,Rajdhani,4,25,0,64,23,Filling Fast,1
+ADI,HYB,401,SL,1,Duronto,3,24,2,72,32,Available,2
+ADI,HYB,985,3A,3,Duronto,3,12,6,64,0,Almost Full,0
+HYB,JAT,621,2A,4,Rajdhani,4,58,3,48,41,Available,2
+CNB,HYB,587,1A,6,Superfast,2,5,5,22,2,Almost Full,0
+MAO,MMCT,580,SL,1,Rajdhani,4,13,4,72,9,Almost Full,0
+JAT,MAS,396,3A,3,Duronto,3,41,1,64,46,Available,2
+SBC,MAS,362,3A,3,Express,1,85,0,64,48,Available,2
+MAS,CSMT,672,3A,3,Rajdhani,4,1,4,64,0,Almost Full,0
+HYB,CNB,559,2A,4,Superfast,2,70,2,48,38,Available,2
+MAS,CSMT,930,2A,4,Duronto,3,9,2,48,2,Almost Full,0
+MAO,HWH,1457,SL,1,Rajdhani,4,16,0,72,17,Filling Fast,1
+ADI,JAT,453,1A,6,Express,1,6,0,22,4,Almost Full,0
+PNBE,CNB,716,SL,1,Superfast,2,39,2,72,40,Available,2
+SBC,JAT,1442,1A,6,Express,1,72,1,22,22,Filling Fast,1
+MMCT,ADI,549,SL,1,Superfast,2,87,5,72,45,Available,2
+CNB,ADI,1313,2A,4,Duronto,3,18,6,48,9,Almost Full,0
+MAO,MAS,1094,SL,1,Duronto,3,89,5,72,36,Available,2
+HWH,CNB,1007,SL,1,Rajdhani,4,8,3,72,9,Almost Full,0
+MMCT,HWH,1330,SL,1,Duronto,3,36,6,72,35,Available,2
+HWH,MAO,1526,2A,4,Rajdhani,4,51,6,48,36,Available,2
+CNB,MMCT,1017,1A,6,Superfast,2,68,3,22,22,Filling Fast,1
+PNBE,MAO,1196,2A,4,Duronto,3,70,1,48,39,Available,2
+ADI,PNBE,485,3A,3,Duronto,3,88,4,64,34,Available,2
+PNBE,CNB,1511,3A,3,Duronto,3,22,5,64,10,Filling Fast,1
+JAT,MMCT,1525,SL,1,Rajdhani,4,75,4,72,43,Available,2
+ADI,HWH,1486,1A,6,Express,1,22,2,22,12,Filling Fast,1
+PNBE,MMCT,1575,1A,6,Express,1,41,3,22,19,Filling Fast,1
+JAT,CNB,475,1A,6,Duronto,3,17,4,22,7,Almost Full,0
+JAT,NDLS,580,2A,4,Express,1,68,2,48,38,Available,2
+PNBE,MAO,1533,SL,1,Duronto,3,26,5,72,26,Filling Fast,1
+HWH,MAS,1660,3A,3,Express,1,44,0,64,50,Available,2
+MAO,NDLS,1395,SL,1,Duronto,3,37,0,72,50,Available,2
+HWH,HYB,458,1A,6,Superfast,2,14,6,22,5,Almost Full,0
+MAS,NDLS,831,SL,1,Express,1,80,2,72,57,Available,2
+CNB,PNBE,1181,SL,1,Express,1,69,1,72,57,Available,2
+JAT,CSMT,1322,2A,4,Duronto,3,71,3,48,45,Available,2
+HWH,PNBE,532,3A,3,Duronto,3,17,0,64,21,Filling Fast,1
+MMCT,JAT,382,2A,4,Express,1,84,3,48,48,Available,2
+CSMT,MMCT,631,SL,1,Express,1,89,4,72,44,Available,2
+PNBE,MAO,718,SL,1,Express,1,70,6,72,47,Available,2
+ADI,PNBE,1077,2A,4,Duronto,3,54,4,48,36,Available,2
+NDLS,MAO,1370,2A,4,Superfast,2,52,4,48,42,Available,2
+MAO,HWH,418,1A,6,Express,1,90,2,22,20,Filling Fast,1
+MMCT,MAO,580,1A,6,Duronto,3,67,6,22,21,Filling Fast,1
+MAS,ADI,1408,1A,6,Rajdhani,4,31,3,22,15,Filling Fast,1
+JAT,CNB,509,3A,3,Rajdhani,4,43,4,64,32,Available,2
+NDLS,ADI,934,SL,1,Superfast,2,53,2,72,55,Available,2
+MAS,CNB,693,1A,6,Superfast,2,72,2,22,20,Filling Fast,1
+NDLS,JAT,580,2A,4,Rajdhani,4,84,2,48,46,Available,2
+CNB,MAO,405,3A,3,Express,1,10,1,64,6,Almost Full,0
+HYB,MMCT,919,3A,3,Duronto,3,78,2,64,49,Available,2
+MAS,CNB,379,1A,6,Duronto,3,75,5,22,14,Filling Fast,1
+CSMT,JAT,1264,3A,3,Duronto,3,33,6,64,25,Filling Fast,1
+CNB,SBC,1343,2A,4,Rajdhani,4,43,0,48,32,Available,2
+CSMT,MAO,580,SL,1,Express,1,49,1,72,45,Available,2
+JAT,ADI,692,2A,4,Superfast,2,6,5,48,4,Almost Full,0
+MAS,MMCT,457,2A,4,Express,1,51,3,48,46,Available,2
+MAS,ADI,1440,2A,4,Express,1,87,5,48,38,Available,2
+PNBE,ADI,887,2A,4,Express,1,1,2,48,0,Almost Full,0
+ADI,PNBE,996,1A,6,Rajdhani,4,68,5,22,18,Filling Fast,1
+HWH,PNBE,532,3A,3,Superfast,2,34,2,64,38,Available,2
+MMCT,MAS,1546,SL,1,Express,1,86,5,72,37,Available,2
+SBC,JAT,1555,2A,4,Superfast,2,86,5,48,42,Available,2
+CSMT,HWH,1471,1A,6,Rajdhani,4,8,0,22,7,Almost Full,0
+PNBE,MMCT,1425,1A,6,Express,1,44,1,22,20,Filling Fast,1
+CNB,MAS,865,2A,4,Rajdhani,4,3,4,48,0,Almost Full,0
+MMCT,NDLS,1384,2A,4,Rajdhani,4,90,0,48,44,Available,2
+MMCT,MAO,580,SL,1,Duronto,3,14,5,72,0,Almost Full,0
+CSMT,MAS,953,SL,1,Rajdhani,4,81,3,72,53,Available,2
+MAS,PNBE,1012,3A,3,Duronto,3,9,2,64,4,Almost Full,0
+NDLS,PNBE,998,3A,3,Rajdhani,4,33,6,64,22,Filling Fast,1
+MAS,CSMT,1252,1A,6,Express,1,25,4,22,9,Almost Full,0
+PNBE,CSMT,1357,1A,6,Duronto,3,69,6,22,21,Filling Fast,1
+PNBE,SBC,567,SL,1,Superfast,2,13,0,72,14,Filling Fast,1
+MMCT,CNB,1520,3A,3,Express,1,2,3,64,0,Almost Full,0
+CSMT,JAT,351,1A,6,Express,1,34,1,22,17,Filling Fast,1
+CNB,HWH,1007,1A,6,Express,1,61,3,22,22,Filling Fast,1
+PNBE,MMCT,1456,2A,4,Rajdhani,4,49,5,48,40,Available,2
+ADI,MMCT,1511,3A,3,Superfast,2,87,2,64,52,Available,2
+PNBE,NDLS,998,3A,3,Superfast,2,10,6,64,0,Almost Full,0
+ADI,MAS,765,2A,4,Rajdhani,4,49,5,48,39,Available,2
+SBC,MAS,362,1A,6,Superfast,2,62,0,22,22,Filling Fast,1
+JAT,ADI,738,2A,4,Rajdhani,4,24,0,48,28,Filling Fast,1
+CNB,MAO,838,SL,1,Express,1,8,6,72,0,Almost Full,0
+HYB,JAT,980,SL,1,Express,1,2,0,72,2,Almost Full,0
+HWH,NDLS,1447,1A,6,Express,1,15,1,22,7,Almost Full,0
+JAT,CNB,1421,SL,1,Duronto,3,74,1,72,62,Available,2
+MMCT,NDLS,1384,SL,1,Rajdhani,4,60,4,72,44,Available,2
+NDLS,SBC,617,1A,6,Duronto,3,80,0,22,22,Filling Fast,1
+MAS,MMCT,1284,2A,4,Rajdhani,4,13,0,48,12,Filling Fast,1
+ADI,MAO,801,1A,6,Duronto,3,54,2,22,22,Filling Fast,1
+CNB,JAT,1173,3A,3,Rajdhani,4,87,4,64,43,Available,2
+HYB,CSMT,1008,2A,4,Rajdhani,4,75,1,48,41,Available,2
+HWH,MMCT,597,3A,3,Duronto,3,53,1,64,49,Available,2
+CNB,HWH,1007,2A,4,Express,1,31,4,48,22,Filling Fast,1
+NDLS,CSMT,1384,SL,1,Duronto,3,2,3,72,0,Almost Full,0
+MMCT,NDLS,1384,2A,4,Rajdhani,4,90,5,48,38,Available,2
+MAO,MAS,1202,SL,1,Duronto,3,26,1,72,25,Filling Fast,1
+JAT,MAS,1421,SL,1,Express,1,30,1,72,33,Available,2
+MAO,NDLS,1571,2A,4,Express,1,78,0,48,48,Available,2
+JAT,MAS,1062,SL,1,Rajdhani,4,71,1,72,64,Available,2
+SBC,MMCT,1435,1A,6,Superfast,2,69,4,22,18,Filling Fast,1
+SBC,ADI,776,3A,3,Rajdhani,4,24,0,64,26,Filling Fast,1
+CSMT,JAT,1321,SL,1,Duronto,3,20,5,72,10,Filling Fast,1
+NDLS,CNB,440,3A,3,Duronto,3,55,2,64,54,Available,2
+HWH,MAO,1278,1A,6,Rajdhani,4,6,4,22,0,Almost Full,0
+CSMT,CNB,409,SL,1,Rajdhani,4,9,1,72,4,Almost Full,0
+CNB,ADI,1563,3A,3,Express,1,25,5,64,9,Almost Full,0
+JAT,HWH,821,1A,6,Superfast,2,29,0,22,15,Filling Fast,1
+SBC,PNBE,759,SL,1,Duronto,3,9,3,72,9,Almost Full,0
+MAO,ADI,461,SL,1,Duronto,3,27,4,72,16,Filling Fast,1
+ADI,CSMT,1143,3A,3,Duronto,3,58,5,64,50,Available,2
+SBC,JAT,1084,3A,3,Duronto,3,42,1,64,41,Available,2
+NDLS,MAO,472,3A,3,Duronto,3,14,6,64,0,Almost Full,0
+ADI,CNB,1206,2A,4,Superfast,2,28,2,48,29,Filling Fast,1
+MAO,CSMT,580,2A,4,Rajdhani,4,52,6,48,40,Available,2
+HYB,ADI,793,SL,1,Express,1,35,0,72,50,Available,2
+CNB,PNBE,855,2A,4,Superfast,2,55,4,48,34,Available,2
+SBC,MAO,655,1A,6,Express,1,5,0,22,6,Almost Full,0
+ADI,HYB,418,SL,1,Express,1,61,6,72,43,Available,2
+CNB,MMCT,1276,SL,1,Duronto,3,10,4,72,0,Almost Full,0
+NDLS,PNBE,998,2A,4,Superfast,2,37,1,48,39,Available,2
+JAT,MMCT,382,SL,1,Superfast,2,20,5,72,13,Filling Fast,1
+ADI,MAO,1545,1A,6,Express,1,59,6,22,15,Filling Fast,1
+CSMT,PNBE,728,3A,3,Express,1,90,5,64,49,Available,2
+NDLS,JAT,580,SL,1,Superfast,2,67,0,72,62,Available,2
+MAS,PNBE,902,2A,4,Rajdhani,4,79,2,48,41,Available,2
+CNB,NDLS,440,3A,3,Rajdhani,4,14,3,64,16,Filling Fast,1
+HWH,ADI,433,3A,3,Superfast,2,22,5,64,16,Filling Fast,1
+HYB,MMCT,1498,2A,4,Duronto,3,42,1,48,41,Available,2
+HYB,MMCT,1329,2A,4,Duronto,3,41,2,48,37,Available,2
+MAS,HYB,1216,3A,3,Rajdhani,4,8,2,64,3,Almost Full,0
+HWH,ADI,1345,1A,6,Express,1,90,4,22,18,Filling Fast,1
+JAT,HYB,948,SL,1,Superfast,2,86,5,72,50,Available,2
+MMCT,SBC,1287,1A,6,Rajdhani,4,50,1,22,22,Filling Fast,1
+MAS,MMCT,573,2A,4,Superfast,2,14,5,48,6,Almost Full,0
+CSMT,ADI,658,2A,4,Rajdhani,4,37,3,48,39,Available,2
+JAT,HYB,620,SL,1,Superfast,2,53,3,72,38,Available,2
+CNB,JAT,393,3A,3,Duronto,3,8,0,64,12,Filling Fast,1
+SBC,HYB,625,SL,1,Superfast,2,83,5,72,33,Available,2
+HWH,ADI,1565,SL,1,Express,1,38,4,72,32,Available,2
+CSMT,MAS,701,3A,3,Duronto,3,61,2,64,45,Available,2
+MAS,NDLS,653,3A,3,Superfast,2,58,1,64,45,Available,2
+MAO,CSMT,580,3A,3,Duronto,3,22,6,64,20,Filling Fast,1
+CNB,JAT,664,2A,4,Duronto,3,14,0,48,13,Filling Fast,1
+HWH,MAO,609,SL,1,Superfast,2,47,1,72,56,Available,2
+SBC,HYB,625,3A,3,Superfast,2,18,2,64,18,Filling Fast,1
+ADI,HYB,682,3A,3,Rajdhani,4,3,3,64,3,Almost Full,0
+ADI,CSMT,1288,3A,3,Duronto,3,0,5,64,0,Almost Full,0
+HYB,CNB,1028,3A,3,Express,1,37,6,64,25,Filling Fast,1
+MAO,JAT,651,SL,1,Superfast,2,88,0,72,60,Available,2
+CNB,ADI,432,2A,4,Rajdhani,4,39,0,48,36,Available,2
+PNBE,MAO,801,SL,1,Superfast,2,11,2,72,0,Almost Full,0
+NDLS,MAO,749,2A,4,Superfast,2,25,0,48,23,Filling Fast,1
+MMCT,HYB,1262,1A,6,Express,1,24,3,22,15,Filling Fast,1
+HWH,MAO,1589,1A,6,Superfast,2,50,1,22,22,Filling Fast,1
+CNB,PNBE,1107,SL,1,Superfast,2,1,2,72,0,Almost Full,0
+HWH,CNB,1007,SL,1,Rajdhani,4,27,5,72,17,Filling Fast,1
+ADI,PNBE,1256,3A,3,Duronto,3,54,5,64,40,Available,2
+PNBE,CSMT,1552,1A,6,Duronto,3,26,2,22,17,Filling Fast,1
+ADI,HYB,1036,1A,6,Express,1,11,0,22,7,Almost Full,0
+PNBE,JAT,909,SL,1,Duronto,3,71,3,72,56,Available,2
+CNB,MAO,630,2A,4,Duronto,3,48,2,48,47,Available,2
+HYB,ADI,436,3A,3,Superfast,2,63,4,64,43,Available,2
+CNB,ADI,809,1A,6,Rajdhani,4,19,2,22,10,Filling Fast,1
+MAS,JAT,1317,1A,6,Superfast,2,53,1,22,21,Filling Fast,1
+ADI,JAT,851,1A,6,Rajdhani,4,35,3,22,17,Filling Fast,1
+MMCT,MAO,580,SL,1,Express,1,33,5,72,27,Filling Fast,1
+JAT,ADI,594,3A,3,Rajdhani,4,33,1,64,40,Available,2
+MAO,NDLS,649,3A,3,Express,1,88,1,64,51,Available,2
+HWH,CSMT,458,3A,3,Superfast,2,53,5,64,45,Available,2
+HWH,NDLS,1447,3A,3,Rajdhani,4,65,1,64,51,Available,2
+JAT,CSMT,543,2A,4,Superfast,2,40,6,48,32,Available,2
+JAT,MAS,905,3A,3,Rajdhani,4,68,4,64,31,Available,2
+HWH,CSMT,376,2A,4,Superfast,2,47,6,48,40,Available,2
+ADI,PNBE,1046,2A,4,Rajdhani,4,27,1,48,28,Filling Fast,1
+HYB,SBC,625,1A,6,Express,1,58,0,22,22,Filling Fast,1
+MMCT,CSMT,385,SL,1,Superfast,2,39,5,72,18,Filling Fast,1
+HWH,CSMT,1255,3A,3,Duronto,3,90,2,64,62,Available,2
+NDLS,MMCT,1384,2A,4,Duronto,3,88,1,48,43,Available,2
+MAS,CSMT,779,2A,4,Rajdhani,4,54,5,48,40,Available,2
+MMCT,CNB,388,SL,1,Express,1,5,1,72,0,Almost Full,0
+MMCT,NDLS,1384,1A,6,Express,1,15,2,22,10,Filling Fast,1
+NDLS,MMCT,1384,1A,6,Rajdhani,4,15,4,22,3,Almost Full,0
+SBC,MAO,759,2A,4,Superfast,2,3,0,48,3,Almost Full,0
+CSMT,MAS,1537,3A,3,Superfast,2,20,6,64,21,Filling Fast,1
+HYB,MAO,845,1A,6,Rajdhani,4,74,6,22,17,Filling Fast,1
+NDLS,HYB,794,2A,4,Superfast,2,21,6,48,15,Filling Fast,1
+HYB,NDLS,552,2A,4,Express,1,46,5,48,39,Available,2
+MAO,CSMT,580,1A,6,Duronto,3,45,3,22,22,Filling Fast,1
+PNBE,SBC,1403,2A,4,Express,1,14,6,48,8,Almost Full,0
+HWH,MMCT,1304,1A,6,Duronto,3,63,6,22,18,Filling Fast,1
+HWH,MAS,1660,1A,6,Rajdhani,4,41,3,22,22,Filling Fast,1
+MMCT,PNBE,930,SL,1,Superfast,2,87,6,72,43,Available,2
+ADI,SBC,1484,SL,1,Superfast,2,54,1,72,55,Available,2
+MMCT,ADI,1102,2A,4,Rajdhani,4,86,3,48,47,Available,2
+JAT,MMCT,1161,SL,1,Rajdhani,4,15,1,72,20,Filling Fast,1
+PNBE,CNB,1559,1A,6,Duronto,3,8,2,22,8,Almost Full,0
+SBC,HWH,760,SL,1,Rajdhani,4,29,6,72,25,Filling Fast,1
+PNBE,ADI,920,3A,3,Express,1,45,3,64,45,Available,2
+JAT,MAO,1178,SL,1,Superfast,2,18,6,72,16,Filling Fast,1
+ADI,MMCT,600,3A,3,Express,1,63,1,64,45,Available,2
+JAT,CSMT,410,1A,6,Rajdhani,4,8,3,22,6,Almost Full,0
+JAT,NDLS,580,SL,1,Superfast,2,19,2,72,14,Filling Fast,1
+MAO,CNB,547,1A,6,Express,1,59,1,22,21,Filling Fast,1
+MAS,JAT,1369,SL,1,Superfast,2,69,2,72,56,Available,2
+HYB,CNB,386,1A,6,Express,1,15,3,22,9,Almost Full,0
+ADI,HWH,1120,SL,1,Express,1,4,0,72,1,Almost Full,0
+CSMT,HYB,970,2A,4,Express,1,55,1,48,48,Available,2
+MAS,PNBE,1348,1A,6,Express,1,84,4,22,18,Filling Fast,1
+JAT,HYB,1521,SL,1,Express,1,71,6,72,42,Available,2
+CSMT,HYB,464,SL,1,Superfast,2,63,4,72,49,Available,2
+PNBE,MAO,1072,3A,3,Superfast,2,7,0,64,11,Filling Fast,1
+MAO,NDLS,612,3A,3,Superfast,2,74,0,64,45,Available,2
+JAT,HWH,1129,1A,6,Express,1,44,2,22,22,Filling Fast,1
+PNBE,HWH,532,2A,4,Duronto,3,30,5,48,25,Filling Fast,1
+MAS,MAO,523,1A,6,Superfast,2,14,2,22,7,Almost Full,0
+CSMT,NDLS,1384,3A,3,Rajdhani,4,58,5,64,49,Available,2
+PNBE,MAO,1404,SL,1,Superfast,2,2,5,72,0,Almost Full,0
+ADI,MAO,395,3A,3,Express,1,73,3,64,52,Available,2
+HWH,MAO,550,SL,1,Rajdhani,4,88,5,72,42,Available,2
+SBC,HWH,1367,3A,3,Duronto,3,78,2,64,51,Available,2
+HWH,PNBE,532,SL,1,Rajdhani,4,68,1,72,48,Available,2
+MAS,CNB,447,3A,3,Express,1,28,4,64,14,Filling Fast,1
+CNB,MMCT,1534,1A,6,Superfast,2,34,0,22,19,Filling Fast,1
+MAO,HYB,1323,SL,1,Duronto,3,44,6,72,37,Available,2
+MMCT,JAT,968,3A,3,Express,1,84,4,64,37,Available,2
+HWH,SBC,1198,SL,1,Superfast,2,79,4,72,31,Available,2
+ADI,JAT,1471,2A,4,Rajdhani,4,80,5,48,34,Available,2
+HYB,CSMT,1531,SL,1,Duronto,3,84,6,72,36,Available,2
+CNB,ADI,898,SL,1,Rajdhani,4,66,1,72,63,Available,2
+HWH,ADI,652,2A,4,Duronto,3,87,6,48,40,Available,2
+MAS,PNBE,1190,3A,3,Rajdhani,4,81,1,64,48,Available,2
+PNBE,MAS,937,2A,4,Superfast,2,87,4,48,45,Available,2
+SBC,PNBE,838,1A,6,Duronto,3,24,0,22,14,Filling Fast,1
+SBC,MAS,362,SL,1,Express,1,54,5,72,41,Available,2
+NDLS,SBC,676,3A,3,Duronto,3,3,2,64,0,Almost Full,0
+MAS,JAT,1477,2A,4,Rajdhani,4,62,6,48,45,Available,2
+NDLS,CNB,440,3A,3,Superfast,2,8,3,64,0,Almost Full,0
+HWH,JAT,534,SL,1,Duronto,3,30,0,72,24,Filling Fast,1
+MAO,HYB,597,3A,3,Express,1,11,1,64,15,Filling Fast,1
+MAO,MMCT,580,3A,3,Express,1,30,3,64,46,Available,2
+SBC,CSMT,568,2A,4,Duronto,3,35,3,48,39,Available,2
+PNBE,MAS,1557,1A,6,Express,1,68,2,22,22,Filling Fast,1
+CNB,MMCT,998,SL,1,Express,1,87,1,72,57,Available,2
+MAS,CSMT,1093,SL,1,Superfast,2,39,0,72,51,Available,2
+JAT,MAO,421,1A,6,Duronto,3,32,4,22,14,Filling Fast,1
+PNBE,MAS,1093,1A,6,Duronto,3,56,3,22,21,Filling Fast,1
+NDLS,PNBE,998,3A,3,Rajdhani,4,30,2,64,34,Available,2
+SBC,CSMT,1248,3A,3,Express,1,4,2,64,1,Almost Full,0
+MMCT,ADI,1314,SL,1,Superfast,2,54,6,72,39,Available,2
+MMCT,CSMT,884,1A,6,Superfast,2,53,4,22,17,Filling Fast,1
+CNB,HYB,1019,SL,1,Rajdhani,4,6,5,72,0,Almost Full,0
+JAT,CSMT,1258,2A,4,Rajdhani,4,51,1,48,43,Available,2
+JAT,MAS,992,1A,6,Rajdhani,4,20,1,22,9,Almost Full,0
+HYB,JAT,616,SL,1,Superfast,2,57,3,72,48,Available,2
+CNB,CSMT,883,2A,4,Superfast,2,36,1,48,36,Available,2
+MMCT,PNBE,1102,2A,4,Express,1,48,6,48,41,Available,2
+MAO,SBC,392,1A,6,Duronto,3,11,3,22,8,Almost Full,0
+SBC,MAS,362,1A,6,Express,1,79,3,22,18,Filling Fast,1
+MAO,MAS,655,1A,6,Superfast,2,21,4,22,6,Almost Full,0
+MMCT,NDLS,1384,SL,1,Express,1,86,3,72,59,Available,2
+MMCT,SBC,766,2A,4,Superfast,2,36,5,48,24,Filling Fast,1
+ADI,PNBE,616,SL,1,Duronto,3,76,1,72,53,Available,2
+MAS,JAT,737,SL,1,Duronto,3,52,6,72,46,Available,2
+CSMT,NDLS,1384,3A,3,Duronto,3,79,3,64,46,Available,2
+SBC,HWH,1543,SL,1,Rajdhani,4,1,3,72,0,Almost Full,0
+CSMT,HWH,1164,2A,4,Express,1,90,3,48,38,Available,2
+CNB,MAO,874,1A,6,Rajdhani,4,71,0,22,20,Filling Fast,1
+NDLS,HWH,1447,SL,1,Superfast,2,77,5,72,45,Available,2
+MAO,NDLS,360,3A,3,Express,1,38,3,64,35,Available,2
+JAT,HWH,620,1A,6,Duronto,3,33,1,22,17,Filling Fast,1
+HYB,ADI,1044,SL,1,Duronto,3,11,2,72,8,Almost Full,0
+CNB,HYB,1236,2A,4,Superfast,2,14,2,48,17,Filling Fast,1
+NDLS,CSMT,1384,3A,3,Superfast,2,55,2,64,52,Available,2
+MAS,MAO,890,3A,3,Express,1,21,2,64,29,Filling Fast,1
+CNB,ADI,659,SL,1,Rajdhani,4,24,1,72,26,Filling Fast,1
+NDLS,SBC,725,1A,6,Express,1,33,1,22,15,Filling Fast,1
+CNB,ADI,1243,1A,6,Express,1,5,3,22,4,Almost Full,0
+HWH,HYB,1343,SL,1,Express,1,14,6,72,4,Almost Full,0
+CNB,CSMT,603,3A,3,Rajdhani,4,26,6,64,19,Filling Fast,1
+MAS,CSMT,694,3A,3,Duronto,3,74,0,64,51,Available,2
+HYB,MAO,719,SL,1,Rajdhani,4,31,6,72,20,Filling Fast,1
+ADI,JAT,543,3A,3,Rajdhani,4,36,5,64,27,Filling Fast,1
+JAT,MMCT,1157,3A,3,Rajdhani,4,41,1,64,39,Available,2
+NDLS,MMCT,1384,SL,1,Express,1,80,2,72,64,Available,2
+MAO,JAT,361,3A,3,Rajdhani,4,83,4,64,35,Available,2
+ADI,HWH,1515,2A,4,Duronto,3,6,6,48,0,Almost Full,0
+JAT,MAS,1011,1A,6,Rajdhani,4,70,4,22,16,Filling Fast,1
+PNBE,MMCT,1166,3A,3,Duronto,3,30,6,64,28,Filling Fast,1
+PNBE,MMCT,392,2A,4,Duronto,3,49,6,48,35,Available,2
+PNBE,MAS,665,1A,6,Superfast,2,62,6,22,20,Filling Fast,1
+PNBE,MAS,1585,2A,4,Superfast,2,85,0,48,41,Available,2
+HWH,HYB,759,SL,1,Express,1,49,3,72,56,Available,2
+MAS,MAO,1579,SL,1,Rajdhani,4,54,6,72,38,Available,2
+HWH,MAO,731,SL,1,Express,1,11,0,72,20,Filling Fast,1
+HYB,HWH,1299,2A,4,Duronto,3,63,4,48,31,Available,2
+JAT,CNB,1424,1A,6,Superfast,2,59,3,22,21,Filling Fast,1
+MMCT,ADI,965,2A,4,Duronto,3,87,2,48,46,Available,2
+SBC,HYB,625,3A,3,Rajdhani,4,70,0,64,53,Available,2
+NDLS,HYB,570,SL,1,Express,1,12,3,72,8,Almost Full,0
+JAT,MAO,868,3A,3,Superfast,2,74,0,64,51,Available,2
+HYB,NDLS,583,SL,1,Duronto,3,23,6,72,14,Filling Fast,1
+PNBE,NDLS,998,SL,1,Superfast,2,40,4,72,36,Available,2
+CNB,ADI,1271,3A,3,Superfast,2,23,1,64,30,Filling Fast,1
+CSMT,MMCT,1587,3A,3,Rajdhani,4,55,4,64,53,Available,2
+NDLS,CNB,440,1A,6,Rajdhani,4,21,5,22,7,Almost Full,0
+ADI,CNB,1179,SL,1,Superfast,2,79,6,72,35,Available,2
+MAO,HWH,1158,3A,3,Rajdhani,4,16,1,64,16,Filling Fast,1
+NDLS,SBC,579,1A,6,Duronto,3,3,1,22,8,Almost Full,0
+ADI,JAT,647,2A,4,Express,1,80,6,48,33,Available,2
+HYB,SBC,625,3A,3,Express,1,18,3,64,27,Filling Fast,1
+PNBE,NDLS,998,2A,4,Duronto,3,89,3,48,48,Available,2
+ADI,CNB,390,SL,1,Duronto,3,25,2,72,24,Filling Fast,1
+MAO,PNBE,454,3A,3,Rajdhani,4,13,5,64,6,Almost Full,0
+CNB,PNBE,1201,SL,1,Superfast,2,4,3,72,8,Almost Full,0
+PNBE,ADI,1401,SL,1,Duronto,3,7,4,72,0,Almost Full,0
+NDLS,PNBE,998,3A,3,Rajdhani,4,34,5,64,27,Filling Fast,1
+PNBE,ADI,589,SL,1,Superfast,2,57,5,72,40,Available,2
+PNBE,NDLS,998,3A,3,Duronto,3,60,2,64,46,Available,2
+ADI,SBC,1389,2A,4,Superfast,2,77,6,48,34,Available,2
+CNB,JAT,1309,2A,4,Superfast,2,49,3,48,39,Available,2
+JAT,CNB,1087,SL,1,Duronto,3,79,1,72,54,Available,2
+MAS,MMCT,1338,2A,4,Duronto,3,25,1,48,22,Filling Fast,1
+MAO,ADI,556,SL,1,Express,1,38,1,72,46,Available,2
+SBC,HYB,625,1A,6,Superfast,2,33,2,22,13,Filling Fast,1
+JAT,CSMT,707,1A,6,Rajdhani,4,43,3,22,21,Filling Fast,1
+MMCT,MAO,580,1A,6,Duronto,3,62,2,22,22,Filling Fast,1
+HWH,CNB,1007,3A,3,Duronto,3,88,6,64,31,Available,2
+HYB,MAO,563,1A,6,Express,1,58,6,22,18,Filling Fast,1
+MMCT,CNB,1600,1A,6,Rajdhani,4,64,0,22,22,Filling Fast,1
+CSMT,JAT,591,2A,4,Superfast,2,20,5,48,9,Almost Full,0
+MAS,ADI,1386,SL,1,Rajdhani,4,19,5,72,17,Filling Fast,1
+HWH,CNB,1007,1A,6,Duronto,3,56,3,22,22,Filling Fast,1
+NDLS,SBC,1320,3A,3,Superfast,2,64,1,64,48,Available,2
+MMCT,MAS,1112,SL,1,Superfast,2,80,5,72,43,Available,2
+SBC,CSMT,1434,SL,1,Duronto,3,17,6,72,8,Almost Full,0
+PNBE,CNB,1188,SL,1,Superfast,2,3,3,72,0,Almost Full,0
+CSMT,NDLS,1384,1A,6,Rajdhani,4,43,2,22,21,Filling Fast,1
+PNBE,CSMT,1238,1A,6,Express,1,4,5,22,0,Almost Full,0
+JAT,CSMT,1526,1A,6,Superfast,2,53,3,22,21,Filling Fast,1
+JAT,HYB,973,3A,3,Superfast,2,1,6,64,0,Almost Full,0
+MAS,HYB,1600,2A,4,Express,1,57,5,48,36,Available,2
+SBC,HYB,625,3A,3,Express,1,25,2,64,22,Filling Fast,1
+MMCT,NDLS,1384,3A,3,Express,1,16,4,64,3,Almost Full,0
+HYB,MAS,787,1A,6,Superfast,2,66,2,22,22,Filling Fast,1
+JAT,CSMT,397,1A,6,Superfast,2,30,6,22,13,Filling Fast,1
+MAS,PNBE,1384,1A,6,Rajdhani,4,47,2,22,22,Filling Fast,1
+JAT,HYB,1075,1A,6,Rajdhani,4,83,0,22,19,Filling Fast,1
+ADI,MAS,1522,1A,6,Express,1,43,1,22,20,Filling Fast,1
+CNB,MAO,1508,2A,4,Superfast,2,38,2,48,42,Available,2
+JAT,MAO,636,SL,1,Duronto,3,13,2,72,11,Filling Fast,1
+HYB,MAO,744,3A,3,Express,1,12,1,64,23,Filling Fast,1
+CNB,PNBE,1193,1A,6,Rajdhani,4,7,3,22,6,Almost Full,0
+CSMT,ADI,789,SL,1,Rajdhani,4,47,5,72,44,Available,2
+HYB,PNBE,1554,SL,1,Superfast,2,74,3,72,52,Available,2
+JAT,PNBE,1251,SL,1,Express,1,20,1,72,21,Filling Fast,1
+HYB,CSMT,1342,SL,1,Duronto,3,90,4,72,42,Available,2
+HYB,MMCT,785,SL,1,Express,1,4,5,72,0,Almost Full,0
+CSMT,HYB,1106,1A,6,Express,1,14,0,22,10,Filling Fast,1
+HWH,MAO,943,1A,6,Duronto,3,15,2,22,7,Almost Full,0
+MAS,HWH,1660,3A,3,Express,1,3,6,64,0,Almost Full,0
+CSMT,CNB,1557,SL,1,Rajdhani,4,39,2,72,35,Available,2
+SBC,CSMT,1351,1A,6,Rajdhani,4,70,2,22,22,Filling Fast,1
+MMCT,NDLS,1384,SL,1,Superfast,2,72,3,72,48,Available,2
+HWH,PNBE,532,2A,4,Duronto,3,64,5,48,28,Filling Fast,1
+ADI,CNB,1269,2A,4,Superfast,2,11,6,48,7,Almost Full,0
+MAO,JAT,1188,SL,1,Duronto,3,50,2,72,68,Available,2
+HYB,NDLS,1257,3A,3,Rajdhani,4,21,5,64,13,Filling Fast,1
+NDLS,MAO,982,1A,6,Rajdhani,4,24,4,22,10,Filling Fast,1
+HYB,MAO,458,2A,4,Express,1,64,0,48,44,Available,2
+MMCT,JAT,1439,2A,4,Rajdhani,4,35,6,48,27,Filling Fast,1
+SBC,CNB,1536,SL,1,Rajdhani,4,68,4,72,48,Available,2
+HWH,PNBE,532,1A,6,Express,1,2,2,22,3,Almost Full,0
+PNBE,CSMT,1199,1A,6,Superfast,2,48,2,22,21,Filling Fast,1
+MMCT,CNB,553,2A,4,Superfast,2,18,1,48,20,Filling Fast,1
+MAS,MMCT,665,3A,3,Express,1,86,1,64,48,Available,2
+NDLS,MAO,1016,2A,4,Rajdhani,4,7,2,48,13,Filling Fast,1
+PNBE,MMCT,1005,2A,4,Express,1,41,2,48,39,Available,2
+PNBE,MMCT,456,2A,4,Duronto,3,76,4,48,33,Available,2
+SBC,ADI,1391,SL,1,Rajdhani,4,34,0,72,42,Available,2
+HWH,ADI,1482,SL,1,Rajdhani,4,61,0,72,49,Available,2
+PNBE,JAT,828,1A,6,Superfast,2,70,4,22,18,Filling Fast,1
+JAT,MMCT,854,2A,4,Superfast,2,72,3,48,43,Available,2
+ADI,MMCT,1374,2A,4,Duronto,3,47,4,48,40,Available,2
+CSMT,SBC,1450,SL,1,Express,1,5,0,72,2,Almost Full,0
+ADI,MAO,942,2A,4,Rajdhani,4,7,3,48,9,Almost Full,0
+MAS,MAO,863,SL,1,Superfast,2,80,1,72,59,Available,2
+MAO,HYB,926,1A,6,Duronto,3,68,4,22,20,Filling Fast,1
+MMCT,MAS,533,SL,1,Rajdhani,4,17,5,72,8,Almost Full,0
+HYB,MAS,1234,2A,4,Superfast,2,87,2,48,43,Available,2
+JAT,MAS,1277,3A,3,Duronto,3,84,2,64,44,Available,2
+HWH,SBC,1291,3A,3,Rajdhani,4,88,1,64,46,Available,2
+JAT,NDLS,580,SL,1,Rajdhani,4,1,5,72,0,Almost Full,0
+CSMT,PNBE,1488,SL,1,Express,1,68,0,72,50,Available,2
+JAT,CNB,508,1A,6,Express,1,86,0,22,21,Filling Fast,1
+HWH,PNBE,532,3A,3,Express,1,22,6,64,14,Filling Fast,1
+CNB,NDLS,440,SL,1,Superfast,2,24,3,72,28,Filling Fast,1
+NDLS,SBC,390,3A,3,Superfast,2,24,0,64,25,Filling Fast,1
+MAO,JAT,970,2A,4,Duronto,3,63,2,48,45,Available,2
+NDLS,MAS,1359,2A,4,Rajdhani,4,25,6,48,18,Filling Fast,1
+JAT,PNBE,577,3A,3,Express,1,21,4,64,2,Almost Full,0
+SBC,JAT,1508,2A,4,Rajdhani,4,75,1,48,40,Available,2
+CNB,MMCT,610,3A,3,Duronto,3,66,5,64,41,Available,2
+MAS,SBC,362,3A,3,Express,1,0,3,64,0,Almost Full,0
+JAT,CNB,456,3A,3,Express,1,52,2,64,54,Available,2
+MMCT,JAT,1411,SL,1,Express,1,46,4,72,52,Available,2
+NDLS,SBC,446,3A,3,Express,1,68,3,64,57,Available,2
+HWH,NDLS,1447,2A,4,Superfast,2,10,4,48,3,Almost Full,0
+NDLS,SBC,1217,1A,6,Duronto,3,25,1,22,15,Filling Fast,1
+HWH,MAS,1660,1A,6,Rajdhani,4,61,3,22,21,Filling Fast,1
+NDLS,MAO,1034,3A,3,Duronto,3,13,3,64,11,Filling Fast,1
+SBC,HWH,461,3A,3,Duronto,3,9,6,64,0,Almost Full,0
+MAO,CNB,1248,1A,6,Express,1,74,0,22,20,Filling Fast,1
+MMCT,NDLS,1384,SL,1,Superfast,2,88,0,72,52,Available,2
+CSMT,NDLS,1384,1A,6,Superfast,2,78,5,22,18,Filling Fast,1
+PNBE,MMCT,558,1A,6,Rajdhani,4,37,6,22,15,Filling Fast,1
+PNBE,CNB,546,SL,1,Duronto,3,76,6,72,43,Available,2
+JAT,MAO,371,SL,1,Express,1,59,6,72,46,Available,2
+PNBE,MAO,557,3A,3,Rajdhani,4,58,4,64,48,Available,2
+HWH,MAO,744,1A,6,Rajdhani,4,1,4,22,1,Almost Full,0
+CNB,MMCT,1564,2A,4,Duronto,3,81,4,48,30,Filling Fast,1
+MAS,HWH,1660,SL,1,Express,1,23,1,72,9,Almost Full,0
+CSMT,NDLS,1384,2A,4,Superfast,2,74,3,48,47,Available,2
+HYB,JAT,1082,3A,3,Duronto,3,18,3,64,12,Filling Fast,1
+MAS,MAO,1052,3A,3,Superfast,2,1,4,64,0,Almost Full,0
+MAO,JAT,646,1A,6,Duronto,3,64,6,22,16,Filling Fast,1
+HYB,NDLS,1214,3A,3,Duronto,3,25,5,64,8,Almost Full,0
+SBC,MMCT,1049,2A,4,Express,1,88,5,48,38,Available,2
+ADI,MAO,1028,3A,3,Superfast,2,53,2,64,55,Available,2
+CSMT,MMCT,1280,1A,6,Express,1,28,0,22,13,Filling Fast,1
+JAT,SBC,821,SL,1,Duronto,3,30,3,72,19,Filling Fast,1
+CNB,HWH,1007,2A,4,Express,1,23,6,48,14,Filling Fast,1
+NDLS,HWH,1447,1A,6,Superfast,2,3,4,22,1,Almost Full,0
+MMCT,CSMT,945,SL,1,Duronto,3,80,4,72,35,Available,2
+HWH,NDLS,1447,2A,4,Duronto,3,36,1,48,36,Available,2
+SBC,MAS,362,3A,3,Duronto,3,22,1,64,23,Filling Fast,1
+NDLS,CSMT,1384,1A,6,Rajdhani,4,86,1,22,22,Filling Fast,1
+PNBE,JAT,577,3A,3,Duronto,3,39,3,64,45,Available,2
+SBC,HWH,1112,2A,4,Express,1,8,0,48,6,Almost Full,0
+CSMT,CNB,738,2A,4,Express,1,88,2,48,48,Available,2
+HWH,MAO,1229,2A,4,Rajdhani,4,78,4,48,35,Available,2
+SBC,HYB,625,2A,4,Superfast,2,31,0,48,30,Filling Fast,1
+JAT,MAS,608,SL,1,Duronto,3,10,6,72,0,Almost Full,0
+ADI,JAT,482,2A,4,Express,1,82,6,48,34,Available,2
+HYB,HWH,1371,SL,1,Duronto,3,41,5,72,33,Available,2
+HWH,HYB,1339,SL,1,Express,1,34,4,72,27,Filling Fast,1
+PNBE,JAT,1545,1A,6,Duronto,3,28,1,22,17,Filling Fast,1
+ADI,SBC,1160,2A,4,Superfast,2,54,3,48,38,Available,2
+MAO,CSMT,580,3A,3,Rajdhani,4,17,6,64,0,Almost Full,0
+MMCT,MAS,1260,3A,3,Duronto,3,74,0,64,59,Available,2
+ADI,HYB,1038,SL,1,Express,1,59,3,72,53,Available,2
+PNBE,HWH,532,3A,3,Superfast,2,48,0,64,48,Available,2
+CSMT,ADI,828,3A,3,Rajdhani,4,45,0,64,57,Available,2
+MAS,HYB,1400,1A,6,Superfast,2,29,0,22,13,Filling Fast,1
+MMCT,CNB,1087,1A,6,Duronto,3,42,1,22,22,Filling Fast,1
+JAT,HWH,862,3A,3,Superfast,2,24,5,64,20,Filling Fast,1
+MAO,CSMT,580,3A,3,Rajdhani,4,38,2,64,40,Available,2
+HWH,PNBE,532,1A,6,Express,1,83,4,22,21,Filling Fast,1
+CSMT,PNBE,816,2A,4,Duronto,3,60,1,48,41,Available,2
+HYB,MAO,1481,SL,1,Express,1,43,6,72,45,Available,2
+MMCT,HWH,734,SL,1,Express,1,26,3,72,30,Filling Fast,1
+ADI,HYB,411,3A,3,Duronto,3,73,6,64,48,Available,2
+CSMT,MAS,369,SL,1,Superfast,2,43,1,72,60,Available,2
+PNBE,CNB,1176,3A,3,Superfast,2,75,0,64,51,Available,2
+MAO,NDLS,634,2A,4,Superfast,2,72,5,48,33,Available,2
+MAO,CNB,1525,SL,1,Express,1,26,3,72,31,Available,2
+MMCT,HYB,1141,2A,4,Express,1,13,2,48,12,Filling Fast,1
+MAO,ADI,973,1A,6,Duronto,3,13,5,22,8,Almost Full,0
+HYB,CSMT,415,SL,1,Rajdhani,4,23,1,72,25,Filling Fast,1
+MMCT,PNBE,931,2A,4,Duronto,3,37,5,48,27,Filling Fast,1
+HYB,MMCT,1281,1A,6,Superfast,2,66,0,22,21,Filling Fast,1
+CSMT,HWH,1191,SL,1,Duronto,3,14,1,72,4,Almost Full,0
+HYB,PNBE,1329,1A,6,Express,1,26,1,22,11,Filling Fast,1
+SBC,MAS,362,SL,1,Duronto,3,77,4,72,50,Available,2
+MAS,MAO,765,SL,1,Superfast,2,25,0,72,23,Filling Fast,1
+CSMT,ADI,481,SL,1,Duronto,3,67,2,72,48,Available,2
+MAO,ADI,1292,SL,1,Rajdhani,4,11,2,72,11,Filling Fast,1
+JAT,ADI,1060,3A,3,Express,1,78,6,64,48,Available,2
+CSMT,PNBE,860,2A,4,Express,1,58,3,48,46,Available,2
+JAT,CSMT,1514,1A,6,Express,1,89,0,22,22,Filling Fast,1
+SBC,CSMT,910,3A,3,Rajdhani,4,89,5,64,38,Available,2
+CNB,SBC,1360,SL,1,Rajdhani,4,47,0,72,46,Available,2
+MMCT,HYB,1017,SL,1,Express,1,21,2,72,30,Filling Fast,1
+SBC,HYB,625,SL,1,Rajdhani,4,9,5,72,0,Almost Full,0
+CNB,JAT,1295,SL,1,Superfast,2,51,6,72,42,Available,2
+SBC,PNBE,427,1A,6,Superfast,2,14,5,22,7,Almost Full,0
+CSMT,HWH,1300,SL,1,Express,1,8,0,72,7,Almost Full,0
+HYB,JAT,846,SL,1,Duronto,3,60,6,72,46,Available,2
+MAS,CSMT,699,1A,6,Rajdhani,4,22,2,22,15,Filling Fast,1
+MMCT,HYB,1150,2A,4,Rajdhani,4,85,6,48,34,Available,2
+NDLS,JAT,580,2A,4,Express,1,45,1,48,47,Available,2
+SBC,NDLS,1440,2A,4,Express,1,89,0,48,43,Available,2
+JAT,HYB,560,SL,1,Superfast,2,56,0,72,56,Available,2
+MAO,NDLS,449,SL,1,Duronto,3,31,2,72,44,Available,2
+SBC,CNB,537,1A,6,Express,1,3,0,22,4,Almost Full,0
+HWH,SBC,479,2A,4,Rajdhani,4,85,1,48,45,Available,2
+CNB,CSMT,440,SL,1,Rajdhani,4,41,2,72,55,Available,2
+HYB,JAT,738,2A,4,Express,1,54,0,48,42,Available,2
+SBC,CNB,566,3A,3,Superfast,2,22,0,64,19,Filling Fast,1
+PNBE,JAT,997,1A,6,Express,1,27,3,22,12,Filling Fast,1
+SBC,MMCT,920,3A,3,Rajdhani,4,8,1,64,0,Almost Full,0
+PNBE,MAS,1576,SL,1,Rajdhani,4,68,6,72,55,Available,2
+MAO,CSMT,580,1A,6,Superfast,2,80,5,22,16,Filling Fast,1
+PNBE,JAT,622,3A,3,Duronto,3,81,6,64,40,Available,2
+CNB,HWH,1007,1A,6,Superfast,2,2,4,22,0,Almost Full,0
+MAO,ADI,1133,2A,4,Rajdhani,4,29,0,48,30,Filling Fast,1
+MAO,MMCT,580,2A,4,Express,1,31,4,48,26,Filling Fast,1
+MMCT,NDLS,1384,3A,3,Express,1,37,1,64,46,Available,2
+CSMT,PNBE,768,1A,6,Duronto,3,76,3,22,20,Filling Fast,1
+CNB,HWH,1007,3A,3,Superfast,2,82,6,64,41,Available,2
+NDLS,HYB,1199,3A,3,Rajdhani,4,29,6,64,24,Filling Fast,1
+CNB,HWH,1007,2A,4,Duronto,3,69,0,48,42,Available,2
+JAT,SBC,805,SL,1,Superfast,2,23,3,72,33,Available,2
+JAT,NDLS,580,SL,1,Rajdhani,4,24,0,72,28,Filling Fast,1
+JAT,CSMT,768,2A,4,Rajdhani,4,22,4,48,18,Filling Fast,1
+HYB,SBC,625,1A,6,Express,1,59,2,22,22,Filling Fast,1
+CSMT,SBC,851,SL,1,Duronto,3,77,1,72,61,Available,2
+MAS,CNB,1530,SL,1,Duronto,3,34,6,72,29,Filling Fast,1
+ADI,MMCT,1086,SL,1,Express,1,21,3,72,14,Filling Fast,1
+ADI,PNBE,1384,SL,1,Duronto,3,61,0,72,56,Available,2
+PNBE,CNB,520,3A,3,Duronto,3,70,5,64,38,Available,2
+CSMT,MAS,1129,SL,1,Superfast,2,58,2,72,51,Available,2
+PNBE,HYB,1591,SL,1,Rajdhani,4,42,1,72,53,Available,2
+CNB,ADI,750,2A,4,Duronto,3,0,0,48,7,Almost Full,0
+HYB,HWH,1356,SL,1,Express,1,50,5,72,43,Available,2
+HWH,PNBE,532,3A,3,Rajdhani,4,52,0,64,53,Available,2
+MMCT,PNBE,1508,2A,4,Duronto,3,55,2,48,48,Available,2
+CNB,HWH,1007,SL,1,Superfast,2,89,0,72,55,Available,2
+JAT,PNBE,1218,2A,4,Duronto,3,61,0,48,48,Available,2
+HWH,JAT,407,2A,4,Superfast,2,77,3,48,45,Available,2
+JAT,CSMT,870,2A,4,Duronto,3,1,0,48,0,Almost Full,0
+MMCT,JAT,1137,SL,1,Rajdhani,4,66,1,72,58,Available,2
+PNBE,CSMT,1224,3A,3,Superfast,2,64,4,64,44,Available,2
+JAT,PNBE,1550,3A,3,Express,1,11,0,64,17,Filling Fast,1
+JAT,MAO,1055,2A,4,Superfast,2,26,5,48,21,Filling Fast,1
+PNBE,MAS,363,2A,4,Express,1,0,0,48,2,Almost Full,0
+MMCT,PNBE,1425,SL,1,Superfast,2,55,1,72,47,Available,2
+CSMT,HWH,731,2A,4,Duronto,3,62,1,48,42,Available,2
+HYB,MMCT,1272,2A,4,Duronto,3,25,0,48,22,Filling Fast,1
+CNB,CSMT,742,3A,3,Express,1,56,5,64,39,Available,2
+MAO,MMCT,580,1A,6,Superfast,2,10,3,22,7,Almost Full,0
+MMCT,MAS,481,3A,3,Rajdhani,4,74,1,64,60,Available,2
+ADI,CNB,556,1A,6,Rajdhani,4,34,6,22,14,Filling Fast,1
+NDLS,JAT,580,1A,6,Rajdhani,4,27,4,22,8,Almost Full,0
+NDLS,PNBE,998,3A,3,Express,1,60,6,64,44,Available,2
+HWH,MAO,1229,3A,3,Superfast,2,87,2,64,57,Available,2
+HWH,SBC,1089,SL,1,Express,1,78,0,72,50,Available,2
+HWH,CNB,1007,1A,6,Express,1,89,3,22,21,Filling Fast,1
+CNB,CSMT,402,1A,6,Superfast,2,89,6,22,18,Filling Fast,1
+SBC,HWH,1275,SL,1,Express,1,84,1,72,49,Available,2
+NDLS,JAT,580,1A,6,Superfast,2,5,6,22,2,Almost Full,0
+CNB,HWH,1007,2A,4,Express,1,51,5,48,36,Available,2
+MAO,MMCT,580,SL,1,Express,1,84,6,72,46,Available,2
+CNB,MMCT,1138,3A,3,Duronto,3,18,6,64,4,Almost Full,0
+HYB,MAO,1383,1A,6,Duronto,3,63,6,22,17,Filling Fast,1
+MMCT,MAS,1473,SL,1,Duronto,3,57,0,72,58,Available,2
+ADI,JAT,1457,2A,4,Duronto,3,27,1,48,25,Filling Fast,1
+JAT,MMCT,566,SL,1,Rajdhani,4,20,2,72,30,Filling Fast,1
+PNBE,MAS,801,3A,3,Express,1,85,0,64,49,Available,2
+JAT,CSMT,1444,SL,1,Rajdhani,4,88,2,72,55,Available,2
+SBC,MAO,1580,1A,6,Superfast,2,48,5,22,19,Filling Fast,1
+CNB,PNBE,1500,SL,1,Duronto,3,28,2,72,23,Filling Fast,1
+MMCT,MAS,529,1A,6,Rajdhani,4,43,5,22,14,Filling Fast,1
+MAO,SBC,587,3A,3,Duronto,3,40,3,64,37,Available,2
+MAO,NDLS,986,1A,6,Duronto,3,49,3,22,22,Filling Fast,1
+HWH,CNB,1007,2A,4,Rajdhani,4,50,0,48,41,Available,2
+HYB,ADI,997,2A,4,Superfast,2,28,3,48,38,Available,2
+JAT,ADI,651,3A,3,Duronto,3,85,6,64,39,Available,2
+CNB,NDLS,440,3A,3,Superfast,2,64,5,64,43,Available,2
+MMCT,MAS,1525,SL,1,Duronto,3,63,2,72,63,Available,2
+CNB,PNBE,470,3A,3,Duronto,3,26,6,64,29,Filling Fast,1
+CNB,SBC,457,2A,4,Express,1,50,2,48,48,Available,2
+JAT,CSMT,394,SL,1,Superfast,2,54,5,72,50,Available,2
+ADI,HWH,1151,SL,1,Rajdhani,4,67,5,72,49,Available,2
+MAS,CNB,749,SL,1,Rajdhani,4,16,2,72,18,Filling Fast,1
+MAO,NDLS,972,SL,1,Duronto,3,73,1,72,58,Available,2
+ADI,CNB,946,2A,4,Duronto,3,27,6,48,18,Filling Fast,1
+CNB,SBC,368,3A,3,Rajdhani,4,86,6,64,37,Available,2
+CSMT,PNBE,1224,2A,4,Rajdhani,4,12,2,48,13,Filling Fast,1
+ADI,CSMT,457,1A,6,Superfast,2,75,3,22,21,Filling Fast,1
+CSMT,JAT,1177,2A,4,Rajdhani,4,15,1,48,14,Filling Fast,1
+PNBE,ADI,969,2A,4,Express,1,88,6,48,39,Available,2
+JAT,CNB,533,SL,1,Express,1,35,5,72,35,Available,2
+JAT,ADI,1102,1A,6,Rajdhani,4,14,0,22,8,Almost Full,0
+MMCT,ADI,1393,2A,4,Rajdhani,4,75,4,48,42,Available,2
+MAO,ADI,910,1A,6,Duronto,3,49,3,22,19,Filling Fast,1
+JAT,PNBE,961,2A,4,Rajdhani,4,41,0,48,39,Available,2
+CNB,HYB,728,SL,1,Rajdhani,4,50,4,72,39,Available,2
+HYB,CNB,1350,1A,6,Rajdhani,4,26,5,22,6,Almost Full,0
+MMCT,CSMT,1576,2A,4,Rajdhani,4,71,3,48,43,Available,2
+HWH,MMCT,430,2A,4,Duronto,3,83,1,48,43,Available,2
+MMCT,HYB,875,1A,6,Rajdhani,4,15,4,22,8,Almost Full,0
+MAS,HWH,1660,2A,4,Express,1,84,0,48,46,Available,2
+SBC,MAS,362,3A,3,Express,1,17,4,64,3,Almost Full,0
+ADI,HWH,1420,3A,3,Duronto,3,88,0,64,61,Available,2
+JAT,NDLS,580,1A,6,Duronto,3,18,2,22,12,Filling Fast,1
+SBC,CSMT,1583,2A,4,Superfast,2,35,1,48,36,Available,2
+CNB,MAO,1214,1A,6,Superfast,2,33,3,22,16,Filling Fast,1
+JAT,CSMT,1169,SL,1,Rajdhani,4,32,5,72,20,Filling Fast,1
+PNBE,CSMT,1447,2A,4,Rajdhani,4,80,5,48,35,Available,2
+MAS,JAT,744,3A,3,Duronto,3,53,6,64,47,Available,2
+CSMT,HWH,1238,SL,1,Rajdhani,4,77,1,72,65,Available,2
+MMCT,MAS,605,1A,6,Express,1,8,2,22,8,Almost Full,0
+JAT,MMCT,1093,3A,3,Superfast,2,18,6,64,6,Almost Full,0
+SBC,MAS,362,1A,6,Express,1,28,3,22,12,Filling Fast,1
+MMCT,CNB,709,3A,3,Express,1,12,4,64,2,Almost Full,0
+HWH,MAO,927,3A,3,Rajdhani,4,6,1,64,0,Almost Full,0
+HWH,PNBE,532,3A,3,Express,1,61,4,64,43,Available,2
+CSMT,MAS,369,2A,4,Duronto,3,18,3,48,18,Filling Fast,1
+MAO,MAS,458,3A,3,Duronto,3,86,4,64,39,Available,2
+PNBE,ADI,724,SL,1,Superfast,2,59,4,72,34,Available,2
+MAS,CNB,1226,2A,4,Superfast,2,81,6,48,38,Available,2
+MMCT,MAS,1182,3A,3,Rajdhani,4,81,0,64,48,Available,2
+MMCT,SBC,541,2A,4,Rajdhani,4,10,5,48,0,Almost Full,0
+MAS,HYB,1359,1A,6,Express,1,86,4,22,13,Filling Fast,1
+CNB,CSMT,1332,SL,1,Rajdhani,4,51,0,72,54,Available,2
+MAO,SBC,364,SL,1,Superfast,2,31,5,72,34,Available,2
+JAT,HYB,1597,1A,6,Express,1,21,5,22,11,Filling Fast,1
+HYB,SBC,625,1A,6,Superfast,2,17,4,22,5,Almost Full,0
+HWH,NDLS,1447,SL,1,Express,1,21,2,72,18,Filling Fast,1
+MMCT,HWH,861,1A,6,Superfast,2,38,3,22,19,Filling Fast,1
+MAS,CNB,786,1A,6,Express,1,27,2,22,12,Filling Fast,1
+JAT,HYB,422,SL,1,Express,1,7,2,72,4,Almost Full,0
+NDLS,MAO,1292,3A,3,Superfast,2,45,0,64,55,Available,2
+NDLS,HWH,1447,SL,1,Superfast,2,1,0,72,1,Almost Full,0
+PNBE,ADI,754,1A,6,Duronto,3,52,0,22,21,Filling Fast,1
+ADI,NDLS,934,3A,3,Duronto,3,60,3,64,50,Available,2
+HWH,MAS,1660,SL,1,Duronto,3,68,6,72,38,Available,2
+MAS,MMCT,1248,SL,1,Duronto,3,17,2,72,11,Filling Fast,1
+CNB,PNBE,361,3A,3,Duronto,3,14,1,64,13,Filling Fast,1
+MAS,NDLS,623,SL,1,Express,1,42,0,72,52,Available,2
+CSMT,JAT,757,SL,1,Superfast,2,15,3,72,18,Filling Fast,1
+ADI,HYB,1364,2A,4,Superfast,2,51,4,48,33,Available,2
+CNB,PNBE,619,1A,6,Rajdhani,4,2,1,22,6,Almost Full,0
+CSMT,HWH,1374,1A,6,Duronto,3,6,5,22,1,Almost Full,0
+HWH,PNBE,532,1A,6,Express,1,61,2,22,21,Filling Fast,1
+MAS,ADI,519,SL,1,Duronto,3,79,1,72,50,Available,2
+CNB,HYB,732,2A,4,Superfast,2,14,6,48,0,Almost Full,0
+MAS,SBC,362,2A,4,Express,1,90,6,48,39,Available,2
+MMCT,HYB,721,2A,4,Duronto,3,29,0,48,32,Available,2
+CSMT,PNBE,428,3A,3,Duronto,3,18,3,64,17,Filling Fast,1
+NDLS,MAO,758,1A,6,Rajdhani,4,48,3,22,21,Filling Fast,1
+HYB,MAS,823,2A,4,Superfast,2,54,3,48,45,Available,2
+NDLS,HYB,1224,1A,6,Superfast,2,14,2,22,5,Almost Full,0
+HWH,MAS,1660,SL,1,Duronto,3,40,0,72,44,Available,2
+CSMT,NDLS,1384,1A,6,Superfast,2,27,2,22,15,Filling Fast,1
+ADI,MAS,1592,1A,6,Express,1,23,2,22,10,Filling Fast,1
+ADI,HWH,1034,3A,3,Rajdhani,4,12,5,64,3,Almost Full,0
+NDLS,JAT,580,2A,4,Superfast,2,46,5,48,31,Available,2
+HWH,MAO,1433,3A,3,Duronto,3,83,2,64,54,Available,2
+SBC,MAO,1136,1A,6,Rajdhani,4,16,5,22,5,Almost Full,0
+CNB,MAO,596,1A,6,Duronto,3,24,5,22,6,Almost Full,0
+ADI,MMCT,503,3A,3,Superfast,2,60,6,64,48,Available,2
+SBC,HYB,625,1A,6,Duronto,3,24,3,22,11,Filling Fast,1
+HYB,MAS,1497,3A,3,Superfast,2,57,5,64,37,Available,2
+CNB,MMCT,1243,1A,6,Express,1,53,4,22,18,Filling Fast,1
+HYB,NDLS,691,3A,3,Duronto,3,37,0,64,47,Available,2
+MAO,NDLS,739,SL,1,Express,1,87,4,72,37,Available,2
+HYB,MMCT,688,SL,1,Express,1,71,6,72,44,Available,2
+PNBE,CNB,1593,3A,3,Duronto,3,23,0,64,27,Filling Fast,1
+CSMT,MAO,580,1A,6,Express,1,64,5,22,19,Filling Fast,1
+CNB,HYB,880,3A,3,Duronto,3,37,5,64,33,Available,2
+MAS,HYB,593,2A,4,Duronto,3,5,4,48,0,Almost Full,0
+SBC,MAS,362,2A,4,Superfast,2,17,2,48,15,Filling Fast,1
+NDLS,JAT,580,2A,4,Rajdhani,4,0,5,48,0,Almost Full,0
+HWH,JAT,1589,3A,3,Superfast,2,10,5,64,0,Almost Full,0
+HYB,MAS,623,SL,1,Superfast,2,41,0,72,32,Available,2
+JAT,NDLS,580,2A,4,Superfast,2,22,2,48,24,Filling Fast,1
+NDLS,HYB,1544,1A,6,Express,1,83,2,22,22,Filling Fast,1
+JAT,CNB,1587,2A,4,Express,1,28,2,48,19,Filling Fast,1
+MAS,SBC,362,SL,1,Duronto,3,57,1,72,48,Available,2
+CNB,PNBE,1104,2A,4,Express,1,11,3,48,15,Filling Fast,1
+CSMT,ADI,728,2A,4,Duronto,3,72,3,48,48,Available,2
+CNB,CSMT,927,1A,6,Superfast,2,20,1,22,11,Filling Fast,1
+PNBE,JAT,1594,2A,4,Rajdhani,4,18,0,48,16,Filling Fast,1
+PNBE,SBC,1281,SL,1,Rajdhani,4,67,1,72,53,Available,2
+CNB,NDLS,440,1A,6,Express,1,49,0,22,22,Filling Fast,1
+MMCT,NDLS,1384,2A,4,Duronto,3,10,2,48,9,Almost Full,0
+CSMT,JAT,1578,1A,6,Rajdhani,4,13,4,22,3,Almost Full,0
+CNB,HWH,1007,2A,4,Duronto,3,61,6,48,34,Available,2
+MAO,ADI,684,3A,3,Superfast,2,61,1,64,46,Available,2
+SBC,NDLS,1463,3A,3,Rajdhani,4,2,6,64,0,Almost Full,0
+NDLS,MMCT,1384,3A,3,Rajdhani,4,65,6,64,50,Available,2
+PNBE,CSMT,352,2A,4,Rajdhani,4,29,3,48,30,Filling Fast,1
+PNBE,CSMT,1073,3A,3,Duronto,3,87,3,64,50,Available,2
+JAT,MMCT,1357,2A,4,Rajdhani,4,28,0,48,27,Filling Fast,1
+MAS,HWH,1660,3A,3,Rajdhani,4,46,0,64,43,Available,2
+NDLS,MAO,659,2A,4,Express,1,67,2,48,47,Available,2
+MAO,CSMT,580,2A,4,Superfast,2,79,6,48,36,Available,2
+MAS,HWH,1660,3A,3,Express,1,84,2,64,50,Available,2
+MAS,MMCT,354,2A,4,Duronto,3,40,1,48,48,Available,2
+PNBE,ADI,1329,1A,6,Rajdhani,4,73,3,22,21,Filling Fast,1
+CNB,MAS,646,1A,6,Superfast,2,16,1,22,8,Almost Full,0
+PNBE,HWH,532,SL,1,Express,1,61,5,72,41,Available,2
+PNBE,MAO,1032,2A,4,Duronto,3,49,3,48,48,Available,2
+HYB,ADI,1453,SL,1,Duronto,3,49,0,72,55,Available,2
+MAO,PNBE,1429,2A,4,Rajdhani,4,30,2,48,24,Filling Fast,1
+NDLS,SBC,385,3A,3,Express,1,17,0,64,22,Filling Fast,1
+NDLS,HWH,1447,2A,4,Superfast,2,58,1,48,41,Available,2
+HYB,PNBE,846,2A,4,Duronto,3,7,5,48,9,Almost Full,0
+CSMT,MMCT,643,SL,1,Rajdhani,4,89,3,72,60,Available,2
+HWH,NDLS,1447,1A,6,Express,1,76,6,22,17,Filling Fast,1
+CSMT,NDLS,1384,3A,3,Duronto,3,10,1,64,15,Filling Fast,1
+MMCT,NDLS,1384,SL,1,Duronto,3,23,3,72,24,Filling Fast,1
+CNB,CSMT,1430,3A,3,Express,1,52,5,64,46,Available,2
+HWH,ADI,377,3A,3,Rajdhani,4,19,0,64,22,Filling Fast,1
+JAT,NDLS,580,2A,4,Duronto,3,1,3,48,0,Almost Full,0
+PNBE,JAT,1280,3A,3,Superfast,2,90,1,64,48,Available,2
+PNBE,CSMT,906,1A,6,Express,1,16,5,22,7,Almost Full,0
+SBC,PNBE,464,2A,4,Express,1,23,6,48,15,Filling Fast,1
+CNB,HYB,1589,1A,6,Express,1,61,2,22,20,Filling Fast,1
+JAT,CNB,1179,SL,1,Duronto,3,6,6,72,0,Almost Full,0
+HWH,JAT,1218,2A,4,Superfast,2,13,0,48,16,Filling Fast,1
+MMCT,HWH,1585,3A,3,Rajdhani,4,30,2,64,44,Available,2
+CSMT,HYB,568,1A,6,Duronto,3,76,0,22,19,Filling Fast,1
+MAS,SBC,362,2A,4,Rajdhani,4,30,2,48,30,Filling Fast,1
+MMCT,MAO,580,1A,6,Express,1,5,0,22,7,Almost Full,0
+HWH,MMCT,982,1A,6,Superfast,2,36,3,22,17,Filling Fast,1
+HYB,SBC,625,SL,1,Superfast,2,16,5,72,6,Almost Full,0
+JAT,MMCT,1028,SL,1,Rajdhani,4,64,6,72,37,Available,2
+CSMT,NDLS,1384,SL,1,Express,1,75,6,72,46,Available,2
+NDLS,MAS,680,2A,4,Express,1,10,5,48,4,Almost Full,0
+MMCT,SBC,791,2A,4,Duronto,3,64,4,48,40,Available,2
+CNB,MAO,1421,3A,3,Express,1,16,2,64,22,Filling Fast,1
+MAS,HWH,1660,1A,6,Express,1,30,1,22,19,Filling Fast,1
+MAO,CNB,503,2A,4,Express,1,12,6,48,8,Almost Full,0
+NDLS,CSMT,1384,1A,6,Express,1,12,3,22,8,Almost Full,0
+HWH,CSMT,955,2A,4,Rajdhani,4,35,4,48,28,Filling Fast,1
+HWH,CNB,1007,1A,6,Duronto,3,90,6,22,17,Filling Fast,1
+ADI,MAS,1319,3A,3,Express,1,83,1,64,53,Available,2
+MMCT,MAO,580,1A,6,Superfast,2,36,3,22,17,Filling Fast,1
+PNBE,MAO,614,SL,1,Superfast,2,65,6,72,44,Available,2
+MAO,HWH,1115,1A,6,Express,1,64,3,22,22,Filling Fast,1
+MAS,JAT,437,1A,6,Duronto,3,89,6,22,16,Filling Fast,1
+HYB,NDLS,666,1A,6,Superfast,2,48,1,22,22,Filling Fast,1
+MAO,PNBE,499,2A,4,Express,1,59,5,48,41,Available,2
+MMCT,HWH,1304,SL,1,Express,1,13,0,72,10,Filling Fast,1
+CSMT,MMCT,1162,SL,1,Duronto,3,51,2,72,42,Available,2
+MMCT,HWH,1051,SL,1,Duronto,3,89,5,72,40,Available,2
+ADI,MMCT,920,SL,1,Rajdhani,4,69,1,72,61,Available,2
+ADI,CSMT,787,3A,3,Rajdhani,4,76,6,64,41,Available,2
+PNBE,NDLS,998,SL,1,Express,1,27,0,72,24,Filling Fast,1
+SBC,NDLS,1216,3A,3,Superfast,2,81,1,64,49,Available,2
+MMCT,CSMT,491,3A,3,Express,1,10,2,64,13,Filling Fast,1
+CNB,ADI,1209,2A,4,Superfast,2,23,6,48,18,Filling Fast,1
+NDLS,MMCT,1384,3A,3,Superfast,2,21,1,64,21,Filling Fast,1
+HWH,PNBE,532,SL,1,Duronto,3,89,3,72,52,Available,2
+HWH,MAO,1146,1A,6,Duronto,3,9,5,22,2,Almost Full,0
+JAT,MAO,646,3A,3,Superfast,2,1,1,64,0,Almost Full,0
+ADI,CSMT,1372,3A,3,Rajdhani,4,86,3,64,59,Available,2
+MAS,HYB,357,SL,1,Duronto,3,81,3,72,52,Available,2
+JAT,MAO,549,1A,6,Duronto,3,24,3,22,14,Filling Fast,1
+CNB,HYB,690,SL,1,Duronto,3,44,1,72,61,Available,2
+SBC,JAT,1531,1A,6,Superfast,2,46,0,22,22,Filling Fast,1
+MAS,CNB,1378,1A,6,Express,1,83,3,22,20,Filling Fast,1
+PNBE,CNB,1070,3A,3,Express,1,66,6,64,44,Available,2
+HWH,MMCT,710,SL,1,Express,1,47,1,72,54,Available,2
+HYB,MAO,683,SL,1,Express,1,36,6,72,26,Filling Fast,1
+JAT,CNB,1245,3A,3,Rajdhani,4,11,6,64,2,Almost Full,0
+MMCT,CNB,383,SL,1,Rajdhani,4,63,5,72,36,Available,2
+MAO,HYB,554,SL,1,Rajdhani,4,85,2,72,61,Available,2
+PNBE,SBC,806,SL,1,Express,1,14,1,72,9,Almost Full,0
+ADI,MMCT,1068,SL,1,Express,1,82,5,72,44,Available,2
+CNB,PNBE,365,3A,3,Duronto,3,64,2,64,53,Available,2
+MAS,JAT,891,3A,3,Express,1,86,1,64,50,Available,2
+NDLS,PNBE,998,1A,6,Rajdhani,4,19,6,22,8,Almost Full,0
+HWH,HYB,1578,3A,3,Superfast,2,21,4,64,10,Filling Fast,1
+PNBE,SBC,1488,SL,1,Duronto,3,78,5,72,48,Available,2
+PNBE,NDLS,998,SL,1,Duronto,3,81,3,72,46,Available,2
+CNB,CSMT,1175,3A,3,Duronto,3,55,1,64,52,Available,2
+MMCT,CSMT,1382,1A,6,Express,1,80,2,22,22,Filling Fast,1
+HYB,CSMT,1010,2A,4,Rajdhani,4,11,0,48,9,Almost Full,0
+PNBE,NDLS,998,2A,4,Rajdhani,4,79,5,48,33,Available,2
+HYB,MMCT,1521,SL,1,Rajdhani,4,16,3,72,18,Filling Fast,1
+JAT,CNB,1083,2A,4,Duronto,3,83,1,48,44,Available,2
+MAS,SBC,362,2A,4,Express,1,33,5,48,26,Filling Fast,1
+NDLS,MAS,519,2A,4,Rajdhani,4,81,4,48,38,Available,2
+MMCT,CNB,1290,1A,6,Rajdhani,4,18,2,22,11,Filling Fast,1
+MAS,CSMT,540,1A,6,Express,1,46,6,22,20,Filling Fast,1
+SBC,PNBE,556,SL,1,Rajdhani,4,52,0,72,56,Available,2
+ADI,JAT,506,2A,4,Express,1,48,2,48,42,Available,2
+JAT,ADI,679,2A,4,Superfast,2,1,1,48,6,Almost Full,0
+JAT,MAO,1592,1A,6,Rajdhani,4,43,2,22,22,Filling Fast,1
+ADI,MAO,1578,1A,6,Duronto,3,66,5,22,17,Filling Fast,1
+MAS,MMCT,744,1A,6,Rajdhani,4,66,4,22,16,Filling Fast,1
+CSMT,SBC,1097,1A,6,Duronto,3,3,2,22,5,Almost Full,0
+CSMT,SBC,520,2A,4,Superfast,2,35,3,48,34,Available,2
+SBC,MMCT,1063,3A,3,Express,1,63,3,64,40,Available,2
+HYB,PNBE,745,3A,3,Duronto,3,25,5,64,22,Filling Fast,1
+CNB,MAS,1154,1A,6,Superfast,2,21,6,22,7,Almost Full,0
+SBC,ADI,1237,SL,1,Express,1,76,5,72,43,Available,2
+MAS,HWH,1660,SL,1,Express,1,25,4,72,18,Filling Fast,1
+HWH,CNB,1007,SL,1,Duronto,3,4,4,72,0,Almost Full,0
+MAS,MAO,1189,3A,3,Superfast,2,50,0,64,55,Available,2
+MMCT,CSMT,1010,SL,1,Duronto,3,45,1,72,51,Available,2
+MMCT,SBC,1111,3A,3,Duronto,3,40,0,64,48,Available,2
+NDLS,HWH,1447,3A,3,Duronto,3,59,4,64,40,Available,2
+HWH,SBC,1500,1A,6,Express,1,36,4,22,15,Filling Fast,1
+SBC,HYB,625,1A,6,Superfast,2,77,6,22,19,Filling Fast,1
+JAT,MMCT,1525,SL,1,Express,1,40,6,72,31,Available,2
+HWH,SBC,753,1A,6,Express,1,63,0,22,22,Filling Fast,1
+MAS,PNBE,594,1A,6,Express,1,21,4,22,7,Almost Full,0
+HWH,MAO,1134,2A,4,Rajdhani,4,36,0,48,38,Available,2
+JAT,MAO,359,SL,1,Superfast,2,16,6,72,6,Almost Full,0
+PNBE,NDLS,998,1A,6,Superfast,2,82,0,22,22,Filling Fast,1
+MMCT,ADI,544,SL,1,Superfast,2,35,2,72,39,Available,2
+HWH,PNBE,532,3A,3,Express,1,78,0,64,49,Available,2
+PNBE,MAS,1280,SL,1,Rajdhani,4,47,4,72,43,Available,2
+MMCT,NDLS,1384,1A,6,Rajdhani,4,17,0,22,9,Almost Full,0
+HWH,PNBE,532,2A,4,Rajdhani,4,24,5,48,20,Filling Fast,1
+HWH,HYB,360,1A,6,Superfast,2,5,0,22,1,Almost Full,0
+NDLS,MAS,503,3A,3,Superfast,2,88,4,64,36,Available,2
+PNBE,MAS,698,2A,4,Express,1,15,1,48,12,Filling Fast,1
+HWH,CSMT,1546,SL,1,Express,1,85,0,72,59,Available,2
+HYB,CNB,842,SL,1,Express,1,35,2,72,50,Available,2
+CNB,ADI,812,1A,6,Superfast,2,37,5,22,14,Filling Fast,1
+MMCT,HWH,1493,2A,4,Duronto,3,88,0,48,43,Available,2
+MMCT,ADI,473,2A,4,Rajdhani,4,85,1,48,43,Available,2
+ADI,PNBE,734,SL,1,Rajdhani,4,43,1,72,58,Available,2
+MAO,HYB,1402,3A,3,Superfast,2,90,3,64,46,Available,2
+JAT,CSMT,1383,1A,6,Duronto,3,28,2,22,14,Filling Fast,1
+PNBE,ADI,1401,2A,4,Express,1,24,0,48,28,Filling Fast,1
+MAS,PNBE,686,3A,3,Rajdhani,4,18,3,64,21,Filling Fast,1
+MMCT,CNB,842,1A,6,Express,1,23,2,22,12,Filling Fast,1
+NDLS,ADI,934,SL,1,Superfast,2,33,0,72,43,Available,2
+HYB,MMCT,1075,SL,1,Duronto,3,19,3,72,3,Almost Full,0
+HYB,PNBE,1390,3A,3,Rajdhani,4,56,2,64,55,Available,2
+HWH,MMCT,450,SL,1,Express,1,24,2,72,22,Filling Fast,1
+SBC,PNBE,711,3A,3,Express,1,66,3,64,42,Available,2
+MMCT,JAT,452,2A,4,Rajdhani,4,28,0,48,30,Filling Fast,1
+NDLS,CNB,440,3A,3,Duronto,3,8,4,64,4,Almost Full,0
+MMCT,MAS,813,SL,1,Express,1,50,0,72,53,Available,2
+SBC,MAS,362,2A,4,Duronto,3,26,2,48,30,Filling Fast,1
+JAT,MAS,1571,3A,3,Rajdhani,4,12,1,64,20,Filling Fast,1
+HYB,MAO,1326,3A,3,Duronto,3,21,2,64,29,Filling Fast,1
+JAT,MMCT,691,2A,4,Superfast,2,58,1,48,48,Available,2
+NDLS,JAT,580,SL,1,Superfast,2,2,1,72,0,Almost Full,0
+MAS,MMCT,699,1A,6,Superfast,2,60,4,22,18,Filling Fast,1
+NDLS,ADI,934,SL,1,Rajdhani,4,5,6,72,0,Almost Full,0
+NDLS,MAO,945,2A,4,Duronto,3,18,6,48,11,Filling Fast,1
+MMCT,CNB,973,3A,3,Express,1,62,5,64,37,Available,2
+HWH,HYB,877,SL,1,Superfast,2,46,3,72,67,Available,2
+NDLS,HWH,1447,3A,3,Express,1,14,2,64,13,Filling Fast,1
+JAT,HYB,392,2A,4,Express,1,28,5,48,21,Filling Fast,1
+CSMT,HWH,1369,1A,6,Duronto,3,73,5,22,19,Filling Fast,1
+CNB,PNBE,1086,2A,4,Rajdhani,4,24,3,48,24,Filling Fast,1
+JAT,MMCT,910,SL,1,Duronto,3,33,5,72,37,Available,2
+HWH,CNB,1007,SL,1,Superfast,2,39,1,72,42,Available,2
+NDLS,MAO,1415,3A,3,Rajdhani,4,55,6,64,43,Available,2
+ADI,MAO,1060,3A,3,Rajdhani,4,1,3,64,0,Almost Full,0
+JAT,CSMT,1305,2A,4,Superfast,2,79,4,48,31,Available,2
+JAT,CSMT,971,SL,1,Superfast,2,8,6,72,0,Almost Full,0
+MAS,NDLS,1279,1A,6,Duronto,3,36,6,22,14,Filling Fast,1
+MAO,MMCT,580,SL,1,Superfast,2,0,3,72,0,Almost Full,0
+HWH,JAT,351,1A,6,Superfast,2,17,2,22,8,Almost Full,0
+MAS,HYB,1498,2A,4,Rajdhani,4,34,1,48,28,Filling Fast,1
+CNB,SBC,1234,1A,6,Superfast,2,28,0,22,14,Filling Fast,1
+ADI,HWH,859,SL,1,Express,1,51,0,72,45,Available,2
+MAS,CNB,1572,3A,3,Duronto,3,72,3,64,55,Available,2
+JAT,HWH,1534,2A,4,Duronto,3,32,1,48,32,Available,2
+PNBE,HYB,758,3A,3,Superfast,2,10,2,64,1,Almost Full,0
+MAO,JAT,1294,2A,4,Express,1,55,0,48,42,Available,2
+CSMT,HYB,1255,3A,3,Superfast,2,59,2,64,47,Available,2
+PNBE,ADI,1211,SL,1,Express,1,3,4,72,0,Almost Full,0
+NDLS,PNBE,998,2A,4,Superfast,2,31,4,48,28,Filling Fast,1
+HYB,HWH,610,3A,3,Rajdhani,4,50,1,64,42,Available,2
+PNBE,JAT,362,SL,1,Express,1,6,0,72,2,Almost Full,0
+NDLS,MAS,569,3A,3,Rajdhani,4,37,4,64,31,Available,2
+ADI,HWH,474,1A,6,Rajdhani,4,89,1,22,22,Filling Fast,1
+HYB,CSMT,1501,SL,1,Duronto,3,28,5,72,21,Filling Fast,1
+JAT,CSMT,966,3A,3,Rajdhani,4,62,4,64,38,Available,2
+CNB,SBC,584,1A,6,Rajdhani,4,19,4,22,6,Almost Full,0
+MMCT,HYB,548,2A,4,Duronto,3,13,3,48,11,Filling Fast,1
+NDLS,HYB,1258,SL,1,Rajdhani,4,15,2,72,19,Filling Fast,1
+PNBE,ADI,726,2A,4,Superfast,2,78,5,48,36,Available,2
+ADI,JAT,602,SL,1,Duronto,3,81,0,72,65,Available,2
+CSMT,CNB,842,2A,4,Duronto,3,60,3,48,43,Available,2
+MAS,CNB,554,SL,1,Superfast,2,85,2,72,50,Available,2
+PNBE,CNB,569,SL,1,Express,1,54,1,72,45,Available,2
+NDLS,MAS,1286,1A,6,Express,1,1,4,22,0,Almost Full,0
+MAS,NDLS,1260,1A,6,Superfast,2,17,3,22,6,Almost Full,0
+CNB,ADI,917,1A,6,Duronto,3,45,4,22,18,Filling Fast,1
+HYB,SBC,625,SL,1,Rajdhani,4,22,5,72,15,Filling Fast,1
+CSMT,HWH,1503,3A,3,Express,1,17,2,64,9,Almost Full,0
+JAT,MAS,1156,1A,6,Express,1,48,3,22,22,Filling Fast,1
+MAO,JAT,719,3A,3,Duronto,3,89,2,64,49,Available,2
+MAO,CNB,1062,SL,1,Rajdhani,4,5,0,72,0,Almost Full,0
+CNB,CSMT,824,1A,6,Rajdhani,4,63,5,22,20,Filling Fast,1
+ADI,HWH,824,2A,4,Rajdhani,4,22,5,48,19,Filling Fast,1
+PNBE,CNB,481,1A,6,Superfast,2,14,0,22,8,Almost Full,0
+CNB,MMCT,1254,3A,3,Rajdhani,4,22,2,64,19,Filling Fast,1
+MMCT,ADI,1123,2A,4,Duronto,3,25,2,48,17,Filling Fast,1
+ADI,CNB,935,2A,4,Duronto,3,20,3,48,18,Filling Fast,1
+HYB,SBC,625,1A,6,Rajdhani,4,26,0,22,13,Filling Fast,1
+CSMT,NDLS,1384,SL,1,Rajdhani,4,43,1,72,46,Available,2
+JAT,CNB,1431,SL,1,Duronto,3,26,4,72,17,Filling Fast,1
+ADI,HYB,1071,3A,3,Duronto,3,8,3,64,7,Almost Full,0
+PNBE,JAT,1120,1A,6,Rajdhani,4,16,6,22,5,Almost Full,0
+HYB,MAS,556,1A,6,Express,1,29,0,22,13,Filling Fast,1
+MAO,HYB,1027,1A,6,Duronto,3,37,6,22,15,Filling Fast,1
+MAS,PNBE,1082,1A,6,Duronto,3,36,0,22,18,Filling Fast,1
+HYB,MAO,844,3A,3,Express,1,79,0,64,46,Available,2
+HYB,MMCT,1543,SL,1,Superfast,2,83,0,72,62,Available,2
+NDLS,HWH,1447,3A,3,Duronto,3,42,6,64,37,Available,2
+NDLS,CSMT,1384,3A,3,Rajdhani,4,30,3,64,33,Available,2
+MMCT,MAO,580,1A,6,Superfast,2,9,3,22,7,Almost Full,0
+MAO,CNB,515,SL,1,Duronto,3,34,5,72,30,Filling Fast,1
+NDLS,MMCT,1384,SL,1,Duronto,3,83,2,72,59,Available,2
+PNBE,ADI,971,2A,4,Rajdhani,4,7,0,48,10,Filling Fast,1
+SBC,HYB,625,SL,1,Rajdhani,4,70,3,72,50,Available,2
+NDLS,PNBE,998,2A,4,Express,1,89,3,48,45,Available,2
+HYB,CSMT,586,SL,1,Rajdhani,4,78,2,72,47,Available,2
+HWH,SBC,1052,SL,1,Rajdhani,4,30,1,72,34,Available,2
+MMCT,MAO,580,2A,4,Express,1,68,4,48,36,Available,2
+NDLS,CNB,440,1A,6,Rajdhani,4,7,1,22,5,Almost Full,0
+ADI,CSMT,928,1A,6,Superfast,2,44,4,22,17,Filling Fast,1
+JAT,SBC,948,2A,4,Express,1,61,5,48,29,Filling Fast,1
+MMCT,JAT,507,1A,6,Superfast,2,69,1,22,20,Filling Fast,1
+ADI,HWH,801,SL,1,Superfast,2,46,6,72,44,Available,2
+HYB,MAS,850,3A,3,Superfast,2,89,4,64,42,Available,2
+HYB,MMCT,460,3A,3,Express,1,90,4,64,36,Available,2
+ADI,MAS,510,2A,4,Duronto,3,66,1,48,48,Available,2
+MAS,HYB,781,1A,6,Superfast,2,18,0,22,8,Almost Full,0
+SBC,ADI,1279,1A,6,Rajdhani,4,63,6,22,19,Filling Fast,1
+NDLS,MAS,919,SL,1,Superfast,2,10,0,72,9,Almost Full,0
+MAS,MAO,1136,SL,1,Rajdhani,4,48,3,72,50,Available,2
+ADI,NDLS,934,2A,4,Express,1,23,5,48,23,Filling Fast,1
+PNBE,HYB,457,3A,3,Rajdhani,4,69,6,64,35,Available,2
+HWH,NDLS,1447,3A,3,Superfast,2,75,1,64,56,Available,2
+NDLS,HWH,1447,SL,1,Rajdhani,4,13,4,72,5,Almost Full,0
+PNBE,JAT,938,SL,1,Express,1,73,5,72,39,Available,2
+MAO,HYB,882,2A,4,Express,1,59,5,48,41,Available,2
+SBC,CSMT,381,3A,3,Superfast,2,10,1,64,8,Almost Full,0
+HYB,MAS,1041,SL,1,Rajdhani,4,78,2,72,56,Available,2
+HWH,MAS,1660,1A,6,Rajdhani,4,39,4,22,16,Filling Fast,1
+JAT,HWH,891,2A,4,Express,1,59,0,48,43,Available,2
+ADI,NDLS,934,1A,6,Superfast,2,61,5,22,19,Filling Fast,1
+HYB,SBC,625,1A,6,Rajdhani,4,35,4,22,15,Filling Fast,1
+HYB,HWH,481,SL,1,Duronto,3,33,6,72,17,Filling Fast,1
+MAS,CNB,1363,2A,4,Duronto,3,80,1,48,48,Available,2
+CSMT,MAO,580,2A,4,Rajdhani,4,83,0,48,37,Available,2
+CSMT,JAT,1387,SL,1,Superfast,2,5,4,72,0,Almost Full,0
+CNB,SBC,474,3A,3,Superfast,2,2,5,64,0,Almost Full,0
+HWH,HYB,441,2A,4,Superfast,2,13,0,48,10,Filling Fast,1
+HYB,ADI,581,1A,6,Duronto,3,26,2,22,12,Filling Fast,1
+MAO,HWH,1201,1A,6,Express,1,36,1,22,15,Filling Fast,1
+NDLS,HWH,1447,3A,3,Superfast,2,52,5,64,40,Available,2
+HWH,ADI,952,1A,6,Duronto,3,47,0,22,20,Filling Fast,1
+MAS,CSMT,1560,1A,6,Rajdhani,4,77,1,22,22,Filling Fast,1
+HWH,HYB,1390,3A,3,Duronto,3,48,6,64,48,Available,2
+MAO,NDLS,657,SL,1,Rajdhani,4,9,1,72,13,Filling Fast,1
+MAO,HYB,1526,SL,1,Rajdhani,4,67,6,72,40,Available,2
+NDLS,MAO,1317,SL,1,Superfast,2,34,1,72,38,Available,2
+MAO,MAS,849,3A,3,Duronto,3,46,1,64,43,Available,2
+ADI,HWH,586,2A,4,Express,1,52,2,48,40,Available,2
+MMCT,HWH,1497,1A,6,Superfast,2,83,3,22,22,Filling Fast,1
+MAO,SBC,1269,SL,1,Duronto,3,72,6,72,53,Available,2
+CSMT,HYB,851,SL,1,Duronto,3,77,2,72,47,Available,2
+MAS,HWH,1660,1A,6,Rajdhani,4,52,3,22,20,Filling Fast,1
+HYB,CSMT,1529,SL,1,Duronto,3,23,3,72,24,Filling Fast,1
+NDLS,CSMT,1384,SL,1,Superfast,2,70,5,72,45,Available,2
+ADI,MMCT,608,1A,6,Express,1,3,5,22,0,Almost Full,0
+CSMT,MMCT,621,SL,1,Express,1,45,1,72,56,Available,2
+PNBE,HYB,844,3A,3,Rajdhani,4,43,6,64,37,Available,2
+HWH,MAO,1596,1A,6,Rajdhani,4,9,5,22,3,Almost Full,0
+HWH,ADI,1187,SL,1,Express,1,37,6,72,35,Available,2
+ADI,CSMT,725,1A,6,Duronto,3,0,4,22,0,Almost Full,0
+MAO,HWH,1278,SL,1,Superfast,2,56,1,72,51,Available,2
+HYB,MAO,922,1A,6,Duronto,3,38,3,22,18,Filling Fast,1
+HWH,NDLS,1447,SL,1,Superfast,2,41,3,72,48,Available,2
+HWH,CSMT,643,1A,6,Duronto,3,55,4,22,17,Filling Fast,1
+MAS,MAO,993,1A,6,Superfast,2,36,1,22,17,Filling Fast,1
+MMCT,MAS,910,SL,1,Express,1,28,1,72,40,Available,2
+MAS,CNB,1591,1A,6,Duronto,3,85,2,22,22,Filling Fast,1
+CSMT,MMCT,773,2A,4,Rajdhani,4,76,0,48,42,Available,2
+HYB,CNB,749,1A,6,Express,1,3,2,22,5,Almost Full,0
+SBC,MAS,362,SL,1,Express,1,66,1,72,52,Available,2
+ADI,MAS,574,1A,6,Express,1,55,3,22,22,Filling Fast,1
+MAS,MMCT,630,3A,3,Rajdhani,4,45,6,64,43,Available,2
+MMCT,SBC,502,3A,3,Duronto,3,64,2,64,51,Available,2
+MAS,ADI,1400,1A,6,Superfast,2,4,3,22,5,Almost Full,0
+MMCT,HYB,1000,2A,4,Rajdhani,4,81,5,48,30,Filling Fast,1
+NDLS,SBC,630,SL,1,Duronto,3,86,1,72,48,Available,2
+MAS,ADI,660,SL,1,Duronto,3,63,2,72,47,Available,2
+CSMT,SBC,531,2A,4,Rajdhani,4,55,0,48,44,Available,2
+ADI,HYB,777,2A,4,Rajdhani,4,53,5,48,43,Available,2
+MAS,MAO,1128,2A,4,Superfast,2,61,4,48,45,Available,2
+JAT,CSMT,964,2A,4,Superfast,2,85,3,48,46,Available,2
+ADI,JAT,1153,3A,3,Express,1,37,0,64,44,Available,2
+SBC,MMCT,938,SL,1,Express,1,41,1,72,38,Available,2
+JAT,PNBE,587,2A,4,Express,1,40,5,48,29,Filling Fast,1
+MMCT,HWH,1165,2A,4,Express,1,62,4,48,33,Available,2
+PNBE,JAT,830,1A,6,Superfast,2,34,4,22,12,Filling Fast,1
+SBC,PNBE,474,3A,3,Superfast,2,86,2,64,50,Available,2
+PNBE,CNB,1255,SL,1,Express,1,33,0,72,35,Available,2
+MAS,ADI,798,3A,3,Rajdhani,4,39,3,64,34,Available,2
+PNBE,SBC,1522,2A,4,Duronto,3,80,0,48,46,Available,2
+MAO,CNB,1025,2A,4,Rajdhani,4,2,6,48,0,Almost Full,0
+PNBE,MMCT,1032,3A,3,Rajdhani,4,83,0,64,52,Available,2
+HYB,SBC,625,2A,4,Duronto,3,68,3,48,48,Available,2
+CNB,SBC,944,2A,4,Superfast,2,42,3,48,37,Available,2
+SBC,HYB,625,1A,6,Rajdhani,4,2,6,22,0,Almost Full,0
+HYB,MMCT,1377,SL,1,Express,1,5,1,72,0,Almost Full,0
+MAS,CNB,399,2A,4,Duronto,3,4,2,48,10,Filling Fast,1
+CNB,MMCT,1123,SL,1,Duronto,3,34,6,72,40,Available,2
+MMCT,CNB,501,SL,1,Rajdhani,4,1,5,72,0,Almost Full,0
+HYB,MAO,660,1A,6,Express,1,24,6,22,10,Filling Fast,1
+MAO,MAS,1012,SL,1,Rajdhani,4,38,2,72,42,Available,2
+ADI,SBC,554,3A,3,Express,1,48,2,64,51,Available,2
+PNBE,MMCT,805,SL,1,Superfast,2,61,2,72,69,Available,2
+CNB,HYB,1387,2A,4,Express,1,2,3,48,0,Almost Full,0
+CNB,PNBE,1113,1A,6,Express,1,28,4,22,11,Filling Fast,1
+NDLS,PNBE,998,SL,1,Superfast,2,61,4,72,46,Available,2
+MMCT,JAT,986,3A,3,Duronto,3,80,0,64,57,Available,2
+MMCT,HYB,696,2A,4,Express,1,75,1,48,44,Available,2
+MMCT,CSMT,1175,SL,1,Duronto,3,7,6,72,0,Almost Full,0
+ADI,MAS,1193,3A,3,Superfast,2,19,0,64,18,Filling Fast,1
+HWH,MAO,1576,SL,1,Rajdhani,4,34,5,72,30,Filling Fast,1
+SBC,HYB,625,SL,1,Superfast,2,83,1,72,52,Available,2
+HWH,ADI,1339,1A,6,Rajdhani,4,54,5,22,19,Filling Fast,1
+MMCT,PNBE,610,1A,6,Duronto,3,66,5,22,17,Filling Fast,1
+MMCT,CSMT,754,SL,1,Rajdhani,4,4,3,72,0,Almost Full,0
+ADI,CSMT,1424,SL,1,Duronto,3,70,3,72,54,Available,2
+PNBE,NDLS,998,1A,6,Express,1,37,5,22,16,Filling Fast,1
+JAT,MAS,1420,3A,3,Superfast,2,72,5,64,41,Available,2
+CSMT,CNB,944,2A,4,Superfast,2,66,4,48,29,Filling Fast,1
+MAS,ADI,1297,2A,4,Superfast,2,17,1,48,23,Filling Fast,1
+HYB,ADI,370,3A,3,Express,1,22,1,64,19,Filling Fast,1
+ADI,MMCT,361,3A,3,Duronto,3,25,5,64,14,Filling Fast,1
+MMCT,HYB,1289,3A,3,Rajdhani,4,7,4,64,0,Almost Full,0
+ADI,MAO,670,1A,6,Superfast,2,81,4,22,20,Filling Fast,1
+SBC,HWH,378,2A,4,Superfast,2,36,6,48,20,Filling Fast,1
+PNBE,MAO,976,3A,3,Express,1,32,4,64,42,Available,2
+HYB,JAT,764,1A,6,Duronto,3,13,5,22,6,Almost Full,0
+SBC,MAS,362,3A,3,Rajdhani,4,16,6,64,8,Almost Full,0
+HYB,MAO,1134,3A,3,Superfast,2,78,5,64,41,Available,2
+ADI,SBC,694,1A,6,Duronto,3,27,0,22,14,Filling Fast,1
+MAO,CSMT,580,2A,4,Express,1,0,2,48,4,Almost Full,0
+MMCT,NDLS,1384,SL,1,Express,1,85,3,72,58,Available,2
+HWH,MAS,1660,1A,6,Duronto,3,71,3,22,22,Filling Fast,1
+PNBE,CNB,1321,3A,3,Superfast,2,66,2,64,52,Available,2
+HYB,MMCT,1589,2A,4,Duronto,3,81,6,48,35,Available,2
+MAS,CSMT,1245,SL,1,Express,1,88,6,72,42,Available,2
+MAS,JAT,596,SL,1,Superfast,2,22,0,72,22,Filling Fast,1
+HWH,ADI,1058,SL,1,Duronto,3,78,4,72,50,Available,2
+SBC,PNBE,1116,2A,4,Rajdhani,4,25,3,48,27,Filling Fast,1
+HWH,HYB,749,1A,6,Superfast,2,42,0,22,14,Filling Fast,1
+HWH,MAS,1660,1A,6,Superfast,2,4,5,22,2,Almost Full,0
+MAS,JAT,1330,SL,1,Rajdhani,4,89,5,72,44,Available,2
+MAS,CNB,467,1A,6,Express,1,77,5,22,18,Filling Fast,1
+ADI,CNB,705,SL,1,Rajdhani,4,4,2,72,0,Almost Full,0
+NDLS,MAO,663,2A,4,Duronto,3,10,3,48,16,Filling Fast,1
+MMCT,NDLS,1384,1A,6,Superfast,2,12,6,22,6,Almost Full,0
+HYB,MAS,747,1A,6,Superfast,2,86,6,22,16,Filling Fast,1
+HWH,CSMT,1551,3A,3,Rajdhani,4,85,3,64,53,Available,2
+PNBE,JAT,475,1A,6,Duronto,3,64,1,22,19,Filling Fast,1
+CNB,MAS,521,2A,4,Express,1,5,2,48,2,Almost Full,0
+MAO,SBC,1385,SL,1,Duronto,3,81,5,72,40,Available,2
+NDLS,MAS,910,3A,3,Rajdhani,4,43,3,64,53,Available,2
+MAO,MMCT,580,SL,1,Rajdhani,4,14,0,72,17,Filling Fast,1
+CSMT,MMCT,730,3A,3,Rajdhani,4,21,6,64,15,Filling Fast,1
+NDLS,SBC,1117,SL,1,Rajdhani,4,31,2,72,39,Available,2
+JAT,CNB,741,2A,4,Superfast,2,6,3,48,10,Filling Fast,1
+CNB,MAS,714,3A,3,Duronto,3,72,2,64,48,Available,2
+PNBE,SBC,735,3A,3,Duronto,3,22,2,64,26,Filling Fast,1
+MAS,ADI,891,1A,6,Express,1,45,4,22,19,Filling Fast,1
+HWH,CNB,1007,SL,1,Duronto,3,4,6,72,0,Almost Full,0
+MAO,PNBE,668,2A,4,Express,1,44,5,48,40,Available,2
+JAT,MAS,774,3A,3,Superfast,2,11,4,64,4,Almost Full,0
+SBC,MAS,362,SL,1,Superfast,2,4,0,72,0,Almost Full,0
+HYB,JAT,731,SL,1,Duronto,3,59,4,72,49,Available,2
+HWH,CNB,1007,SL,1,Rajdhani,4,41,5,72,38,Available,2
+MMCT,JAT,1084,1A,6,Duronto,3,53,3,22,19,Filling Fast,1
+HWH,CNB,1007,2A,4,Superfast,2,39,1,48,37,Available,2
+ADI,HYB,731,1A,6,Express,1,78,3,22,20,Filling Fast,1
+MAO,CNB,1240,SL,1,Express,1,31,2,72,31,Available,2
+CNB,HWH,1007,3A,3,Express,1,86,3,64,50,Available,2
+MAS,NDLS,829,1A,6,Express,1,54,6,22,16,Filling Fast,1
+MAS,MAO,1170,1A,6,Duronto,3,65,1,22,20,Filling Fast,1
+MAS,MAO,1423,2A,4,Duronto,3,16,5,48,2,Almost Full,0
+HWH,NDLS,1447,3A,3,Duronto,3,44,3,64,51,Available,2
+PNBE,CSMT,1293,1A,6,Duronto,3,25,1,22,13,Filling Fast,1
+MAS,CNB,514,2A,4,Duronto,3,26,3,48,23,Filling Fast,1
+MMCT,SBC,665,3A,3,Rajdhani,4,61,1,64,55,Available,2
+HWH,MMCT,1314,SL,1,Duronto,3,60,5,72,49,Available,2
+PNBE,ADI,847,1A,6,Express,1,16,2,22,6,Almost Full,0
+CSMT,PNBE,1019,3A,3,Express,1,76,3,64,47,Available,2
+HYB,MMCT,1060,SL,1,Rajdhani,4,28,4,72,16,Filling Fast,1
+CSMT,SBC,1105,3A,3,Superfast,2,64,6,64,37,Available,2
+NDLS,MAO,1577,SL,1,Rajdhani,4,82,1,72,59,Available,2
+CSMT,ADI,734,1A,6,Duronto,3,38,3,22,18,Filling Fast,1
+MMCT,HWH,1136,2A,4,Express,1,19,2,48,19,Filling Fast,1
+MAS,PNBE,1334,1A,6,Superfast,2,53,1,22,17,Filling Fast,1
+CSMT,PNBE,1409,1A,6,Express,1,10,2,22,7,Almost Full,0
+JAT,MMCT,1178,1A,6,Duronto,3,40,1,22,17,Filling Fast,1
+MAO,HYB,1136,SL,1,Rajdhani,4,62,5,72,44,Available,2
+JAT,PNBE,1215,1A,6,Superfast,2,54,2,22,21,Filling Fast,1
+CNB,JAT,587,SL,1,Superfast,2,60,5,72,51,Available,2
+HWH,HYB,1097,1A,6,Duronto,3,54,4,22,15,Filling Fast,1
+PNBE,JAT,513,2A,4,Rajdhani,4,43,5,48,23,Filling Fast,1
+MAO,MAS,754,SL,1,Express,1,6,3,72,2,Almost Full,0
+MAS,NDLS,598,SL,1,Express,1,46,0,72,64,Available,2
+MAO,JAT,1106,3A,3,Express,1,43,5,64,46,Available,2
+MAS,NDLS,1461,3A,3,Duronto,3,37,2,64,43,Available,2
+PNBE,NDLS,998,3A,3,Superfast,2,81,0,64,49,Available,2
+MAO,MMCT,580,1A,6,Express,1,31,1,22,17,Filling Fast,1
+MMCT,HYB,543,2A,4,Duronto,3,81,3,48,39,Available,2
+PNBE,MAS,1057,SL,1,Duronto,3,67,4,72,46,Available,2
+ADI,NDLS,934,3A,3,Superfast,2,4,1,64,4,Almost Full,0
+MAO,JAT,557,SL,1,Rajdhani,4,43,5,72,47,Available,2
+CNB,MAS,1215,SL,1,Rajdhani,4,23,5,72,29,Filling Fast,1
+MAS,JAT,512,SL,1,Rajdhani,4,24,4,72,17,Filling Fast,1
+MAS,CNB,1402,2A,4,Rajdhani,4,47,4,48,34,Available,2
+ADI,SBC,1244,3A,3,Duronto,3,35,4,64,29,Filling Fast,1
+JAT,NDLS,580,SL,1,Duronto,3,86,2,72,44,Available,2
+MAS,NDLS,1183,2A,4,Rajdhani,4,53,5,48,33,Available,2
+CSMT,MAS,896,SL,1,Superfast,2,12,1,72,7,Almost Full,0
+SBC,NDLS,1014,2A,4,Rajdhani,4,78,2,48,41,Available,2
+CNB,MAO,1293,SL,1,Superfast,2,69,3,72,55,Available,2
+ADI,HYB,375,3A,3,Superfast,2,40,2,64,41,Available,2
+ADI,CSMT,1296,SL,1,Duronto,3,68,5,72,50,Available,2
+CSMT,JAT,1148,3A,3,Express,1,4,5,64,0,Almost Full,0
+MAO,MMCT,580,3A,3,Rajdhani,4,26,5,64,19,Filling Fast,1
+HYB,HWH,972,3A,3,Superfast,2,57,5,64,40,Available,2
+ADI,NDLS,934,2A,4,Superfast,2,72,3,48,44,Available,2
+PNBE,NDLS,998,SL,1,Duronto,3,48,4,72,48,Available,2
+CSMT,PNBE,1593,1A,6,Rajdhani,4,50,1,22,19,Filling Fast,1
+SBC,MMCT,1518,3A,3,Duronto,3,20,6,64,8,Almost Full,0
+CNB,PNBE,1476,SL,1,Superfast,2,27,3,72,28,Filling Fast,1
+MAO,MAS,1004,3A,3,Rajdhani,4,85,5,64,35,Available,2
+JAT,CNB,1000,SL,1,Duronto,3,51,3,72,49,Available,2
+ADI,MAS,1270,2A,4,Duronto,3,51,2,48,41,Available,2
+NDLS,HYB,1034,SL,1,Duronto,3,87,0,72,59,Available,2
+PNBE,MAO,1206,SL,1,Express,1,24,5,72,16,Filling Fast,1
+NDLS,MAO,809,2A,4,Rajdhani,4,76,4,48,37,Available,2
+CNB,PNBE,396,3A,3,Duronto,3,21,4,64,17,Filling Fast,1
+JAT,ADI,536,3A,3,Rajdhani,4,76,6,64,41,Available,2
+JAT,PNBE,1480,2A,4,Duronto,3,58,2,48,45,Available,2
+CNB,SBC,708,SL,1,Duronto,3,41,1,72,48,Available,2
+MAS,MMCT,413,2A,4,Express,1,58,1,48,44,Available,2
+JAT,MAO,1258,2A,4,Duronto,3,59,4,48,34,Available,2
+JAT,MMCT,1587,3A,3,Duronto,3,31,3,64,22,Filling Fast,1
+CNB,MMCT,364,1A,6,Express,1,66,3,22,21,Filling Fast,1
+PNBE,MMCT,1204,3A,3,Rajdhani,4,77,5,64,49,Available,2
+HYB,NDLS,1248,SL,1,Rajdhani,4,37,6,72,38,Available,2
+PNBE,NDLS,998,SL,1,Express,1,54,6,72,49,Available,2
+MMCT,CNB,648,3A,3,Rajdhani,4,21,2,64,29,Filling Fast,1
+PNBE,JAT,1045,2A,4,Duronto,3,61,1,48,44,Available,2
+MAS,MMCT,1025,1A,6,Express,1,90,3,22,21,Filling Fast,1
+SBC,MAS,362,3A,3,Express,1,42,6,64,35,Available,2
+ADI,MAS,1513,3A,3,Rajdhani,4,17,1,64,16,Filling Fast,1
+HYB,MAS,403,2A,4,Superfast,2,72,2,48,46,Available,2
+CNB,MAS,978,2A,4,Superfast,2,60,5,48,41,Available,2
+ADI,JAT,953,2A,4,Duronto,3,18,4,48,11,Filling Fast,1
+MAS,PNBE,876,2A,4,Rajdhani,4,27,4,48,18,Filling Fast,1
+MAS,CSMT,1546,1A,6,Superfast,2,46,5,22,18,Filling Fast,1
+HYB,CNB,1181,SL,1,Duronto,3,44,5,72,45,Available,2
+CSMT,MAO,580,3A,3,Superfast,2,48,6,64,34,Available,2
+ADI,JAT,696,SL,1,Duronto,3,61,3,72,41,Available,2
+NDLS,JAT,580,3A,3,Duronto,3,39,1,64,41,Available,2
+SBC,CSMT,919,1A,6,Duronto,3,45,3,22,19,Filling Fast,1
+ADI,MAO,374,2A,4,Duronto,3,46,5,48,34,Available,2
+NDLS,PNBE,998,3A,3,Rajdhani,4,34,4,64,28,Filling Fast,1
+HYB,CNB,512,1A,6,Express,1,72,4,22,17,Filling Fast,1
+SBC,CNB,874,2A,4,Duronto,3,29,5,48,27,Filling Fast,1
+CNB,ADI,713,1A,6,Superfast,2,70,2,22,21,Filling Fast,1
+MMCT,SBC,480,2A,4,Superfast,2,7,1,48,10,Filling Fast,1
+SBC,CNB,1549,SL,1,Express,1,12,4,72,2,Almost Full,0
+NDLS,HWH,1447,2A,4,Express,1,14,3,48,11,Filling Fast,1
+MMCT,ADI,754,1A,6,Duronto,3,76,3,22,22,Filling Fast,1
+MAS,MAO,369,SL,1,Rajdhani,4,56,6,72,43,Available,2
+JAT,SBC,1556,SL,1,Rajdhani,4,32,6,72,29,Filling Fast,1
+PNBE,MAO,904,SL,1,Duronto,3,42,4,72,33,Available,2
+ADI,HYB,931,3A,3,Superfast,2,68,1,64,43,Available,2
+HWH,MAS,1660,3A,3,Express,1,14,6,64,8,Almost Full,0
+CSMT,ADI,363,3A,3,Express,1,63,1,64,53,Available,2
+CSMT,MMCT,1234,3A,3,Rajdhani,4,56,2,64,47,Available,2
+JAT,CNB,1453,2A,4,Duronto,3,13,6,48,4,Almost Full,0
+SBC,CNB,979,3A,3,Superfast,2,67,3,64,57,Available,2
+MMCT,JAT,964,2A,4,Duronto,3,41,1,48,35,Available,2
+SBC,PNBE,701,2A,4,Duronto,3,41,4,48,39,Available,2
+ADI,JAT,1569,SL,1,Superfast,2,29,2,72,27,Filling Fast,1
+ADI,MAS,1109,2A,4,Superfast,2,42,5,48,36,Available,2
+HWH,CNB,1007,3A,3,Express,1,72,3,64,50,Available,2
+PNBE,NDLS,998,1A,6,Express,1,45,5,22,19,Filling Fast,1
+CSMT,ADI,911,1A,6,Duronto,3,26,5,22,9,Almost Full,0
+CNB,MAS,953,3A,3,Rajdhani,4,41,3,64,46,Available,2
+PNBE,HWH,532,2A,4,Duronto,3,79,4,48,36,Available,2
+ADI,MAS,568,1A,6,Duronto,3,20,2,22,9,Almost Full,0
+CNB,ADI,1564,SL,1,Rajdhani,4,84,3,72,58,Available,2
+CNB,ADI,861,3A,3,Express,1,7,0,64,3,Almost Full,0
+NDLS,JAT,580,3A,3,Superfast,2,56,2,64,50,Available,2
+MMCT,ADI,625,1A,6,Superfast,2,52,6,22,16,Filling Fast,1
+CSMT,CNB,1557,3A,3,Duronto,3,71,0,64,38,Available,2
+ADI,SBC,1021,3A,3,Superfast,2,88,0,64,50,Available,2
+CSMT,MMCT,992,3A,3,Express,1,27,1,64,42,Available,2
+HWH,ADI,816,SL,1,Superfast,2,42,1,72,54,Available,2
+JAT,MAS,872,1A,6,Duronto,3,15,5,22,5,Almost Full,0
+PNBE,CNB,1161,SL,1,Rajdhani,4,67,0,72,52,Available,2
+HYB,HWH,383,SL,1,Rajdhani,4,64,6,72,43,Available,2
+HWH,HYB,1357,3A,3,Superfast,2,81,0,64,54,Available,2
+CNB,MMCT,1507,1A,6,Rajdhani,4,68,1,22,19,Filling Fast,1
+HYB,MMCT,1525,SL,1,Duronto,3,9,6,72,1,Almost Full,0
+JAT,PNBE,917,SL,1,Express,1,19,5,72,12,Filling Fast,1
+HWH,MMCT,722,3A,3,Express,1,67,6,64,45,Available,2
+CNB,PNBE,393,SL,1,Superfast,2,0,4,72,0,Almost Full,0
+PNBE,NDLS,998,2A,4,Superfast,2,54,1,48,43,Available,2
+MAS,SBC,362,3A,3,Express,1,83,5,64,45,Available,2
+SBC,MAO,1076,2A,4,Duronto,3,18,1,48,21,Filling Fast,1
+MAS,CSMT,556,1A,6,Rajdhani,4,16,4,22,5,Almost Full,0
+HWH,MMCT,1020,3A,3,Duronto,3,84,1,64,48,Available,2
+SBC,MAS,362,SL,1,Superfast,2,29,1,72,33,Available,2
+HWH,NDLS,1447,SL,1,Rajdhani,4,48,0,72,63,Available,2
+ADI,SBC,1129,1A,6,Express,1,56,3,22,19,Filling Fast,1
+SBC,CNB,1129,1A,6,Rajdhani,4,22,4,22,5,Almost Full,0
+MAO,HYB,599,2A,4,Duronto,3,15,3,48,17,Filling Fast,1
+CNB,MAO,1083,3A,3,Express,1,24,1,64,26,Filling Fast,1
+MMCT,HYB,1086,SL,1,Superfast,2,65,0,72,55,Available,2
+ADI,NDLS,934,SL,1,Express,1,51,6,72,45,Available,2
+MMCT,HWH,1088,3A,3,Rajdhani,4,55,6,64,40,Available,2
+JAT,MAS,819,1A,6,Express,1,60,0,22,22,Filling Fast,1
+MAS,JAT,1012,1A,6,Duronto,3,31,1,22,12,Filling Fast,1
+MAO,NDLS,612,2A,4,Duronto,3,88,3,48,40,Available,2
+NDLS,CNB,440,2A,4,Superfast,2,47,4,48,36,Available,2
+PNBE,CSMT,1208,2A,4,Duronto,3,66,1,48,37,Available,2
+CNB,JAT,721,3A,3,Rajdhani,4,20,0,64,20,Filling Fast,1
+ADI,SBC,976,SL,1,Superfast,2,33,4,72,36,Available,2
+HWH,NDLS,1447,3A,3,Rajdhani,4,60,0,64,51,Available,2
+CNB,CSMT,1184,1A,6,Express,1,76,5,22,18,Filling Fast,1
+HYB,CSMT,673,1A,6,Rajdhani,4,44,1,22,18,Filling Fast,1
+MMCT,PNBE,485,1A,6,Express,1,59,3,22,20,Filling Fast,1
+HYB,ADI,625,1A,6,Superfast,2,60,3,22,20,Filling Fast,1
+MAS,CSMT,1011,3A,3,Rajdhani,4,61,3,64,50,Available,2
+CNB,MAO,751,2A,4,Duronto,3,65,1,48,48,Available,2
+CSMT,SBC,518,1A,6,Express,1,36,4,22,15,Filling Fast,1
+MMCT,SBC,813,3A,3,Duronto,3,84,2,64,46,Available,2
+HWH,ADI,1559,3A,3,Duronto,3,41,3,64,48,Available,2
+HWH,JAT,647,1A,6,Express,1,80,0,22,22,Filling Fast,1
+SBC,CSMT,379,2A,4,Rajdhani,4,30,1,48,34,Available,2
+PNBE,HWH,532,SL,1,Express,1,44,1,72,62,Available,2
+JAT,MAO,1180,SL,1,Duronto,3,58,4,72,37,Available,2
+MAS,HYB,1250,1A,6,Superfast,2,83,6,22,16,Filling Fast,1
+HYB,HWH,1040,2A,4,Superfast,2,43,6,48,29,Filling Fast,1
+ADI,HYB,1284,1A,6,Superfast,2,66,2,22,20,Filling Fast,1
+MMCT,HWH,1223,1A,6,Duronto,3,12,1,22,8,Almost Full,0
+ADI,MMCT,596,3A,3,Duronto,3,44,2,64,55,Available,2
+ADI,PNBE,1483,1A,6,Duronto,3,50,6,22,17,Filling Fast,1
+HYB,SBC,625,2A,4,Rajdhani,4,25,5,48,17,Filling Fast,1
+CNB,HWH,1007,2A,4,Rajdhani,4,68,2,48,44,Available,2
+HYB,SBC,625,2A,4,Superfast,2,20,0,48,17,Filling Fast,1
+JAT,CSMT,813,2A,4,Express,1,25,2,48,33,Available,2
+NDLS,PNBE,998,SL,1,Express,1,60,3,72,45,Available,2
+HWH,CSMT,964,1A,6,Rajdhani,4,32,5,22,13,Filling Fast,1
+HYB,JAT,988,2A,4,Rajdhani,4,7,6,48,9,Almost Full,0
+PNBE,CSMT,644,SL,1,Duronto,3,31,3,72,35,Available,2
+CSMT,JAT,1208,SL,1,Duronto,3,31,6,72,23,Filling Fast,1
+HWH,MMCT,813,3A,3,Duronto,3,51,0,64,49,Available,2
+CNB,MAO,660,2A,4,Express,1,18,5,48,11,Filling Fast,1
+MAS,HWH,1660,1A,6,Superfast,2,67,0,22,22,Filling Fast,1
+JAT,MAO,1314,2A,4,Express,1,38,6,48,21,Filling Fast,1
+MMCT,HYB,1599,SL,1,Duronto,3,9,6,72,3,Almost Full,0
+CNB,HWH,1007,1A,6,Express,1,32,0,22,13,Filling Fast,1
+JAT,ADI,1222,2A,4,Express,1,37,1,48,35,Available,2
+HYB,MMCT,531,3A,3,Duronto,3,85,3,64,49,Available,2
+CNB,PNBE,1213,1A,6,Rajdhani,4,35,6,22,14,Filling Fast,1
+CNB,MAS,865,3A,3,Express,1,85,6,64,33,Available,2
+MAS,HWH,1660,1A,6,Rajdhani,4,62,1,22,22,Filling Fast,1
+MAO,ADI,803,SL,1,Superfast,2,13,6,72,11,Filling Fast,1
+CNB,ADI,1498,SL,1,Express,1,5,4,72,0,Almost Full,0
+MMCT,MAO,580,1A,6,Rajdhani,4,30,2,22,15,Filling Fast,1
+MAO,JAT,1586,SL,1,Express,1,5,2,72,0,Almost Full,0
+JAT,ADI,1293,1A,6,Express,1,80,5,22,18,Filling Fast,1
+PNBE,JAT,402,2A,4,Duronto,3,3,5,48,0,Almost Full,0
+HWH,MMCT,948,SL,1,Rajdhani,4,58,6,72,40,Available,2
+MAS,HWH,1660,3A,3,Duronto,3,35,3,64,42,Available,2
+NDLS,HWH,1447,3A,3,Duronto,3,26,4,64,28,Filling Fast,1
+HYB,JAT,1009,SL,1,Superfast,2,22,6,72,11,Filling Fast,1
+ADI,MMCT,1033,3A,3,Duronto,3,40,6,64,39,Available,2
+MAS,MMCT,535,SL,1,Superfast,2,79,3,72,47,Available,2
+JAT,CSMT,1133,2A,4,Superfast,2,90,3,48,40,Available,2
+HWH,CNB,1007,3A,3,Duronto,3,21,2,64,25,Filling Fast,1
+NDLS,MMCT,1384,3A,3,Superfast,2,71,4,64,49,Available,2
+CSMT,PNBE,505,2A,4,Rajdhani,4,11,5,48,7,Almost Full,0
+MAO,JAT,1178,3A,3,Duronto,3,43,4,64,38,Available,2
+HWH,PNBE,532,SL,1,Rajdhani,4,37,4,72,32,Available,2
+MAO,MMCT,580,2A,4,Express,1,5,1,48,2,Almost Full,0
+HYB,CSMT,910,1A,6,Express,1,28,6,22,12,Filling Fast,1
+CNB,SBC,852,2A,4,Express,1,82,6,48,39,Available,2
+SBC,CSMT,375,3A,3,Duronto,3,2,6,64,0,Almost Full,0
+MAO,ADI,1248,SL,1,Duronto,3,52,1,72,51,Available,2
+HYB,MAO,1168,SL,1,Superfast,2,90,6,72,45,Available,2
+HWH,MAS,1660,3A,3,Superfast,2,30,2,64,31,Available,2
+HYB,HWH,507,2A,4,Superfast,2,89,1,48,43,Available,2
+HYB,MAO,613,1A,6,Express,1,68,2,22,22,Filling Fast,1
+MMCT,MAO,580,3A,3,Duronto,3,59,2,64,50,Available,2
+MAO,NDLS,1292,SL,1,Express,1,75,3,72,52,Available,2
+MMCT,CSMT,395,SL,1,Rajdhani,4,44,3,72,49,Available,2
+CNB,CSMT,480,3A,3,Rajdhani,4,35,4,64,33,Available,2
+MAS,NDLS,1574,SL,1,Express,1,90,6,72,42,Available,2
+CSMT,PNBE,790,SL,1,Superfast,2,68,5,72,39,Available,2
+JAT,MAS,1026,2A,4,Express,1,18,6,48,17,Filling Fast,1
+HYB,JAT,1551,3A,3,Rajdhani,4,78,0,64,58,Available,2
+CNB,HWH,1007,1A,6,Rajdhani,4,78,0,22,20,Filling Fast,1
+HYB,PNBE,680,2A,4,Duronto,3,76,6,48,29,Filling Fast,1
+CSMT,CNB,410,SL,1,Rajdhani,4,42,0,72,56,Available,2
+MMCT,PNBE,1525,SL,1,Express,1,48,5,72,39,Available,2
+ADI,CSMT,1053,2A,4,Rajdhani,4,39,2,48,41,Available,2
+CSMT,PNBE,866,SL,1,Rajdhani,4,23,2,72,13,Filling Fast,1
+PNBE,SBC,814,3A,3,Rajdhani,4,43,3,64,53,Available,2
+MMCT,HYB,877,1A,6,Rajdhani,4,71,0,22,19,Filling Fast,1
+JAT,HWH,545,2A,4,Rajdhani,4,67,0,48,46,Available,2
+NDLS,HWH,1447,3A,3,Rajdhani,4,72,4,64,42,Available,2
+HWH,MMCT,703,2A,4,Express,1,23,4,48,12,Filling Fast,1
+SBC,HWH,548,2A,4,Superfast,2,73,1,48,42,Available,2
+ADI,CSMT,1389,2A,4,Express,1,3,4,48,1,Almost Full,0
+NDLS,HYB,596,3A,3,Superfast,2,13,2,64,13,Filling Fast,1
+JAT,CSMT,1558,2A,4,Rajdhani,4,63,1,48,45,Available,2
+MAO,CSMT,580,SL,1,Express,1,57,0,72,65,Available,2
+JAT,HYB,484,3A,3,Duronto,3,46,1,64,43,Available,2
+SBC,ADI,735,SL,1,Rajdhani,4,45,0,72,63,Available,2
+ADI,JAT,1560,1A,6,Rajdhani,4,84,5,22,18,Filling Fast,1
+HWH,HYB,1503,SL,1,Duronto,3,36,2,72,37,Available,2
+CSMT,ADI,755,3A,3,Express,1,51,3,64,44,Available,2
+PNBE,MMCT,1354,1A,6,Express,1,13,2,22,7,Almost Full,0
+HYB,ADI,1598,SL,1,Superfast,2,63,6,72,49,Available,2
+MAS,JAT,462,1A,6,Duronto,3,11,2,22,7,Almost Full,0
+MAO,CNB,1461,2A,4,Superfast,2,6,4,48,6,Almost Full,0
+NDLS,CNB,440,SL,1,Duronto,3,45,4,72,35,Available,2
+NDLS,JAT,580,2A,4,Superfast,2,87,5,48,36,Available,2
+NDLS,SBC,552,SL,1,Duronto,3,28,5,72,13,Filling Fast,1
+HWH,MMCT,766,SL,1,Duronto,3,73,5,72,45,Available,2
+MAO,NDLS,442,SL,1,Duronto,3,88,0,72,59,Available,2
+MAS,NDLS,842,3A,3,Duronto,3,49,6,64,39,Available,2
+SBC,HWH,1173,1A,6,Duronto,3,18,4,22,2,Almost Full,0
+SBC,MAO,878,SL,1,Superfast,2,26,5,72,19,Filling Fast,1
+CNB,MAS,1188,1A,6,Express,1,52,3,22,22,Filling Fast,1
+MAS,SBC,362,3A,3,Rajdhani,4,80,5,64,44,Available,2
+PNBE,NDLS,998,2A,4,Duronto,3,9,5,48,8,Almost Full,0
+MMCT,CNB,675,SL,1,Rajdhani,4,23,4,72,7,Almost Full,0
+HWH,CSMT,875,SL,1,Superfast,2,68,2,72,58,Available,2
+MAS,MAO,885,1A,6,Rajdhani,4,50,6,22,20,Filling Fast,1
+SBC,MMCT,1486,SL,1,Duronto,3,16,4,72,0,Almost Full,0
+NDLS,ADI,934,1A,6,Rajdhani,4,29,0,22,15,Filling Fast,1
+PNBE,CSMT,521,1A,6,Duronto,3,55,4,22,17,Filling Fast,1
+HWH,ADI,642,SL,1,Rajdhani,4,84,4,72,43,Available,2
+SBC,CNB,1001,1A,6,Rajdhani,4,19,2,22,11,Filling Fast,1
+MAS,CSMT,1067,SL,1,Duronto,3,82,0,72,51,Available,2
+PNBE,CNB,663,3A,3,Rajdhani,4,28,1,64,27,Filling Fast,1
+JAT,SBC,1037,SL,1,Rajdhani,4,56,0,72,54,Available,2
+SBC,MAO,1432,3A,3,Duronto,3,18,4,64,3,Almost Full,0
+HWH,NDLS,1447,1A,6,Express,1,66,4,22,16,Filling Fast,1
+NDLS,MAO,697,3A,3,Superfast,2,4,1,64,5,Almost Full,0
+MMCT,JAT,828,1A,6,Express,1,0,4,22,0,Almost Full,0
+NDLS,PNBE,998,1A,6,Duronto,3,80,0,22,22,Filling Fast,1
+MAO,HYB,501,1A,6,Express,1,73,5,22,18,Filling Fast,1
+PNBE,MAS,1142,SL,1,Duronto,3,87,3,72,44,Available,2
+MAO,MAS,1056,SL,1,Express,1,19,3,72,15,Filling Fast,1
+HYB,HWH,808,2A,4,Superfast,2,81,5,48,41,Available,2
+CSMT,PNBE,876,2A,4,Superfast,2,2,3,48,0,Almost Full,0
+MAS,CSMT,437,SL,1,Express,1,90,4,72,41,Available,2
+SBC,PNBE,606,3A,3,Duronto,3,51,3,64,54,Available,2
+PNBE,ADI,1276,SL,1,Express,1,59,2,72,59,Available,2
+HWH,CNB,1007,2A,4,Duronto,3,31,1,48,30,Filling Fast,1
+CNB,SBC,1514,2A,4,Superfast,2,59,4,48,34,Available,2
+PNBE,HWH,532,2A,4,Express,1,18,3,48,24,Filling Fast,1
+MMCT,HYB,1276,3A,3,Express,1,6,1,64,13,Filling Fast,1
+SBC,HWH,1479,2A,4,Express,1,66,3,48,47,Available,2
+CSMT,ADI,398,2A,4,Express,1,72,5,48,36,Available,2
+CSMT,MAS,1503,2A,4,Express,1,73,6,48,33,Available,2
+SBC,CSMT,1192,3A,3,Express,1,31,6,64,20,Filling Fast,1
+CNB,CSMT,1346,3A,3,Rajdhani,4,86,0,64,54,Available,2
+MMCT,CNB,393,1A,6,Rajdhani,4,42,6,22,17,Filling Fast,1
+MMCT,HWH,1080,2A,4,Duronto,3,27,2,48,32,Available,2
+MMCT,HWH,996,SL,1,Express,1,43,5,72,44,Available,2
+CSMT,MAS,971,1A,6,Duronto,3,19,1,22,7,Almost Full,0
+PNBE,MMCT,1440,SL,1,Duronto,3,71,4,72,49,Available,2
+JAT,ADI,925,2A,4,Rajdhani,4,84,1,48,39,Available,2
+ADI,MMCT,430,2A,4,Express,1,60,3,48,42,Available,2
+ADI,CSMT,390,3A,3,Express,1,74,4,64,43,Available,2
+CSMT,ADI,390,SL,1,Superfast,2,43,0,72,63,Available,2
+HWH,MMCT,712,2A,4,Superfast,2,86,3,48,48,Available,2
+CSMT,MMCT,753,3A,3,Superfast,2,10,2,64,12,Filling Fast,1
+MAO,ADI,382,SL,1,Duronto,3,46,6,72,42,Available,2
+MAS,SBC,362,3A,3,Rajdhani,4,62,2,64,54,Available,2
+CSMT,NDLS,1384,3A,3,Superfast,2,57,3,64,56,Available,2
+HWH,NDLS,1447,SL,1,Rajdhani,4,42,4,72,37,Available,2
+NDLS,CSMT,1384,1A,6,Superfast,2,48,1,22,22,Filling Fast,1
+ADI,PNBE,1145,1A,6,Superfast,2,89,3,22,21,Filling Fast,1
+HWH,CNB,1007,SL,1,Express,1,90,2,72,57,Available,2
+CSMT,HWH,885,2A,4,Express,1,36,2,48,38,Available,2
+MMCT,ADI,523,3A,3,Rajdhani,4,2,6,64,0,Almost Full,0
+CSMT,MMCT,847,1A,6,Duronto,3,47,0,22,22,Filling Fast,1
+CSMT,MAO,580,1A,6,Rajdhani,4,1,5,22,0,Almost Full,0
+NDLS,HWH,1447,2A,4,Express,1,80,6,48,34,Available,2
+HWH,JAT,566,1A,6,Rajdhani,4,90,1,22,19,Filling Fast,1
+SBC,MMCT,730,1A,6,Rajdhani,4,0,3,22,3,Almost Full,0
+JAT,SBC,780,1A,6,Rajdhani,4,49,2,22,22,Filling Fast,1
+JAT,HYB,744,SL,1,Duronto,3,90,3,72,57,Available,2
+MAO,CSMT,580,3A,3,Rajdhani,4,56,1,64,60,Available,2
+HYB,NDLS,512,2A,4,Duronto,3,33,1,48,32,Available,2
+HYB,MAO,737,1A,6,Rajdhani,4,24,1,22,13,Filling Fast,1
+HWH,SBC,682,SL,1,Superfast,2,76,3,72,48,Available,2
+HYB,JAT,934,2A,4,Express,1,32,6,48,23,Filling Fast,1
+HWH,SBC,1436,1A,6,Superfast,2,36,6,22,15,Filling Fast,1
+CSMT,MMCT,476,1A,6,Express,1,44,5,22,19,Filling Fast,1
+NDLS,MAO,1230,1A,6,Express,1,1,5,22,0,Almost Full,0
+JAT,MMCT,1002,3A,3,Rajdhani,4,72,2,64,51,Available,2
+CNB,HWH,1007,3A,3,Express,1,47,3,64,43,Available,2
+MAS,ADI,991,2A,4,Duronto,3,75,1,48,42,Available,2
+NDLS,HWH,1447,SL,1,Express,1,41,6,72,43,Available,2
+PNBE,ADI,1301,SL,1,Duronto,3,18,5,72,10,Filling Fast,1
+PNBE,CNB,400,2A,4,Superfast,2,48,6,48,38,Available,2
+JAT,CSMT,1168,3A,3,Rajdhani,4,55,6,64,42,Available,2
+JAT,CSMT,659,2A,4,Duronto,3,12,0,48,13,Filling Fast,1
+PNBE,ADI,656,3A,3,Superfast,2,25,0,64,24,Filling Fast,1
+ADI,PNBE,674,3A,3,Superfast,2,29,1,64,35,Available,2
+ADI,MAO,1372,SL,1,Express,1,20,3,72,22,Filling Fast,1
+JAT,NDLS,580,1A,6,Rajdhani,4,41,5,22,17,Filling Fast,1
+ADI,MAO,942,2A,4,Duronto,3,66,3,48,41,Available,2
+SBC,PNBE,1354,1A,6,Superfast,2,80,1,22,17,Filling Fast,1
+HWH,JAT,986,SL,1,Rajdhani,4,76,1,72,60,Available,2
+HYB,MAS,1048,3A,3,Duronto,3,47,4,64,39,Available,2
+ADI,MMCT,386,SL,1,Superfast,2,53,1,72,49,Available,2
+SBC,HWH,828,3A,3,Express,1,35,4,64,33,Available,2
+HWH,MAO,1028,2A,4,Duronto,3,41,6,48,31,Available,2
+JAT,MAO,818,2A,4,Duronto,3,62,4,48,40,Available,2
+ADI,NDLS,934,1A,6,Express,1,18,4,22,7,Almost Full,0
+HWH,MMCT,1433,SL,1,Express,1,77,5,72,47,Available,2
+MAS,MMCT,1270,SL,1,Duronto,3,35,5,72,22,Filling Fast,1
+CSMT,HWH,470,SL,1,Duronto,3,28,5,72,27,Filling Fast,1
+NDLS,HWH,1447,SL,1,Duronto,3,34,2,72,41,Available,2
+ADI,HWH,1588,2A,4,Duronto,3,76,4,48,35,Available,2
+MMCT,MAS,474,2A,4,Superfast,2,31,6,48,24,Filling Fast,1
+PNBE,CNB,372,3A,3,Superfast,2,26,1,64,19,Filling Fast,1
+MAS,NDLS,409,SL,1,Rajdhani,4,47,3,72,56,Available,2
+CSMT,ADI,1132,2A,4,Express,1,40,0,48,35,Available,2
+MAS,ADI,915,2A,4,Express,1,36,1,48,30,Filling Fast,1
+MAO,CSMT,580,1A,6,Rajdhani,4,6,6,22,0,Almost Full,0
+HWH,HYB,1327,3A,3,Duronto,3,40,6,64,41,Available,2
+CNB,PNBE,1476,1A,6,Express,1,82,2,22,20,Filling Fast,1
+PNBE,CSMT,1018,1A,6,Superfast,2,41,4,22,19,Filling Fast,1
+MAO,NDLS,1397,1A,6,Duronto,3,63,0,22,20,Filling Fast,1
+MMCT,CSMT,660,1A,6,Duronto,3,30,0,22,12,Filling Fast,1
+HWH,CNB,1007,1A,6,Express,1,43,6,22,15,Filling Fast,1
+MMCT,ADI,1170,1A,6,Express,1,82,6,22,20,Filling Fast,1
+PNBE,CSMT,1472,1A,6,Duronto,3,57,1,22,21,Filling Fast,1
+MMCT,MAS,815,2A,4,Rajdhani,4,82,5,48,34,Available,2
+HYB,NDLS,457,2A,4,Express,1,5,0,48,8,Almost Full,0
+SBC,CNB,662,2A,4,Superfast,2,41,3,48,42,Available,2
+JAT,CNB,1160,1A,6,Superfast,2,63,0,22,22,Filling Fast,1
+JAT,PNBE,1476,1A,6,Rajdhani,4,25,4,22,12,Filling Fast,1
+NDLS,SBC,820,SL,1,Rajdhani,4,44,5,72,40,Available,2
+MMCT,MAO,580,2A,4,Express,1,27,1,48,22,Filling Fast,1
+HYB,NDLS,926,3A,3,Superfast,2,65,3,64,49,Available,2
+CSMT,SBC,1594,3A,3,Superfast,2,25,2,64,28,Filling Fast,1
+MAS,PNBE,594,3A,3,Express,1,3,3,64,0,Almost Full,0
+MAO,JAT,1398,SL,1,Duronto,3,23,0,72,19,Filling Fast,1
+NDLS,PNBE,998,2A,4,Duronto,3,72,5,48,37,Available,2
+CNB,MAS,788,3A,3,Superfast,2,59,0,64,51,Available,2
+JAT,CNB,820,3A,3,Duronto,3,65,0,64,51,Available,2
+MAS,NDLS,793,2A,4,Superfast,2,26,3,48,23,Filling Fast,1
+CNB,PNBE,1020,SL,1,Express,1,77,6,72,42,Available,2
+CSMT,ADI,1333,3A,3,Duronto,3,9,4,64,0,Almost Full,0
+MMCT,NDLS,1384,1A,6,Rajdhani,4,35,0,22,18,Filling Fast,1
+MAS,ADI,1131,2A,4,Rajdhani,4,6,2,48,12,Filling Fast,1
+SBC,JAT,740,SL,1,Superfast,2,9,2,72,0,Almost Full,0
+PNBE,JAT,395,3A,3,Rajdhani,4,15,2,64,10,Filling Fast,1
+CSMT,MAS,1285,2A,4,Rajdhani,4,81,5,48,30,Filling Fast,1
+JAT,NDLS,580,2A,4,Rajdhani,4,14,0,48,13,Filling Fast,1
+CNB,SBC,1282,3A,3,Superfast,2,2,5,64,0,Almost Full,0
+MAO,ADI,479,2A,4,Duronto,3,8,3,48,4,Almost Full,0
+JAT,PNBE,411,1A,6,Express,1,55,6,22,16,Filling Fast,1
+ADI,PNBE,708,1A,6,Rajdhani,4,84,0,22,19,Filling Fast,1
+MAS,CNB,1331,2A,4,Superfast,2,3,5,48,0,Almost Full,0
+MAS,SBC,362,SL,1,Rajdhani,4,83,0,72,54,Available,2
+MAO,PNBE,1494,SL,1,Duronto,3,6,2,72,0,Almost Full,0
+HWH,MMCT,1574,3A,3,Express,1,60,4,64,43,Available,2
+CSMT,HWH,1110,2A,4,Superfast,2,81,2,48,41,Available,2
+PNBE,CSMT,1538,SL,1,Superfast,2,59,2,72,52,Available,2
+MAS,CSMT,1362,SL,1,Superfast,2,55,0,72,64,Available,2
+MAO,MAS,631,3A,3,Superfast,2,82,3,64,58,Available,2
+ADI,HYB,686,1A,6,Superfast,2,64,6,22,15,Filling Fast,1
+JAT,CSMT,1576,3A,3,Duronto,3,73,1,64,55,Available,2
+SBC,PNBE,517,SL,1,Rajdhani,4,64,4,72,48,Available,2
+NDLS,HYB,562,1A,6,Superfast,2,70,5,22,16,Filling Fast,1
+CSMT,SBC,1035,SL,1,Rajdhani,4,41,5,72,42,Available,2
+HWH,HYB,1158,SL,1,Duronto,3,73,2,72,63,Available,2
+CNB,PNBE,567,2A,4,Express,1,19,6,48,8,Almost Full,0
+CNB,SBC,351,1A,6,Express,1,18,0,22,8,Almost Full,0
+CNB,MAS,845,SL,1,Superfast,2,26,4,72,23,Filling Fast,1
+JAT,MMCT,741,1A,6,Rajdhani,4,3,2,22,4,Almost Full,0
+MMCT,SBC,730,1A,6,Rajdhani,4,32,3,22,16,Filling Fast,1
+MMCT,PNBE,1082,SL,1,Rajdhani,4,89,4,72,45,Available,2
+MAS,HWH,1660,3A,3,Duronto,3,38,3,64,45,Available,2
+MAO,CNB,1329,1A,6,Express,1,4,3,22,2,Almost Full,0
+HWH,CNB,1007,3A,3,Express,1,49,6,64,47,Available,2
+HYB,MMCT,1215,3A,3,Express,1,3,3,64,6,Almost Full,0
+NDLS,ADI,934,SL,1,Superfast,2,69,0,72,53,Available,2
+MMCT,SBC,542,SL,1,Express,1,43,1,72,51,Available,2
+MAO,ADI,420,3A,3,Superfast,2,70,6,64,34,Available,2
+CNB,ADI,793,SL,1,Rajdhani,4,1,5,72,0,Almost Full,0
+CSMT,MAO,580,SL,1,Rajdhani,4,64,1,72,57,Available,2
+ADI,MAS,1507,SL,1,Rajdhani,4,32,4,72,25,Filling Fast,1
+MMCT,HYB,1355,2A,4,Express,1,37,6,48,33,Available,2
+CSMT,NDLS,1384,3A,3,Express,1,14,5,64,2,Almost Full,0
+CSMT,MMCT,757,SL,1,Express,1,31,0,72,38,Available,2
+PNBE,JAT,711,SL,1,Rajdhani,4,38,1,72,39,Available,2
+SBC,HWH,1545,SL,1,Duronto,3,56,6,72,43,Available,2
+CNB,MMCT,557,2A,4,Duronto,3,16,5,48,9,Almost Full,0
+MAO,CNB,398,SL,1,Express,1,46,6,72,44,Available,2
+CNB,PNBE,392,3A,3,Rajdhani,4,53,3,64,49,Available,2
+NDLS,MAS,1243,SL,1,Rajdhani,4,8,0,72,3,Almost Full,0
+MAS,JAT,1082,SL,1,Express,1,64,1,72,59,Available,2
+CSMT,MMCT,399,2A,4,Rajdhani,4,73,1,48,42,Available,2
+JAT,SBC,1263,3A,3,Superfast,2,61,0,64,43,Available,2
+JAT,CSMT,1542,SL,1,Rajdhani,4,71,0,72,64,Available,2
+SBC,CNB,651,3A,3,Duronto,3,89,3,64,58,Available,2
+NDLS,HWH,1447,1A,6,Rajdhani,4,67,5,22,15,Filling Fast,1
+MAS,MAO,1436,1A,6,Superfast,2,17,2,22,10,Filling Fast,1
+SBC,ADI,787,2A,4,Express,1,61,3,48,41,Available,2
+SBC,MMCT,703,SL,1,Rajdhani,4,18,5,72,8,Almost Full,0
+CSMT,HYB,647,1A,6,Express,1,65,0,22,21,Filling Fast,1
+MAO,CSMT,580,SL,1,Superfast,2,28,6,72,19,Filling Fast,1
+MAS,PNBE,472,SL,1,Rajdhani,4,41,6,72,33,Available,2
+PNBE,NDLS,998,3A,3,Express,1,57,4,64,38,Available,2
+SBC,CSMT,1331,SL,1,Duronto,3,30,4,72,18,Filling Fast,1
+HYB,MAS,1368,1A,6,Express,1,76,0,22,19,Filling Fast,1
+PNBE,MMCT,1500,1A,6,Duronto,3,82,0,22,21,Filling Fast,1
+HWH,MAS,1660,3A,3,Express,1,83,6,64,38,Available,2
+HWH,MAS,1660,3A,3,Superfast,2,60,4,64,45,Available,2
+ADI,PNBE,1557,2A,4,Express,1,43,0,48,47,Available,2
+CNB,ADI,1051,1A,6,Superfast,2,80,2,22,20,Filling Fast,1
+MAS,CNB,1567,2A,4,Superfast,2,41,1,48,40,Available,2
+MAO,SBC,1063,3A,3,Duronto,3,42,4,64,41,Available,2
+JAT,PNBE,920,3A,3,Express,1,85,5,64,44,Available,2
+SBC,MAO,635,3A,3,Duronto,3,87,5,64,42,Available,2
+HWH,HYB,1482,3A,3,Duronto,3,59,4,64,45,Available,2
+HYB,CSMT,590,3A,3,Duronto,3,26,4,64,21,Filling Fast,1
+JAT,HWH,724,SL,1,Superfast,2,31,3,72,28,Filling Fast,1
+ADI,MAS,1513,SL,1,Superfast,2,18,2,72,22,Filling Fast,1
+MAO,MMCT,580,1A,6,Express,1,70,3,22,22,Filling Fast,1
+NDLS,MMCT,1384,3A,3,Express,1,58,4,64,38,Available,2
+MAO,MAS,1396,SL,1,Duronto,3,34,0,72,39,Available,2
+PNBE,JAT,1352,1A,6,Express,1,55,3,22,22,Filling Fast,1
+HWH,MMCT,636,2A,4,Rajdhani,4,46,6,48,35,Available,2
+NDLS,CNB,440,3A,3,Rajdhani,4,70,4,64,47,Available,2
+MAS,CSMT,546,SL,1,Duronto,3,5,5,72,2,Almost Full,0
+MAO,NDLS,370,1A,6,Superfast,2,79,5,22,16,Filling Fast,1
+MAS,CNB,1230,2A,4,Duronto,3,28,4,48,15,Filling Fast,1
+MAO,CNB,896,3A,3,Duronto,3,19,0,64,21,Filling Fast,1
+HYB,MAO,998,2A,4,Duronto,3,49,1,48,46,Available,2
+HYB,MAO,385,2A,4,Rajdhani,4,73,5,48,35,Available,2
+MAO,MAS,1345,1A,6,Rajdhani,4,31,6,22,14,Filling Fast,1
+PNBE,SBC,845,SL,1,Duronto,3,22,1,72,15,Filling Fast,1
+MAS,MMCT,356,2A,4,Superfast,2,55,4,48,39,Available,2
+MAO,PNBE,1263,2A,4,Duronto,3,12,6,48,4,Almost Full,0
+MMCT,PNBE,1259,SL,1,Duronto,3,49,6,72,53,Available,2
+MAO,PNBE,397,3A,3,Duronto,3,86,3,64,61,Available,2
+PNBE,HYB,1051,3A,3,Rajdhani,4,63,4,64,38,Available,2
+MAO,PNBE,1255,2A,4,Superfast,2,18,5,48,9,Almost Full,0
+MMCT,MAO,580,2A,4,Express,1,26,1,48,29,Filling Fast,1
+HWH,CNB,1007,3A,3,Duronto,3,37,1,64,40,Available,2
+PNBE,MAO,1311,1A,6,Duronto,3,82,5,22,18,Filling Fast,1
+MMCT,ADI,394,SL,1,Superfast,2,46,3,72,54,Available,2
+NDLS,ADI,934,SL,1,Express,1,11,3,72,0,Almost Full,0
+MAS,HWH,1660,3A,3,Superfast,2,33,3,64,37,Available,2
+CSMT,CNB,798,2A,4,Rajdhani,4,48,2,48,41,Available,2
+NDLS,SBC,534,2A,4,Rajdhani,4,78,5,48,34,Available,2
+HYB,NDLS,862,1A,6,Superfast,2,57,1,22,22,Filling Fast,1
+MAS,CSMT,1242,3A,3,Duronto,3,29,3,64,25,Filling Fast,1
+MAS,CSMT,1416,1A,6,Duronto,3,11,4,22,5,Almost Full,0
+NDLS,MAO,710,3A,3,Express,1,54,1,64,50,Available,2
+SBC,NDLS,750,1A,6,Rajdhani,4,12,2,22,7,Almost Full,0
+CSMT,HYB,604,SL,1,Superfast,2,22,1,72,27,Filling Fast,1
+HYB,CSMT,853,1A,6,Superfast,2,21,6,22,8,Almost Full,0
